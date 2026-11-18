@@ -2,24 +2,45 @@
 # 05. PREPARAR DATOS PROCESADOS
 # Proyecto final: Análisis de MP2.5 en Santiago de Chile
 
-# Este script organiza y guarda los registros horarios
-# de SINCA y de los sensores de bajo costo calibrados.
-# Se conservan los valores NA de las concentraciones.
-# Los datos originales no se modifican.
+# Este script prepara los datos de SINCA y de los
+# sensores de bajo costo calibrados para el análisis.
+# Se excluyen las concentraciones NA y los registros
+# sin fecha u hora identificable.
+# Los archivos originales no se modifican.
 
 
-# 1. ORGANIZAR LOS REGISTROS HORARIOS DE SINCA
+# 1. SELECCIONAR REGISTROS DISPONIBLES PARA EL ANÁLISIS
+
+datos_procesados <- datos_validacion |>
+  filter(
+    !is.na(mp25),
+    !is.na(fecha_hora)
+  )
+
+# Comprobar los registros por fuente y comuna
+datos_procesados |>
+  group_by(fuente, comuna) |>
+  summarise(
+    n_registros = n(),
+    .groups = "drop"
+  )
+
+
+# 2. ORGANIZAR LOS DATOS PROCESADOS DE SINCA
 
 # Parque O'Higgins
-sinca_parque_procesado <- sinca_parque |>
+sinca_parque_procesado <- datos_procesados |>
+  filter(fuente == "SINCA", comuna == "Santiago") |>
   select(fecha_hora, mp25)
 
 # Cerro Navia
-sinca_cerro_procesado <- sinca_cerro |>
+sinca_cerro_procesado <- datos_procesados |>
+  filter(fuente == "SINCA", comuna == "Cerro Navia") |>
   select(fecha_hora, mp25)
 
 # Puente Alto
-sinca_puente_procesado <- sinca_puente |>
+sinca_puente_procesado <- datos_procesados |>
+  filter(fuente == "SINCA", comuna == "Puente Alto") |>
   select(fecha_hora, mp25)
 
 # Comprobar las dimensiones
@@ -28,22 +49,31 @@ dim(sinca_cerro_procesado)
 dim(sinca_puente_procesado)
 
 
-# 2. ORGANIZAR LOS REGISTROS HORARIOS DE LOS SENSORES
+# 3. ORGANIZAR LOS DATOS PROCESADOS DE LOS SENSORES
 
 # Sensor CH56 - Parque O'Higgins
-sensor_ch56_procesado <- sensor_ch56_horario |>
-  select(fecha_hora, PM25_S2_calibrados) |>
-  rename(mp25 = PM25_S2_calibrados)
+sensor_ch56_procesado <- datos_procesados |>
+  filter(
+    fuente == "Sensor de bajo costo",
+    comuna == "Santiago"
+  ) |>
+  select(fecha_hora, mp25)
 
 # Sensor CH4 - Cerro Navia
-sensor_ch4_procesado <- sensor_ch4_horario |>
-  select(fecha_hora, PM25_P4_calibrados) |>
-  rename(mp25 = PM25_P4_calibrados)
+sensor_ch4_procesado <- datos_procesados |>
+  filter(
+    fuente == "Sensor de bajo costo",
+    comuna == "Cerro Navia"
+  ) |>
+  select(fecha_hora, mp25)
 
 # Sensor CH2 - Puente Alto
-sensor_ch2_procesado <- sensor_ch2_horario |>
-  select(fecha_hora, PM25_P1_calibrados) |>
-  rename(mp25 = PM25_P1_calibrados)
+sensor_ch2_procesado <- datos_procesados |>
+  filter(
+    fuente == "Sensor de bajo costo",
+    comuna == "Puente Alto"
+  ) |>
+  select(fecha_hora, mp25)
 
 # Comprobar las dimensiones
 dim(sensor_ch56_procesado)
@@ -51,9 +81,27 @@ dim(sensor_ch4_procesado)
 dim(sensor_ch2_procesado)
 
 
-# 3. GUARDAR BASES DE DATOS PROCESADAS
+# 4. CREAR CARPETAS PARA LOS DATOS PROCESADOS
+
+# Carpeta SINCA
+dir.create(
+  "00_Datos/02_Datos_procesados/SINCA",
+  recursive = TRUE,
+  showWarnings = FALSE
+)
+
+# Carpeta de sensores
+dir.create(
+  "00_Datos/02_Datos_procesados/Sensores_bajo_costo",
+  recursive = TRUE,
+  showWarnings = FALSE
+)
+
+
+# 5. GUARDAR BASES DE DATOS PROCESADAS
 
 # Estaciones SINCA
+
 write_csv(
   sinca_parque_procesado,
   "00_Datos/02_Datos_procesados/SINCA/SINCA_Parque_OHiggins.csv"
@@ -70,6 +118,7 @@ write_csv(
 )
 
 # Sensores de bajo costo
+
 write_csv(
   sensor_ch56_procesado,
   "00_Datos/02_Datos_procesados/Sensores_bajo_costo/Sensor_CH56.csv"
@@ -86,13 +135,16 @@ write_csv(
 )
 
 
-# 4. VERIFICAR LOS ARCHIVOS PROCESADOS
+# 6. VERIFICAR LOS ARCHIVOS GUARDADOS
 
 # Comprobar los archivos de SINCA
 list.files("00_Datos/02_Datos_procesados/SINCA")
 
 # Comprobar los archivos de los sensores
 list.files("00_Datos/02_Datos_procesados/Sensores_bajo_costo")
+
+
+# 7. VERIFICAR LOS DATOS PROCESADOS
 
 # Leer el archivo procesado del sensor CH56
 verificacion <- read_csv(
@@ -105,3 +157,19 @@ dim(verificacion)
 
 # Comprobar los valores faltantes de MP2.5
 sum(is.na(verificacion$mp25))
+
+# Comprobar las fechas y horas faltantes
+sum(is.na(verificacion$fecha_hora))
+
+
+# 8. COMPROBAR VALORES FALTANTES EN LAS SEIS BASES
+
+# Estaciones SINCA
+sum(is.na(sinca_parque_procesado))
+sum(is.na(sinca_cerro_procesado))
+sum(is.na(sinca_puente_procesado))
+
+# Sensores de bajo costo
+sum(is.na(sensor_ch56_procesado))
+sum(is.na(sensor_ch4_procesado))
+sum(is.na(sensor_ch2_procesado))
