@@ -53,6 +53,6 @@ El proyecto se organiza mediante carpetas y scripts independientes, con el prop√
 
 ### Datos
 
-- `00_Datos/`: carpeta principal de datos.
-- `00_Datos/01_Datos_crudos/SINCA/`: registros originales de las estaciones oficiales.
-- `00_Datos/01
+- 00_Datos/: carpeta principal de datos.
+- 00_Datos/01_Datos_crudos/SINCA/: registros originales de las estaciones oficiales.
+- 00_Datos/01_Datos_crudos/Sensores_bajo_costo/: registros originales de los sensores calibrados.
