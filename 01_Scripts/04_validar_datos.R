@@ -1,400 +1,291 @@
 
-# 04. VALIDACIÓN DE DATOS
+# 04. DICCIONARIO Y VALIDACIÓN DE DATOS
 # Proyecto final: Análisis de MP2.5 en Santiago de Chile
+# Fuentes: SINCA y sensores de bajo costo calibrados
 
-# 1. DEFINIR CRITERIOS DE VALIDACIÓN
+# 1. CREAR EL DICCIONARIO DE DATOS
 
-# Se revisarán las fechas, los valores faltantes
-# y las concentraciones de MP2.5.
+diccionario <- tribble(
+  ~variable, ~tipo, ~valores_esperados, ~NA_permitido,
 
-# Los valores fuera del rango operativo
-# se identificarán para revisión, sin eliminarlos.
+  "fuente", "Categórica",
+  "SINCA, Sensor de bajo costo", "No",
 
-# 2. PREPARAR LAS CONCENTRACIONES DE MP2.5 - SINCA
+  "comuna", "Categórica",
+  "Santiago, Cerro Navia, Puente Alto", "No",
+
+  "mp25", "Numérica",
+  "µg/m³; revisar valores <2 o >200", "No",
+
+  "fecha_hora", "Fecha-hora",
+  "Marzo a septiembre de 2026", "No"
+)
+
+# Mostrar el diccionario
+diccionario
+# ----------------------------------------------------------------------------
+
+# 2. ORGANIZAR LOS DATOS PARA LA VALIDACIÓN
 
 # Parque O'Higgins
-sinca_parque <- sinca_parque |>
+sinca_parque_validacion <- sinca_parque |>
   mutate(
+    fuente = "SINCA",
+    comuna = "Santiago",
     mp25 = coalesce(
       `Registros validados`,
       `Registros preliminares`,
       `Registros no validados`
-    )
-  )
-
-# Revisar las primeras observaciones
-head(sinca_parque$mp25)
-
-# Cerro Navia
-sinca_cerro <- sinca_cerro |>
-  mutate(
-    mp25 = coalesce(
-      `Registros validados`,
-      `Registros preliminares`,
-      `Registros no validados`
-    )
-  )
-
-# Revisar las primeras observaciones
-head(sinca_cerro$mp25)
-
-# Puente Alto
-sinca_puente <- sinca_puente |>
-  mutate(
-    mp25 = coalesce(
-      `Registros validados`,
-      `Registros preliminares`,
-      `Registros no validados`
-    )
-  )
-
-# Revisar las primeras observaciones
-head(sinca_puente$mp25)
-----------------------------------------------------------------------------
-
-  # 3. PREPARAR FECHAS Y HORAS DE SINCA
-
-  # Parque O'Higgins
-  sinca_parque <- sinca_parque |>
-  mutate(
+    ),
     fecha_hora = ymd_hm(
       paste(`FECHA (YYMMDD)`, `HORA (HHMM)`)
     )
   )
 
-# Revisar las primeras fechas
-head(sinca_parque$fecha_hora)
-
 # Cerro Navia
-sinca_cerro <- sinca_cerro |>
+sinca_cerro_validacion <- sinca_cerro |>
   mutate(
+    fuente = "SINCA",
+    comuna = "Cerro Navia",
+    mp25 = coalesce(
+      `Registros validados`,
+      `Registros preliminares`,
+      `Registros no validados`
+    ),
     fecha_hora = ymd_hm(
       paste(`FECHA (YYMMDD)`, `HORA (HHMM)`)
     )
   )
 
 # Puente Alto
-sinca_puente <- sinca_puente |>
+sinca_puente_validacion <- sinca_puente |>
   mutate(
+    fuente = "SINCA",
+    comuna = "Puente Alto",
+    mp25 = coalesce(
+      `Registros validados`,
+      `Registros preliminares`,
+      `Registros no validados`
+    ),
     fecha_hora = ymd_hm(
       paste(`FECHA (YYMMDD)`, `HORA (HHMM)`)
     )
   )
 
-# Comprobar las fechas
-head(sinca_cerro$fecha_hora)
-head(sinca_puente$fecha_hora)
-
-# 4. REVISAR VALORES FALTANTES DE MP2.5 - SINCA
-
-sum(is.na(sinca_parque$mp25))
-sum(is.na(sinca_cerro$mp25))
-sum(is.na(sinca_puente$mp25))
-
-# 5. IDENTIFICAR CONCENTRACIONES FUERA DEL INTERVALO DE REFERENCIA
-
-# Se utiliza un intervalo exploratorio de 2 a 200 µg/m³.
-# Los valores fuera de este intervalo se identifican
-# para su revisión, sin eliminarlos.
-
-# Parque O'Higgins
-sum(
-  sinca_parque$mp25 < 2 | sinca_parque$mp25 > 200,
-  na.rm = TRUE
+# Unir las tres estaciones SINCA
+datos_sinca <- bind_rows(
+  sinca_parque_validacion,
+  sinca_cerro_validacion,
+  sinca_puente_validacion
 )
 
-# Cerro Navia
-sum(
-  sinca_cerro$mp25 < 2 | sinca_cerro$mp25 > 200,
-  na.rm = TRUE
-)
+# Comprobar registros por comuna
+datos_sinca |>
+  count(comuna)
 
-# Puente Alto
-sum(
-  sinca_puente$mp25 < 2 | sinca_puente$mp25 > 200,
-  na.rm = TRUE
-)
+# ----------------------------------------------------------------------------
 
-# 6. DIFERENCIAR CONCENTRACIONES BAJAS Y ALTAS
-
-# Parque O'Higgins
-sum(sinca_parque$mp25 < 2, na.rm = TRUE)
-sum(sinca_parque$mp25 > 200, na.rm = TRUE)
-
-# Cerro Navia
-sum(sinca_cerro$mp25 < 2, na.rm = TRUE)
-sum(sinca_cerro$mp25 > 200, na.rm = TRUE)
-
-# Puente Alto
-sum(sinca_puente$mp25 < 2, na.rm = TRUE)
-sum(sinca_puente$mp25 > 200, na.rm = TRUE)
-
-# 7. REVISAR CONCENTRACIONES SUPERIORES A 200 µg/m³- SINCA
-
-# Identificar la observación de Cerro Navia
-sinca_cerro |>
-  filter(mp25 > 200) |>
-  select(fecha_hora, mp25,
-         `Registros validados`,
-         `Registros preliminares`)
-----------------------------------------------------------------------
-
-# 8. REVISAR CONCENTRACIONES CALIBRADAS DE LOS SENSORES
+# 3. REVISAR LA ESTRUCTURA ORIGINAL DE LOS SENSORES
 
 # Sensor CH56 - Parque O'Higgins
-  head(sensor_ch56$PM25_S2_calibrados)
+names(sensor_ch56)
+head(sensor_ch56$date)
 
 # Sensor CH4 - Cerro Navia
-head(sensor_ch4$PM25_P4_calibrados)
+names(sensor_ch4)
+head(sensor_ch4$date)
 
 # Sensor CH2 - Puente Alto
-head(sensor_ch2$PM25_P1_calibrados)
+names(sensor_ch2)
+head(sensor_ch2$date)
 
-# 9. REVISAR VALORES FALTANTES DE MP2.5 - SENSORES
+# 4. REVISAR NOMBRES DE VARIABLES Y FORMATO DE FECHAS - SENSORES
 
 # Sensor CH56 - Parque O'Higgins
-sum(is.na(sensor_ch56$PM25_S2_calibrados))
+names(sensor_ch56)
+head(sensor_ch56$date)
 
 # Sensor CH4 - Cerro Navia
-sum(is.na(sensor_ch4$PM25_P4_calibrados))
+names(sensor_ch4)
+head(sensor_ch4$date)
 
 # Sensor CH2 - Puente Alto
-sum(is.na(sensor_ch2$PM25_P1_calibrados))
+names(sensor_ch2)
+head(sensor_ch2$date)
 
-# 10. PREPARAR FECHAS Y HORAS DE LOS SENSORES
+# 5. PREPARAR FECHAS Y CONCENTRACIONES - SENSOR CH56
 
-# Sensor CH56 - Parque O'Higgins
-sensor_ch56 <- sensor_ch56 |>
+sensor_ch56_validacion <- sensor_ch56 |>
   mutate(
-    fecha_hora = dmy_hm(date)
+    fuente = "Sensor de bajo costo",
+    comuna = "Santiago",
+    mp25 = PM25_S2_calibrados,
+    fecha_hora = dmy_hm(date, quiet = TRUE)
   )
 
-# Revisar las primeras fechas
-head(sensor_ch56$fecha_hora)
+# Comprobar las primeras fechas
+head(sensor_ch56_validacion$fecha_hora)
 
-# Sensor CH4 - Cerro Navia
-sensor_ch4 <- sensor_ch4 |>
+# Contar fechas sin hora identificable
+sum(is.na(sensor_ch56_validacion$fecha_hora))
+
+# 6. PREPARAR FECHAS Y CONCENTRACIONES - SENSOR CH4
+
+sensor_ch4_validacion <- sensor_ch4 |>
   mutate(
-    fecha_hora = dmy_hm(date)
+    fuente = "Sensor de bajo costo",
+    comuna = "Cerro Navia",
+    mp25 = PM25_P4_calibrados,
+    fecha_hora = dmy_hm(date, quiet = TRUE)
   )
 
-# Revisar las primeras fechas
-head(sensor_ch4$fecha_hora)
+# Comprobar las primeras fechas
+head(sensor_ch4_validacion$fecha_hora)
 
-# Sensor CH2 - Puente Alto
+# Contar fechas sin hora identificable
+sum(is.na(sensor_ch4_validacion$fecha_hora))
 
-sensor_ch2 <- sensor_ch2 |>
+
+# 7. PREPARAR FECHAS Y CONCENTRACIONES - SENSOR CH2
+
+sensor_ch2_validacion <- sensor_ch2 |>
   mutate(
+    fuente = "Sensor de bajo costo",
+    comuna = "Puente Alto",
+    mp25 = PM25_P1_calibrados,
     fecha_hora = date
   )
 
-# Revisar las primeras fechas
-head(sensor_ch2$fecha_hora)
+# Comprobar las primeras fechas
+head(sensor_ch2_validacion$fecha_hora)
 
-# 11. REVISAR CONCENTRACIONES FUERA DEL INTERVALO DE REFERENCIA - SENSORES
+# Contar fechas sin hora identificable
+sum(is.na(sensor_ch2_validacion$fecha_hora))
 
-# Intervalo exploratorio: 2 a 200 µg/m³
-# Se identifican observaciones para revisión, sin eliminarlas.
+# ----------------------------------------------------------------------------
 
-# Sensor CH56 - Parque O'Higgins
-sum(
-  sensor_ch56$PM25_S2_calibrados < 2 |
-    sensor_ch56$PM25_S2_calibrados > 200,
-  na.rm = TRUE
+# 8. UNIR LOS DATOS PARA LA VALIDACIÓN
+
+# Unir los tres sensores de bajo costo
+datos_sensores <- bind_rows(
+  sensor_ch56_validacion |>
+    select(fuente, comuna, mp25, fecha_hora),
+
+  sensor_ch4_validacion |>
+    select(fuente, comuna, mp25, fecha_hora),
+
+  sensor_ch2_validacion |>
+    select(fuente, comuna, mp25, fecha_hora)
 )
 
-# Sensor CH4 - Cerro Navia
-sum(
-  sensor_ch4$PM25_P4_calibrados < 2 |
-    sensor_ch4$PM25_P4_calibrados > 200,
-  na.rm = TRUE
+# Unir SINCA y sensores
+datos_validacion <- bind_rows(
+  datos_sinca |>
+    select(fuente, comuna, mp25, fecha_hora),
+
+  datos_sensores
 )
 
-# Sensor CH2 - Puente Alto
-sum(
-  sensor_ch2$PM25_P1_calibrados < 2 |
-    sensor_ch2$PM25_P1_calibrados > 200,
-  na.rm = TRUE
-)
+# Comprobar los registros por fuente y comuna
+datos_validacion |>
+  count(fuente, comuna)
+# ----------------------------------------------------------------------------
 
-# 12. DIFERENCIAR CONCENTRACIONES BAJAS Y ALTAS - SENSORES
+# 9. CREAR FUNCIÓN DE VALIDACIÓN DE DATOS
 
-# Sensor CH56 - Parque O'Higgins
-sum(sensor_ch56$PM25_S2_calibrados < 2, na.rm = TRUE)
-sum(sensor_ch56$PM25_S2_calibrados > 200, na.rm = TRUE)
+validar_mp25 <- function(datos) {
 
-# Sensor CH4 - Cerro Navia
-sum(sensor_ch4$PM25_P4_calibrados < 2, na.rm = TRUE)
-sum(sensor_ch4$PM25_P4_calibrados > 200, na.rm = TRUE)
-
-# Sensor CH2 - Puente Alto
-sum(sensor_ch2$PM25_P1_calibrados < 2, na.rm = TRUE)
-sum(sensor_ch2$PM25_P1_calibrados > 200, na.rm = TRUE)
-
-# 13. REVISAR CONCENTRACIONES SUPERIORES A 200 µg/m³ - SENSORES
-
-# Identificar las observaciones del sensor CH56 - Parque O'Higgins
-sensor_ch56 |>
-  filter(PM25_S2_calibrados > 200) |>
-  select(fecha_hora, PM25_S2_calibrados)
------------------------------------------------------------------------
-# 14. REVISAR ZONAS HORARIAS DE SINCA Y SENSORES
-
-# Estaciones SINCA
-tz(sinca_parque$fecha_hora)
-tz(sinca_cerro$fecha_hora)
-tz(sinca_puente$fecha_hora)
-
-# Sensores de bajo costo
-tz(sensor_ch56$fecha_hora)
-tz(sensor_ch4$fecha_hora)
-tz(sensor_ch2$fecha_hora)
-
-# 15. COMPARAR FECHAS ORIGINALES DE SINCA Y SENSORES
-
-# SINCA - Parque O'Higgins
-head(sinca_parque$`FECHA (YYMMDD)`)
-head(sinca_parque$`HORA (HHMM)`)
-
-# Sensor CH56 - Parque O'Higgins
-head(sensor_ch56$date)
-
-# 16. REVISAR PERIODOS DE MEDICION DE SINCA Y SENSORES
-
-# Estaciones SINCA
-range(sinca_parque$fecha_hora, na.rm = TRUE)
-range(sinca_cerro$fecha_hora, na.rm = TRUE)
-range(sinca_puente$fecha_hora, na.rm = TRUE)
-
-# Sensores de bajo costo
-range(sensor_ch56$fecha_hora, na.rm = TRUE)
-range(sensor_ch4$fecha_hora, na.rm = TRUE)
-range(sensor_ch2$fecha_hora, na.rm = TRUE)
-
-# 17. REVISAR FECHAS Y HORAS DUPLICADAS EN LOS SENSORES
-
-# Sensor CH56 - Parque O'Higgins
-sum(duplicated(sensor_ch56$fecha_hora))
-
-# Sensor CH4 - Cerro Navia
-sum(duplicated(sensor_ch4$fecha_hora))
-
-# Sensor CH2 - Puente Alto
-sum(duplicated(sensor_ch2$fecha_hora))
-
-# 18. REVISAR OBSERVACIONES CON FECHAS DUPLICADAS - SENSORES
-
-# Sensor CH56 - Parque O'Higgins
-sensor_ch56 |>
-  filter(
-    duplicated(fecha_hora) |
-      duplicated(fecha_hora, fromLast = TRUE)
-  ) |>
-  select(fecha_hora, PM25_S2_calibrados) |>
-  head(10)
-
-# 19. REVISAR FECHAS FALTANTES EN LOS SENSORES
-
-# Sensor CH56 - Parque O'Higgins
-sum(is.na(sensor_ch56$fecha_hora))
-
-# Sensor CH4 - Cerro Navia
-sum(is.na(sensor_ch4$fecha_hora))
-
-# Sensor CH2 - Puente Alto
-sum(is.na(sensor_ch2$fecha_hora))
-
-# 20. REVISAR FECHAS ORIGINALES NO CONVERTIDAS - SENSORES
-
-# Sensor CH56 - Parque O'Higgins
-sensor_ch56 |>
-  filter(is.na(fecha_hora)) |>
-  select(date, PM25_S2_calibrados) |>
-  head(10)
-
-# 21. REVISAR FORMATO DE FECHAS NO CONVERTIDAS - SENSOR CH56
-
-# Mostrar las últimas fechas que no se convirtieron
-sensor_ch56 |>
-  filter(is.na(fecha_hora)) |>
-  select(date, PM25_S2_calibrados) |>
-  tail(10)
-
-# 22. REVISAR FECHAS ORIGINALES NO CONVERTIDAS - SENSOR CH4
-
-# Mostrar las primeras fechas que no se convirtieron
-sensor_ch4 |>
-  filter(is.na(fecha_hora)) |>
-  select(date, PM25_P4_calibrados) |>
-  head(10)
-
-# Mostrar las últimas fechas que no se convirtieron
-sensor_ch4 |>
-  filter(is.na(fecha_hora)) |>
-  select(date, PM25_P4_calibrados) |>
-  tail(10)
-
-# 23. REVISAR REGISTROS SIN HORA EN LOS SENSORES
-
-# Sensor CH56 - Parque O'Higgins
-sum(nchar(sensor_ch56$date) == 10, na.rm = TRUE)
-
-# Sensor CH4 - Cerro Navia
-sum(nchar(sensor_ch4$date) == 10, na.rm = TRUE)
-
-# 24. REVISAR REGISTROS HORARIOS Y SIN HORA - SENSOR CH56
-
-# Examinar los registros del 17 de abril de 2026
-sensor_ch56 |>
-  filter(substr(date, 1, 10) == "17/04/2026") |>
-  select(date, PM25_S2_calibrados) |>
-  head(30)
-
-# 25. COMPARAR REGISTRO SIN HORA Y PROMEDIO HORARIO - SENSOR CH56
-
-# Seleccionar los registros horarios del 17 de abril de 2026
-sensor_ch56 |>
-  filter(
-    substr(date, 1, 10) == "17/04/2026",
-    !is.na(fecha_hora)
-  ) |>
-  summarise(
-    n_registros = n(),
-    promedio_horario = mean(PM25_S2_calibrados, na.rm = TRUE)
+  # Estructural: fuentes permitidas (sin NA)
+  fuente_ok <- all(
+    !is.na(datos$fuente) &
+      datos$fuente %in% c("SINCA", "Sensor de bajo costo")
   )
 
-# 26. SEPARAR REGISTROS HORARIOS - SENSOR CH56
+  # Estructural: comunas permitidas (sin NA)
+  comuna_ok <- all(
+    !is.na(datos$comuna) &
+      datos$comuna %in% c(
+        "Santiago", "Cerro Navia", "Puente Alto"
+      )
+  )
 
-# Conservar las observaciones con fecha y hora identificables
-sensor_ch56_horario <- sensor_ch56 |>
-  filter(!is.na(fecha_hora))
+  # Contenido: concentraciones entre 2 y 200 µg/m3
+  # No se permiten valores NA
+  mp25_ok <- all(
+    !is.na(datos$mp25) &
+      datos$mp25 >= 2 & datos$mp25 <= 200
+  )
 
-# Comprobar la cantidad de registros
-nrow(sensor_ch56_horario)
+  # Contenido: fechas dentro del periodo estudiado
+  # No se permiten valores NA
+  fecha_ok <- all(
+    !is.na(datos$fecha_hora) &
+      as.Date(datos$fecha_hora) >= as.Date("2026-03-01") &
+      as.Date(datos$fecha_hora) <= as.Date("2026-09-30")
+  )
 
-# 27. SEPARAR REGISTROS HORARIOS - SENSORES CH4 Y CH2
+  # Mostrar resultados
+  marca <- function(x) ifelse(isTRUE(x), "OK", "FALLA")
 
-# Sensor CH4 - Cerro Navia
-sensor_ch4_horario <- sensor_ch4 |>
-  filter(!is.na(fecha_hora))
+  cat("Fuente valida (estructural): ",
+      marca(fuente_ok), "\n")
 
-# Comprobar la cantidad de registros
-nrow(sensor_ch4_horario)
+  cat("Comuna valida (estructural): ",
+      marca(comuna_ok), "\n")
 
-# Sensor CH2 - Puente Alto
-sensor_ch2_horario <- sensor_ch2 |>
-  filter(!is.na(fecha_hora))
+  cat("MP2.5 entre 2 y 200, sin NA (contenido): ",
+      marca(mp25_ok), "\n")
 
-# Comprobar la cantidad de registros
-nrow(sensor_ch2_horario)
+  cat("Fecha valida (contenido): ",
+      marca(fecha_ok), "\n")
+}
 
-# 28. COMPROBAR FECHAS Y HORAS DUPLICADAS - SENSORES HORARIOS
+# 10. IDENTIFICAR REGISTROS QUE NO CUMPLEN LOS CRITERIOS
 
-# Sensor CH56 - Parque O'Higgins
-sum(duplicated(sensor_ch56_horario$fecha_hora))
+datos_flags <- datos_validacion |>
+  mutate(
+    alerta_na = is.na(mp25),
+    alerta_fecha = is.na(fecha_hora),
+    alerta_mp25 = !is.na(mp25) &
+      (mp25 < 2 | mp25 > 200)
+  )
 
-# Sensor CH4 - Cerro Navia
-sum(duplicated(sensor_ch4_horario$fecha_hora))
+# Contar las observaciones por fuente y comuna
+datos_flags |>
+  group_by(fuente, comuna) |>
+  summarise(
+    valores_na = sum(alerta_na),
+    fechas_na = sum(alerta_fecha),
+    menores_2 = sum(mp25 < 2, na.rm = TRUE),
+    mayores_200 = sum(mp25 > 200, na.rm = TRUE),
+    total_alertas = sum(
+      alerta_na | alerta_fecha | alerta_mp25
+    ),
+    .groups = "drop"
+  )
+# ----------------------------------------------------------------------------
 
-# Sensor CH2 - Puente Alto
-sum(duplicated(sensor_ch2_horario$fecha_hora))
+# 11. IDENTIFICAR CONCENTRACIONES SUPERIORES A 200 µg/m3
+
+datos_flags |>
+  filter(mp25 > 200) |>
+  select(fuente, comuna, fecha_hora, mp25)
+
+# ----------------------------------------------------------------------------
+
+# 12. SELECCIONAR REGISTROS PARA EL ANÁLISIS
+
+# Seleccionar registros con concentración y fecha disponibles
+datos_analisis <- datos_flags |>
+  filter(
+    !is.na(mp25),
+    !is.na(fecha_hora)
+  )
+
+# Comprobar registros disponibles por fuente y comuna
+datos_analisis |>
+  group_by(fuente, comuna) |>
+  summarise(
+    n_registros = n(),
+    .groups = "drop"
+  )
