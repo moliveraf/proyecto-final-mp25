@@ -1,7 +1,14 @@
 
+
 # 04. DICCIONARIO Y VALIDACIÓN DE DATOS
 # Proyecto final: Análisis de MP2.5 en Santiago de Chile
 # Fuentes: SINCA y sensores de bajo costo calibrados
+
+# Este script establece los criterios de validación,
+# organiza las bases de datos e identifica valores
+# faltantes, concentraciones atípicas y registros duplicados.
+# Los datos originales no se modifican.
+
 
 # 1. CREAR EL DICCIONARIO DE DATOS
 
@@ -23,6 +30,8 @@ diccionario <- tribble(
 
 # Mostrar el diccionario
 diccionario
+
+
 # ----------------------------------------------------------------------------
 
 # 2. ORGANIZAR LOS DATOS PARA LA VALIDACIÓN
@@ -83,6 +92,7 @@ datos_sinca <- bind_rows(
 datos_sinca |>
   count(comuna)
 
+
 # ----------------------------------------------------------------------------
 
 # 3. REVISAR LA ESTRUCTURA ORIGINAL DE LOS SENSORES
@@ -99,21 +109,10 @@ head(sensor_ch4$date)
 names(sensor_ch2)
 head(sensor_ch2$date)
 
-# 4. REVISAR NOMBRES DE VARIABLES Y FORMATO DE FECHAS - SENSORES
 
-# Sensor CH56 - Parque O'Higgins
-names(sensor_ch56)
-head(sensor_ch56$date)
+# ----------------------------------------------------------------------------
 
-# Sensor CH4 - Cerro Navia
-names(sensor_ch4)
-head(sensor_ch4$date)
-
-# Sensor CH2 - Puente Alto
-names(sensor_ch2)
-head(sensor_ch2$date)
-
-# 5. PREPARAR FECHAS Y CONCENTRACIONES - SENSOR CH56
+# 4. PREPARAR FECHAS Y CONCENTRACIONES - SENSOR CH56
 
 sensor_ch56_validacion <- sensor_ch56 |>
   mutate(
@@ -129,7 +128,10 @@ head(sensor_ch56_validacion$fecha_hora)
 # Contar fechas sin hora identificable
 sum(is.na(sensor_ch56_validacion$fecha_hora))
 
-# 6. PREPARAR FECHAS Y CONCENTRACIONES - SENSOR CH4
+
+# ----------------------------------------------------------------------------
+
+# 5. PREPARAR FECHAS Y CONCENTRACIONES - SENSOR CH4
 
 sensor_ch4_validacion <- sensor_ch4 |>
   mutate(
@@ -146,7 +148,9 @@ head(sensor_ch4_validacion$fecha_hora)
 sum(is.na(sensor_ch4_validacion$fecha_hora))
 
 
-# 7. PREPARAR FECHAS Y CONCENTRACIONES - SENSOR CH2
+# ----------------------------------------------------------------------------
+
+# 6. PREPARAR FECHAS Y CONCENTRACIONES - SENSOR CH2
 
 sensor_ch2_validacion <- sensor_ch2 |>
   mutate(
@@ -162,9 +166,10 @@ head(sensor_ch2_validacion$fecha_hora)
 # Contar fechas sin hora identificable
 sum(is.na(sensor_ch2_validacion$fecha_hora))
 
+
 # ----------------------------------------------------------------------------
 
-# 8. UNIR LOS DATOS PARA LA VALIDACIÓN
+# 7. UNIR LOS DATOS PARA LA VALIDACIÓN
 
 # Unir los tres sensores de bajo costo
 datos_sensores <- bind_rows(
@@ -189,6 +194,39 @@ datos_validacion <- bind_rows(
 # Comprobar los registros por fuente y comuna
 datos_validacion |>
   count(fuente, comuna)
+
+
+# ----------------------------------------------------------------------------
+
+# 8. COMPROBAR REGISTROS DUPLICADOS POR FECHA Y HORA
+
+# Identificar fechas y horas repetidas dentro de
+# cada fuente y comuna.
+# Se excluyen las fechas faltantes de esta revisión.
+
+revision_duplicados <- datos_validacion |>
+  filter(!is.na(fecha_hora)) |>
+  group_by(fuente, comuna) |>
+  summarise(
+    registros_duplicados = sum(duplicated(fecha_hora)),
+    .groups = "drop"
+  )
+
+# Mostrar el número de registros duplicados
+print(revision_duplicados, width = Inf)
+
+# Identificar las fechas y horas que se repiten
+registros_duplicados <- datos_validacion |>
+  filter(!is.na(fecha_hora)) |>
+  group_by(fuente, comuna, fecha_hora) |>
+  filter(n() > 1) |>
+  ungroup() |>
+  arrange(fuente, comuna, fecha_hora)
+
+# Mostrar los registros con fechas y horas repetidas
+print(registros_duplicados, width = Inf)
+
+
 # ----------------------------------------------------------------------------
 
 # 9. CREAR FUNCIÓN DE VALIDACIÓN DE DATOS
@@ -240,6 +278,12 @@ validar_mp25 <- function(datos) {
       marca(fecha_ok), "\n")
 }
 
+# Aplicar la función de validación
+validar_mp25(datos_validacion)
+
+
+# ----------------------------------------------------------------------------
+
 # 10. IDENTIFICAR REGISTROS QUE NO CUMPLEN LOS CRITERIOS
 
 datos_flags <- datos_validacion |>
@@ -263,6 +307,8 @@ datos_flags |>
     ),
     .groups = "drop"
   )
+
+
 # ----------------------------------------------------------------------------
 
 # 11. IDENTIFICAR CONCENTRACIONES SUPERIORES A 200 µg/m3
@@ -270,6 +316,7 @@ datos_flags |>
 datos_flags |>
   filter(mp25 > 200) |>
   select(fuente, comuna, fecha_hora, mp25)
+
 
 # ----------------------------------------------------------------------------
 
@@ -289,3 +336,4 @@ datos_analisis |>
     n_registros = n(),
     .groups = "drop"
   )
+
