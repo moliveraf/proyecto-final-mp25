@@ -1,0 +1,5 @@
+variable,tipo,valores_esperados,NA_permitido
+fuente,Categórica,"SINCA, Sensor de bajo costo",No
+comuna,Categórica,"Santiago, Cerro Navia, Puente Alto",No
+mp25,Numérica,µg/m³; revisar valores <2 o >200,No
+fecha_hora,Fecha-hora,Marzo a septiembre de 2026,No

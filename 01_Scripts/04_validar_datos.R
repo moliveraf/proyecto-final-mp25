@@ -295,7 +295,7 @@ datos_flags <- datos_validacion |>
   )
 
 # Contar las observaciones por fuente y comuna
-datos_flags |>
+resumen_alertas <- datos_flags |>
   group_by(fuente, comuna) |>
   summarise(
     valores_na = sum(alerta_na),
@@ -309,14 +309,18 @@ datos_flags |>
   )
 
 
+print(resumen_alertas, width = Inf)
+
 # ----------------------------------------------------------------------------
 
 # 11. IDENTIFICAR CONCENTRACIONES SUPERIORES A 200 µg/m3
 
-datos_flags |>
+concentraciones_superiores_200 <- datos_flags |>
   filter(mp25 > 200) |>
   select(fuente, comuna, fecha_hora, mp25)
 
+
+print(concentraciones_superiores_200, width = Inf)
 
 # ----------------------------------------------------------------------------
 
@@ -337,3 +341,28 @@ datos_analisis |>
     .groups = "drop"
   )
 
+
+# ----------------------------------------------------------------------------
+# 13. GUARDAR LAS TABLAS DE VALIDACIÓN
+
+dir.create("04_Tablas/02_Validacion", recursive = TRUE,
+           showWarnings = FALSE)
+
+# Diccionario de datos
+write_csv(diccionario,
+          "04_Tablas/02_Validacion/01_diccionario_datos_sinca_sensores.csv")
+
+# Revisión de duplicados
+write_csv(revision_duplicados,
+          "04_Tablas/02_Validacion/02_revision_duplicados_sinca_sensores.csv")
+
+# Resumen de alertas
+write_csv(resumen_alertas,
+          "04_Tablas/02_Validacion/03_resumen_alertas_sinca_sensores.csv")
+
+# Concentraciones superiores a 200 µg/m³
+write_csv(concentraciones_superiores_200,
+          "04_Tablas/02_Validacion/04_concentraciones_superiores_200_sinca_sensores.csv")
+
+# Comprobar las tablas guardadas
+list.files("04_Tablas/02_Validacion")

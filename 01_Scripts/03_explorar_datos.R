@@ -58,93 +58,60 @@ tail(sinca_puente$`FECHA (YYMMDD)`)
 
 # 5. ESTADÍSTICAS DESCRIPTIVAS INICIALES
 
-# Explorar las concentraciones originales de MP2.5
-# ignorando los NA durante los cálculos estadísticos,
-# sin modificar las bases de datos originales.
+# Unificar las concentraciones originales sin modificar las bases.
+datos_exploracion <- bind_rows(
+  sinca_parque |>
+    transmute(fuente = "SINCA", comuna = "Santiago",
+              estacion_sensor = "Parque O'Higgins",
+              mp25 = coalesce(`Registros validados`,
+                              `Registros preliminares`,
+                              `Registros no validados`)),
+  sinca_cerro |>
+    transmute(fuente = "SINCA", comuna = "Cerro Navia",
+              estacion_sensor = "Cerro Navia",
+              mp25 = coalesce(`Registros validados`,
+                              `Registros preliminares`,
+                              `Registros no validados`)),
+  sinca_puente |>
+    transmute(fuente = "SINCA", comuna = "Puente Alto",
+              estacion_sensor = "Puente Alto",
+              mp25 = coalesce(`Registros validados`,
+                              `Registros preliminares`,
+                              `Registros no validados`)),
+  sensor_ch56 |>
+    transmute(fuente = "Sensor calibrado", comuna = "Santiago",
+              estacion_sensor = "CH56", mp25 = PM25_S2_calibrados),
+  sensor_ch4 |>
+    transmute(fuente = "Sensor calibrado", comuna = "Cerro Navia",
+              estacion_sensor = "CH4", mp25 = PM25_P4_calibrados),
+  sensor_ch2 |>
+    transmute(fuente = "Sensor calibrado", comuna = "Puente Alto",
+              estacion_sensor = "CH2", mp25 = PM25_P1_calibrados)
+)
 
-
-# ESTACIONES SINCA
-
-# Parque O'Higgins
-sinca_parque |>
-  mutate(
-    mp25 = coalesce(
-      `Registros validados`,
-      `Registros preliminares`,
-      `Registros no validados`
-    )
-  ) |>
+# Calcular estadísticas por fuente, comuna y estación o sensor.
+# Los valores negativos y extremos se conservan en esta exploración.
+estadisticas_iniciales <- datos_exploracion |>
+  group_by(fuente, comuna, estacion_sensor) |>
   summarise(
+    n_registros = n(),
+    n_disponibles = sum(!is.na(mp25)),
     promedio = mean(mp25, na.rm = TRUE),
     mediana = median(mp25, na.rm = TRUE),
     desviacion = sd(mp25, na.rm = TRUE),
     minimo = min(mp25, na.rm = TRUE),
-    maximo = max(mp25, na.rm = TRUE)
+    maximo = max(mp25, na.rm = TRUE),
+    .groups = "drop"
   )
 
-# Cerro Navia
-sinca_cerro |>
-  mutate(
-    mp25 = coalesce(
-      `Registros validados`,
-      `Registros preliminares`,
-      `Registros no validados`
-    )
-  ) |>
-  summarise(
-    promedio = mean(mp25, na.rm = TRUE),
-    mediana = median(mp25, na.rm = TRUE),
-    desviacion = sd(mp25, na.rm = TRUE),
-    minimo = min(mp25, na.rm = TRUE),
-    maximo = max(mp25, na.rm = TRUE)
-  )
+print(estadisticas_iniciales, width = Inf)
 
-# Puente Alto
-sinca_puente |>
-  mutate(
-    mp25 = coalesce(
-      `Registros validados`,
-      `Registros preliminares`,
-      `Registros no validados`
-    )
-  ) |>
-  summarise(
-    promedio = mean(mp25, na.rm = TRUE),
-    mediana = median(mp25, na.rm = TRUE),
-    desviacion = sd(mp25, na.rm = TRUE),
-    minimo = min(mp25, na.rm = TRUE),
-    maximo = max(mp25, na.rm = TRUE)
-  )
+# 6. GUARDAR LA TABLA DE ESTADÍSTICAS DESCRIPTIVAS
 
+dir.create("04_Tablas/01_Exploracion", recursive = TRUE,
+           showWarnings = FALSE)
 
-# SENSORES DE BAJO COSTO CALIBRADOS
-
-# Sensor CH56 - Parque O'Higgins
-sensor_ch56 |>
-  summarise(
-    promedio = mean(PM25_S2_calibrados, na.rm = TRUE),
-    mediana = median(PM25_S2_calibrados, na.rm = TRUE),
-    desviacion = sd(PM25_S2_calibrados, na.rm = TRUE),
-    minimo = min(PM25_S2_calibrados, na.rm = TRUE),
-    maximo = max(PM25_S2_calibrados, na.rm = TRUE)
-  )
-
-# Sensor CH4 - Cerro Navia
-sensor_ch4 |>
-  summarise(
-    promedio = mean(PM25_P4_calibrados, na.rm = TRUE),
-    mediana = median(PM25_P4_calibrados, na.rm = TRUE),
-    desviacion = sd(PM25_P4_calibrados, na.rm = TRUE),
-    minimo = min(PM25_P4_calibrados, na.rm = TRUE),
-    maximo = max(PM25_P4_calibrados, na.rm = TRUE)
-  )
-
-# Sensor CH2 - Puente Alto
-sensor_ch2 |>
-  summarise(
-    promedio = mean(PM25_P1_calibrados, na.rm = TRUE),
-    mediana = median(PM25_P1_calibrados, na.rm = TRUE),
-    desviacion = sd(PM25_P1_calibrados, na.rm = TRUE),
-    minimo = min(PM25_P1_calibrados, na.rm = TRUE),
-    maximo = max(PM25_P1_calibrados, na.rm = TRUE)
-  )
+write_csv(
+  estadisticas_iniciales,
+  "04_Tablas/01_Exploracion/01_estadisticas_iniciales_sinca_sensores.csv"
+)
