@@ -289,7 +289,7 @@ ggsave(
   dpi = 300,
   bg = "white"
 )
-
+cat(readLines("README.md"), sep = "\n")
 # Guardar la figura con escala ampliada
 ggsave(
   filename = file.path(
