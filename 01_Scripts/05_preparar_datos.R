@@ -1,21 +1,25 @@
 
+
 # 05. PREPARAR DATOS PROCESADOS
 # Proyecto final: Análisis de MP2.5 en Santiago de Chile
 
 # Este script prepara los datos de SINCA y de los
 # sensores de bajo costo calibrados para el análisis.
-# Se excluyen las concentraciones NA y los registros
-# sin fecha u hora identificable.
+# Se excluyen mediante na.omit() los registros con
+# concentraciones faltantes de MP2.5 y aquellos
+# sin fecha u hora identificable (NA).
+# Se conservan las concentraciones atípicas
+# para su posterior evaluación.
 # Los archivos originales no se modifican.
 
 
 # 1. SELECCIONAR REGISTROS DISPONIBLES PARA EL ANÁLISIS
 
+# Seleccionar las variables de interés
+# y excluir los registros con valores faltantes
 datos_procesados <- datos_validacion |>
-  filter(
-    !is.na(mp25),
-    !is.na(fecha_hora)
-  )
+  select(fuente, comuna, fecha_hora, mp25) |>
+  na.omit()
 
 # Comprobar los registros por fuente y comuna
 datos_procesados |>
