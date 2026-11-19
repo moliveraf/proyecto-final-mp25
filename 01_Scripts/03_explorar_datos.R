@@ -54,3 +54,97 @@ head(sinca_puente$`FECHA (YYMMDD)`)
 tail(sinca_parque$`FECHA (YYMMDD)`)
 tail(sinca_cerro$`FECHA (YYMMDD)`)
 tail(sinca_puente$`FECHA (YYMMDD)`)
+
+
+# 5. ESTADÍSTICAS DESCRIPTIVAS INICIALES
+
+# Explorar las concentraciones originales de MP2.5
+# ignorando los NA durante los cálculos estadísticos,
+# sin modificar las bases de datos originales.
+
+
+# ESTACIONES SINCA
+
+# Parque O'Higgins
+sinca_parque |>
+  mutate(
+    mp25 = coalesce(
+      `Registros validados`,
+      `Registros preliminares`,
+      `Registros no validados`
+    )
+  ) |>
+  summarise(
+    promedio = mean(mp25, na.rm = TRUE),
+    mediana = median(mp25, na.rm = TRUE),
+    desviacion = sd(mp25, na.rm = TRUE),
+    minimo = min(mp25, na.rm = TRUE),
+    maximo = max(mp25, na.rm = TRUE)
+  )
+
+# Cerro Navia
+sinca_cerro |>
+  mutate(
+    mp25 = coalesce(
+      `Registros validados`,
+      `Registros preliminares`,
+      `Registros no validados`
+    )
+  ) |>
+  summarise(
+    promedio = mean(mp25, na.rm = TRUE),
+    mediana = median(mp25, na.rm = TRUE),
+    desviacion = sd(mp25, na.rm = TRUE),
+    minimo = min(mp25, na.rm = TRUE),
+    maximo = max(mp25, na.rm = TRUE)
+  )
+
+# Puente Alto
+sinca_puente |>
+  mutate(
+    mp25 = coalesce(
+      `Registros validados`,
+      `Registros preliminares`,
+      `Registros no validados`
+    )
+  ) |>
+  summarise(
+    promedio = mean(mp25, na.rm = TRUE),
+    mediana = median(mp25, na.rm = TRUE),
+    desviacion = sd(mp25, na.rm = TRUE),
+    minimo = min(mp25, na.rm = TRUE),
+    maximo = max(mp25, na.rm = TRUE)
+  )
+
+
+# SENSORES DE BAJO COSTO CALIBRADOS
+
+# Sensor CH56 - Parque O'Higgins
+sensor_ch56 |>
+  summarise(
+    promedio = mean(PM25_S2_calibrados, na.rm = TRUE),
+    mediana = median(PM25_S2_calibrados, na.rm = TRUE),
+    desviacion = sd(PM25_S2_calibrados, na.rm = TRUE),
+    minimo = min(PM25_S2_calibrados, na.rm = TRUE),
+    maximo = max(PM25_S2_calibrados, na.rm = TRUE)
+  )
+
+# Sensor CH4 - Cerro Navia
+sensor_ch4 |>
+  summarise(
+    promedio = mean(PM25_P4_calibrados, na.rm = TRUE),
+    mediana = median(PM25_P4_calibrados, na.rm = TRUE),
+    desviacion = sd(PM25_P4_calibrados, na.rm = TRUE),
+    minimo = min(PM25_P4_calibrados, na.rm = TRUE),
+    maximo = max(PM25_P4_calibrados, na.rm = TRUE)
+  )
+
+# Sensor CH2 - Puente Alto
+sensor_ch2 |>
+  summarise(
+    promedio = mean(PM25_P1_calibrados, na.rm = TRUE),
+    mediana = median(PM25_P1_calibrados, na.rm = TRUE),
+    desviacion = sd(PM25_P1_calibrados, na.rm = TRUE),
+    minimo = min(PM25_P1_calibrados, na.rm = TRUE),
+    maximo = max(PM25_P1_calibrados, na.rm = TRUE)
+  )
