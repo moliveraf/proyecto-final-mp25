@@ -63,7 +63,7 @@ print(grafico_cajas_ampliado)
 
 # ----------------------------------------------------------------------------
 # 5. GUARDAR FIGURAS Y TABLA
-carpeta_figuras <- "02_Figuras/03_Comparacion_SINCA_Sensores/01_Distribucion"
+carpeta_figuras <- "02_Figuras/03_Comparacion_SINCA_Sensores/01_Boxplots"
 carpeta_tablas <- "04_Tablas/05_Boxplots"
 dir.create(carpeta_figuras, recursive = TRUE, showWarnings = FALSE)
 dir.create(carpeta_tablas, recursive = TRUE, showWarnings = FALSE)

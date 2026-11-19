@@ -261,7 +261,7 @@ print(resumen_datos_procesados, width = Inf)
 
 # Crear la carpeta para guardar la tabla
 dir.create(
-  "04_Tablas/03_Preparacion",
+  "04_Tablas/03_Depuracion",
   recursive = TRUE,
   showWarnings = FALSE
 )
@@ -269,8 +269,8 @@ dir.create(
 # Guardar la tabla resumen de datos procesados
 write_csv(
   resumen_datos_procesados,
-  "04_Tablas/03_Preparacion/01_resumen_datos_procesados_sinca_sensores.csv"
+  "04_Tablas/03_Depuracion/01_resumen_datos_procesados_sinca_sensores.csv"
 )
 
 # Comprobar la tabla guardada
-list.files("04_Tablas/03_Preparacion")
+list.files("04_Tablas/03_Depuracion")
