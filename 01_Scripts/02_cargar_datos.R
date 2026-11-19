@@ -34,7 +34,8 @@ sinca_puente <- read_delim(
 
 # Revisar las primeras observaciones
 head(sinca_puente)
-----------------------------------------------------------------------------
+
+# ----------------------------------------------------------------------------
 
 # Importar datos del sensor CH4 - Cerro Navia
 
@@ -66,7 +67,7 @@ sensor_ch2 <- read_csv(
 # Revisar las primeras observaciones
 head(sensor_ch2)
 
-----------------------------------------------------------------------------
+# ----------------------------------------------------------------------------
 
 # Revisar la estructura de los datos importados
 
