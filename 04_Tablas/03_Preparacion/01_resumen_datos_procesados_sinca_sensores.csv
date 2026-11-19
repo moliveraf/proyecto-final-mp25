@@ -1,7 +1,7 @@
-fuente,comuna,estacion_sensor,n_originales,n_excluidos,n_procesados,porcentaje_conservado
-SINCA,Cerro Navia,Cerro Navia,5135,126,5009,97.55
-SINCA,Puente Alto,Puente Alto,5135,89,5046,98.27
-SINCA,Santiago,Parque O'Higgins,5135,104,5031,97.97
-Sensor de bajo costo,Cerro Navia,CH4,4253,285,3968,93.3
-Sensor de bajo costo,Puente Alto,CH2,2840,298,2542,89.51
-Sensor de bajo costo,Santiago,CH56,3182,224,2958,92.96
+fuente,comuna,estacion_sensor,n_originales,n_excluidos,n_procesados,porcentaje_conservado,menores_2,mayores_200
+SINCA,Cerro Navia,Cerro Navia,5135,126,5009,97.55,84,1
+SINCA,Puente Alto,Puente Alto,5135,89,5046,98.27,66,0
+SINCA,Santiago,Parque O'Higgins,5135,104,5031,97.97,73,0
+Sensor de bajo costo,Cerro Navia,CH4,4253,345,3908,91.89,22,0
+Sensor de bajo costo,Puente Alto,CH2,2840,308,2532,89.15,27,0
+Sensor de bajo costo,Santiago,CH56,3182,224,2958,92.96,0,4
