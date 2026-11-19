@@ -1,7 +1,7 @@
-fuente,comuna,valores_na,fechas_na,menores_2,mayores_200,total_alertas
-SINCA,Cerro Navia,126,0,84,1,211
-SINCA,Puente Alto,89,0,66,0,155
-SINCA,Santiago,104,0,73,0,177
-Sensor de bajo costo,Cerro Navia,114,177,84,0,367
-Sensor de bajo costo,Puente Alto,298,0,37,0,335
-Sensor de bajo costo,Santiago,93,133,0,4,228
+fuente,comuna,valores_na,fechas_na,negativos,menores_2,mayores_200,fuentes_invalidas,comunas_invalidas,fechas_fuera_periodo,total_alertas
+SINCA,Cerro Navia,126,0,0,84,1,0,0,0,211
+SINCA,Puente Alto,89,0,0,66,0,0,0,0,155
+SINCA,Santiago,104,0,0,73,0,0,0,0,177
+Sensor de bajo costo,Cerro Navia,114,177,62,22,0,0,0,0,367
+Sensor de bajo costo,Puente Alto,298,0,10,27,0,0,0,0,335
+Sensor de bajo costo,Santiago,93,133,0,0,4,0,0,0,228

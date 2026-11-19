@@ -1,0 +1,1474 @@
+fila,fuente,comuna,fecha_hora,mp25,n_flags,motivos
+17381,Sensor de bajo costo,Santiago,NA,NA,2,"MP2.5 faltante, Fecha-hora faltante"
+18173,Sensor de bajo costo,Santiago,NA,NA,2,"MP2.5 faltante, Fecha-hora faltante"
+20758,Sensor de bajo costo,Cerro Navia,NA,NA,2,"MP2.5 faltante, Fecha-hora faltante"
+21166,Sensor de bajo costo,Cerro Navia,NA,NA,2,"MP2.5 faltante, Fecha-hora faltante"
+21190,Sensor de bajo costo,Cerro Navia,NA,NA,2,"MP2.5 faltante, Fecha-hora faltante"
+21478,Sensor de bajo costo,Cerro Navia,NA,-1.894,2,"Fecha-hora faltante, Concentración negativa"
+21718,Sensor de bajo costo,Cerro Navia,NA,-4.477,2,"Fecha-hora faltante, Concentración negativa"
+21790,Sensor de bajo costo,Cerro Navia,NA,NA,2,"MP2.5 faltante, Fecha-hora faltante"
+22102,Sensor de bajo costo,Cerro Navia,NA,NA,2,"MP2.5 faltante, Fecha-hora faltante"
+22150,Sensor de bajo costo,Cerro Navia,NA,NA,2,"MP2.5 faltante, Fecha-hora faltante"
+271,SINCA,Santiago,2026-03-12T07:00:00Z,NA,1,MP2.5 faltante
+730,SINCA,Santiago,2026-03-31T10:00:00Z,NA,1,MP2.5 faltante
+731,SINCA,Santiago,2026-03-31T11:00:00Z,NA,1,MP2.5 faltante
+778,SINCA,Santiago,2026-04-02T10:00:00Z,NA,1,MP2.5 faltante
+779,SINCA,Santiago,2026-04-02T11:00:00Z,NA,1,MP2.5 faltante
+780,SINCA,Santiago,2026-04-02T12:00:00Z,NA,1,MP2.5 faltante
+781,SINCA,Santiago,2026-04-02T13:00:00Z,NA,1,MP2.5 faltante
+782,SINCA,Santiago,2026-04-02T14:00:00Z,NA,1,MP2.5 faltante
+783,SINCA,Santiago,2026-04-02T15:00:00Z,NA,1,MP2.5 faltante
+784,SINCA,Santiago,2026-04-02T16:00:00Z,NA,1,MP2.5 faltante
+785,SINCA,Santiago,2026-04-02T17:00:00Z,NA,1,MP2.5 faltante
+786,SINCA,Santiago,2026-04-02T18:00:00Z,NA,1,MP2.5 faltante
+787,SINCA,Santiago,2026-04-02T19:00:00Z,NA,1,MP2.5 faltante
+788,SINCA,Santiago,2026-04-02T20:00:00Z,NA,1,MP2.5 faltante
+789,SINCA,Santiago,2026-04-02T21:00:00Z,NA,1,MP2.5 faltante
+790,SINCA,Santiago,2026-04-02T22:00:00Z,NA,1,MP2.5 faltante
+791,SINCA,Santiago,2026-04-02T23:00:00Z,NA,1,MP2.5 faltante
+792,SINCA,Santiago,2026-04-03T00:00:00Z,NA,1,MP2.5 faltante
+793,SINCA,Santiago,2026-04-03T01:00:00Z,NA,1,MP2.5 faltante
+794,SINCA,Santiago,2026-04-03T02:00:00Z,NA,1,MP2.5 faltante
+795,SINCA,Santiago,2026-04-03T03:00:00Z,NA,1,MP2.5 faltante
+796,SINCA,Santiago,2026-04-03T04:00:00Z,NA,1,MP2.5 faltante
+797,SINCA,Santiago,2026-04-03T05:00:00Z,NA,1,MP2.5 faltante
+798,SINCA,Santiago,2026-04-03T06:00:00Z,NA,1,MP2.5 faltante
+799,SINCA,Santiago,2026-04-03T07:00:00Z,NA,1,MP2.5 faltante
+800,SINCA,Santiago,2026-04-03T08:00:00Z,NA,1,MP2.5 faltante
+801,SINCA,Santiago,2026-04-03T09:00:00Z,NA,1,MP2.5 faltante
+802,SINCA,Santiago,2026-04-03T10:00:00Z,NA,1,MP2.5 faltante
+803,SINCA,Santiago,2026-04-03T11:00:00Z,NA,1,MP2.5 faltante
+804,SINCA,Santiago,2026-04-03T12:00:00Z,NA,1,MP2.5 faltante
+805,SINCA,Santiago,2026-04-03T13:00:00Z,NA,1,MP2.5 faltante
+806,SINCA,Santiago,2026-04-03T14:00:00Z,NA,1,MP2.5 faltante
+807,SINCA,Santiago,2026-04-03T15:00:00Z,NA,1,MP2.5 faltante
+808,SINCA,Santiago,2026-04-03T16:00:00Z,NA,1,MP2.5 faltante
+809,SINCA,Santiago,2026-04-03T17:00:00Z,NA,1,MP2.5 faltante
+810,SINCA,Santiago,2026-04-03T18:00:00Z,NA,1,MP2.5 faltante
+811,SINCA,Santiago,2026-04-03T19:00:00Z,NA,1,MP2.5 faltante
+812,SINCA,Santiago,2026-04-03T20:00:00Z,NA,1,MP2.5 faltante
+813,SINCA,Santiago,2026-04-03T21:00:00Z,NA,1,MP2.5 faltante
+814,SINCA,Santiago,2026-04-03T22:00:00Z,NA,1,MP2.5 faltante
+815,SINCA,Santiago,2026-04-03T23:00:00Z,NA,1,MP2.5 faltante
+816,SINCA,Santiago,2026-04-04T00:00:00Z,NA,1,MP2.5 faltante
+817,SINCA,Santiago,2026-04-04T01:00:00Z,NA,1,MP2.5 faltante
+818,SINCA,Santiago,2026-04-04T02:00:00Z,NA,1,MP2.5 faltante
+819,SINCA,Santiago,2026-04-04T03:00:00Z,NA,1,MP2.5 faltante
+820,SINCA,Santiago,2026-04-04T04:00:00Z,NA,1,MP2.5 faltante
+821,SINCA,Santiago,2026-04-04T05:00:00Z,NA,1,MP2.5 faltante
+822,SINCA,Santiago,2026-04-04T06:00:00Z,NA,1,MP2.5 faltante
+823,SINCA,Santiago,2026-04-04T07:00:00Z,NA,1,MP2.5 faltante
+824,SINCA,Santiago,2026-04-04T08:00:00Z,NA,1,MP2.5 faltante
+825,SINCA,Santiago,2026-04-04T09:00:00Z,NA,1,MP2.5 faltante
+826,SINCA,Santiago,2026-04-04T10:00:00Z,NA,1,MP2.5 faltante
+827,SINCA,Santiago,2026-04-04T11:00:00Z,NA,1,MP2.5 faltante
+828,SINCA,Santiago,2026-04-04T12:00:00Z,NA,1,MP2.5 faltante
+829,SINCA,Santiago,2026-04-04T13:00:00Z,NA,1,MP2.5 faltante
+830,SINCA,Santiago,2026-04-04T14:00:00Z,NA,1,MP2.5 faltante
+831,SINCA,Santiago,2026-04-04T15:00:00Z,NA,1,MP2.5 faltante
+832,SINCA,Santiago,2026-04-04T16:00:00Z,NA,1,MP2.5 faltante
+833,SINCA,Santiago,2026-04-04T17:00:00Z,NA,1,MP2.5 faltante
+834,SINCA,Santiago,2026-04-04T18:00:00Z,NA,1,MP2.5 faltante
+835,SINCA,Santiago,2026-04-04T19:00:00Z,NA,1,MP2.5 faltante
+836,SINCA,Santiago,2026-04-04T20:00:00Z,NA,1,MP2.5 faltante
+837,SINCA,Santiago,2026-04-04T21:00:00Z,NA,1,MP2.5 faltante
+838,SINCA,Santiago,2026-04-04T22:00:00Z,NA,1,MP2.5 faltante
+839,SINCA,Santiago,2026-04-04T23:00:00Z,NA,1,MP2.5 faltante
+840,SINCA,Santiago,2026-04-05T00:00:00Z,NA,1,MP2.5 faltante
+841,SINCA,Santiago,2026-04-05T01:00:00Z,NA,1,MP2.5 faltante
+842,SINCA,Santiago,2026-04-05T02:00:00Z,NA,1,MP2.5 faltante
+843,SINCA,Santiago,2026-04-05T03:00:00Z,NA,1,MP2.5 faltante
+844,SINCA,Santiago,2026-04-05T04:00:00Z,NA,1,MP2.5 faltante
+845,SINCA,Santiago,2026-04-05T05:00:00Z,NA,1,MP2.5 faltante
+846,SINCA,Santiago,2026-04-05T06:00:00Z,NA,1,MP2.5 faltante
+847,SINCA,Santiago,2026-04-05T07:00:00Z,NA,1,MP2.5 faltante
+848,SINCA,Santiago,2026-04-05T08:00:00Z,NA,1,MP2.5 faltante
+849,SINCA,Santiago,2026-04-05T09:00:00Z,NA,1,MP2.5 faltante
+850,SINCA,Santiago,2026-04-05T10:00:00Z,NA,1,MP2.5 faltante
+851,SINCA,Santiago,2026-04-05T11:00:00Z,NA,1,MP2.5 faltante
+852,SINCA,Santiago,2026-04-05T12:00:00Z,NA,1,MP2.5 faltante
+853,SINCA,Santiago,2026-04-05T13:00:00Z,NA,1,MP2.5 faltante
+854,SINCA,Santiago,2026-04-05T14:00:00Z,NA,1,MP2.5 faltante
+855,SINCA,Santiago,2026-04-05T15:00:00Z,NA,1,MP2.5 faltante
+856,SINCA,Santiago,2026-04-05T16:00:00Z,NA,1,MP2.5 faltante
+857,SINCA,Santiago,2026-04-05T17:00:00Z,NA,1,MP2.5 faltante
+858,SINCA,Santiago,2026-04-05T18:00:00Z,NA,1,MP2.5 faltante
+859,SINCA,Santiago,2026-04-05T19:00:00Z,NA,1,MP2.5 faltante
+860,SINCA,Santiago,2026-04-05T20:00:00Z,NA,1,MP2.5 faltante
+861,SINCA,Santiago,2026-04-05T21:00:00Z,NA,1,MP2.5 faltante
+862,SINCA,Santiago,2026-04-05T22:00:00Z,NA,1,MP2.5 faltante
+863,SINCA,Santiago,2026-04-05T23:00:00Z,NA,1,MP2.5 faltante
+864,SINCA,Santiago,2026-04-06T00:00:00Z,NA,1,MP2.5 faltante
+865,SINCA,Santiago,2026-04-06T01:00:00Z,NA,1,MP2.5 faltante
+866,SINCA,Santiago,2026-04-06T02:00:00Z,NA,1,MP2.5 faltante
+867,SINCA,Santiago,2026-04-06T03:00:00Z,NA,1,MP2.5 faltante
+868,SINCA,Santiago,2026-04-06T04:00:00Z,NA,1,MP2.5 faltante
+869,SINCA,Santiago,2026-04-06T05:00:00Z,NA,1,MP2.5 faltante
+870,SINCA,Santiago,2026-04-06T06:00:00Z,NA,1,MP2.5 faltante
+871,SINCA,Santiago,2026-04-06T07:00:00Z,NA,1,MP2.5 faltante
+872,SINCA,Santiago,2026-04-06T08:00:00Z,NA,1,MP2.5 faltante
+873,SINCA,Santiago,2026-04-06T09:00:00Z,NA,1,MP2.5 faltante
+874,SINCA,Santiago,2026-04-06T10:00:00Z,NA,1,MP2.5 faltante
+875,SINCA,Santiago,2026-04-06T11:00:00Z,NA,1,MP2.5 faltante
+876,SINCA,Santiago,2026-04-06T12:00:00Z,NA,1,MP2.5 faltante
+1360,SINCA,Santiago,2026-04-26T16:00:00Z,1,1,Concentración no negativa inferior a 2
+1605,SINCA,Santiago,2026-05-06T21:00:00Z,1,1,Concentración no negativa inferior a 2
+2557,SINCA,Santiago,2026-06-15T13:00:00Z,NA,1,MP2.5 faltante
+3300,SINCA,Santiago,2026-07-16T12:00:00Z,1,1,Concentración no negativa inferior a 2
+3302,SINCA,Santiago,2026-07-16T14:00:00Z,1,1,Concentración no negativa inferior a 2
+3303,SINCA,Santiago,2026-07-16T15:00:00Z,1,1,Concentración no negativa inferior a 2
+3305,SINCA,Santiago,2026-07-16T17:00:00Z,1,1,Concentración no negativa inferior a 2
+3306,SINCA,Santiago,2026-07-16T18:00:00Z,1,1,Concentración no negativa inferior a 2
+3307,SINCA,Santiago,2026-07-16T19:00:00Z,1,1,Concentración no negativa inferior a 2
+3311,SINCA,Santiago,2026-07-16T23:00:00Z,1,1,Concentración no negativa inferior a 2
+3312,SINCA,Santiago,2026-07-17T00:00:00Z,1,1,Concentración no negativa inferior a 2
+3313,SINCA,Santiago,2026-07-17T01:00:00Z,1,1,Concentración no negativa inferior a 2
+3314,SINCA,Santiago,2026-07-17T02:00:00Z,1,1,Concentración no negativa inferior a 2
+3315,SINCA,Santiago,2026-07-17T03:00:00Z,1,1,Concentración no negativa inferior a 2
+3316,SINCA,Santiago,2026-07-17T04:00:00Z,1,1,Concentración no negativa inferior a 2
+3317,SINCA,Santiago,2026-07-17T05:00:00Z,1,1,Concentración no negativa inferior a 2
+3332,SINCA,Santiago,2026-07-17T20:00:00Z,1,1,Concentración no negativa inferior a 2
+3336,SINCA,Santiago,2026-07-18T00:00:00Z,1,1,Concentración no negativa inferior a 2
+3337,SINCA,Santiago,2026-07-18T01:00:00Z,1,1,Concentración no negativa inferior a 2
+3349,SINCA,Santiago,2026-07-18T13:00:00Z,1,1,Concentración no negativa inferior a 2
+3567,SINCA,Santiago,2026-07-27T15:00:00Z,1,1,Concentración no negativa inferior a 2
+3568,SINCA,Santiago,2026-07-27T16:00:00Z,1,1,Concentración no negativa inferior a 2
+3569,SINCA,Santiago,2026-07-27T17:00:00Z,1,1,Concentración no negativa inferior a 2
+3570,SINCA,Santiago,2026-07-27T18:00:00Z,1,1,Concentración no negativa inferior a 2
+3571,SINCA,Santiago,2026-07-27T19:00:00Z,1,1,Concentración no negativa inferior a 2
+3576,SINCA,Santiago,2026-07-28T00:00:00Z,1,1,Concentración no negativa inferior a 2
+3577,SINCA,Santiago,2026-07-28T01:00:00Z,1,1,Concentración no negativa inferior a 2
+3586,SINCA,Santiago,2026-07-28T10:00:00Z,1,1,Concentración no negativa inferior a 2
+3587,SINCA,Santiago,2026-07-28T11:00:00Z,1,1,Concentración no negativa inferior a 2
+3641,SINCA,Santiago,2026-07-30T17:00:00Z,1,1,Concentración no negativa inferior a 2
+3659,SINCA,Santiago,2026-07-31T11:00:00Z,1,1,Concentración no negativa inferior a 2
+3660,SINCA,Santiago,2026-07-31T12:00:00Z,1,1,Concentración no negativa inferior a 2
+3661,SINCA,Santiago,2026-07-31T13:00:00Z,1,1,Concentración no negativa inferior a 2
+3664,SINCA,Santiago,2026-07-31T16:00:00Z,1,1,Concentración no negativa inferior a 2
+3699,SINCA,Santiago,2026-08-02T03:00:00Z,1,1,Concentración no negativa inferior a 2
+3700,SINCA,Santiago,2026-08-02T04:00:00Z,1,1,Concentración no negativa inferior a 2
+3701,SINCA,Santiago,2026-08-02T05:00:00Z,1,1,Concentración no negativa inferior a 2
+3702,SINCA,Santiago,2026-08-02T06:00:00Z,1,1,Concentración no negativa inferior a 2
+3796,SINCA,Santiago,2026-08-06T04:00:00Z,1,1,Concentración no negativa inferior a 2
+3797,SINCA,Santiago,2026-08-06T05:00:00Z,1,1,Concentración no negativa inferior a 2
+3798,SINCA,Santiago,2026-08-06T06:00:00Z,1,1,Concentración no negativa inferior a 2
+3849,SINCA,Santiago,2026-08-08T09:00:00Z,1,1,Concentración no negativa inferior a 2
+3859,SINCA,Santiago,2026-08-08T19:00:00Z,1,1,Concentración no negativa inferior a 2
+4019,SINCA,Santiago,2026-08-15T11:00:00Z,1,1,Concentración no negativa inferior a 2
+4237,SINCA,Santiago,2026-08-24T13:00:00Z,NA,1,MP2.5 faltante
+4258,SINCA,Santiago,2026-08-25T10:00:00Z,1,1,Concentración no negativa inferior a 2
+4314,SINCA,Santiago,2026-08-27T18:00:00Z,1,1,Concentración no negativa inferior a 2
+4339,SINCA,Santiago,2026-08-28T19:00:00Z,1,1,Concentración no negativa inferior a 2
+4360,SINCA,Santiago,2026-08-29T16:00:00Z,1,1,Concentración no negativa inferior a 2
+4391,SINCA,Santiago,2026-08-30T23:00:00Z,1,1,Concentración no negativa inferior a 2
+4392,SINCA,Santiago,2026-08-31T00:00:00Z,1,1,Concentración no negativa inferior a 2
+4394,SINCA,Santiago,2026-08-31T02:00:00Z,1,1,Concentración no negativa inferior a 2
+4396,SINCA,Santiago,2026-08-31T04:00:00Z,1,1,Concentración no negativa inferior a 2
+4399,SINCA,Santiago,2026-08-31T07:00:00Z,1,1,Concentración no negativa inferior a 2
+4406,SINCA,Santiago,2026-08-31T14:00:00Z,1,1,Concentración no negativa inferior a 2
+4408,SINCA,Santiago,2026-08-31T16:00:00Z,1,1,Concentración no negativa inferior a 2
+4409,SINCA,Santiago,2026-08-31T17:00:00Z,1,1,Concentración no negativa inferior a 2
+4463,SINCA,Santiago,2026-09-02T23:00:00Z,1,1,Concentración no negativa inferior a 2
+4879,SINCA,Santiago,2026-09-20T07:00:00Z,1,1,Concentración no negativa inferior a 2
+4880,SINCA,Santiago,2026-09-20T08:00:00Z,1,1,Concentración no negativa inferior a 2
+4881,SINCA,Santiago,2026-09-20T09:00:00Z,1,1,Concentración no negativa inferior a 2
+4882,SINCA,Santiago,2026-09-20T10:00:00Z,1,1,Concentración no negativa inferior a 2
+4883,SINCA,Santiago,2026-09-20T11:00:00Z,1,1,Concentración no negativa inferior a 2
+4884,SINCA,Santiago,2026-09-20T12:00:00Z,1,1,Concentración no negativa inferior a 2
+4885,SINCA,Santiago,2026-09-20T13:00:00Z,1,1,Concentración no negativa inferior a 2
+4886,SINCA,Santiago,2026-09-20T14:00:00Z,1,1,Concentración no negativa inferior a 2
+4888,SINCA,Santiago,2026-09-20T16:00:00Z,1,1,Concentración no negativa inferior a 2
+4889,SINCA,Santiago,2026-09-20T17:00:00Z,1,1,Concentración no negativa inferior a 2
+5058,SINCA,Santiago,2026-09-27T18:00:00Z,1,1,Concentración no negativa inferior a 2
+5059,SINCA,Santiago,2026-09-27T19:00:00Z,1,1,Concentración no negativa inferior a 2
+5062,SINCA,Santiago,2026-09-27T22:00:00Z,1,1,Concentración no negativa inferior a 2
+5065,SINCA,Santiago,2026-09-28T01:00:00Z,1,1,Concentración no negativa inferior a 2
+5066,SINCA,Santiago,2026-09-28T02:00:00Z,1,1,Concentración no negativa inferior a 2
+5067,SINCA,Santiago,2026-09-28T03:00:00Z,1,1,Concentración no negativa inferior a 2
+5083,SINCA,Santiago,2026-09-28T19:00:00Z,1,1,Concentración no negativa inferior a 2
+5150,SINCA,Cerro Navia,2026-03-01T15:00:00Z,1,1,Concentración no negativa inferior a 2
+5151,SINCA,Cerro Navia,2026-03-01T16:00:00Z,1,1,Concentración no negativa inferior a 2
+5152,SINCA,Cerro Navia,2026-03-01T17:00:00Z,1,1,Concentración no negativa inferior a 2
+5158,SINCA,Cerro Navia,2026-03-01T23:00:00Z,1,1,Concentración no negativa inferior a 2
+5159,SINCA,Cerro Navia,2026-03-02T00:00:00Z,1,1,Concentración no negativa inferior a 2
+5160,SINCA,Cerro Navia,2026-03-02T01:00:00Z,1,1,Concentración no negativa inferior a 2
+5170,SINCA,Cerro Navia,2026-03-02T11:00:00Z,1,1,Concentración no negativa inferior a 2
+5171,SINCA,Cerro Navia,2026-03-02T12:00:00Z,1,1,Concentración no negativa inferior a 2
+5172,SINCA,Cerro Navia,2026-03-02T13:00:00Z,1,1,Concentración no negativa inferior a 2
+5173,SINCA,Cerro Navia,2026-03-02T14:00:00Z,1,1,Concentración no negativa inferior a 2
+5174,SINCA,Cerro Navia,2026-03-02T15:00:00Z,1,1,Concentración no negativa inferior a 2
+5197,SINCA,Cerro Navia,2026-03-03T14:00:00Z,1,1,Concentración no negativa inferior a 2
+5198,SINCA,Cerro Navia,2026-03-03T15:00:00Z,1,1,Concentración no negativa inferior a 2
+5339,SINCA,Cerro Navia,2026-03-09T12:00:00Z,NA,1,MP2.5 faltante
+5390,SINCA,Cerro Navia,2026-03-11T15:00:00Z,1,1,Concentración no negativa inferior a 2
+5423,SINCA,Cerro Navia,2026-03-13T00:00:00Z,NA,1,MP2.5 faltante
+5471,SINCA,Cerro Navia,2026-03-15T00:00:00Z,NA,1,MP2.5 faltante
+5484,SINCA,Cerro Navia,2026-03-15T13:00:00Z,1,1,Concentración no negativa inferior a 2
+5485,SINCA,Cerro Navia,2026-03-15T14:00:00Z,1,1,Concentración no negativa inferior a 2
+5487,SINCA,Cerro Navia,2026-03-15T16:00:00Z,1,1,Concentración no negativa inferior a 2
+5488,SINCA,Cerro Navia,2026-03-15T17:00:00Z,1,1,Concentración no negativa inferior a 2
+5506,SINCA,Cerro Navia,2026-03-16T11:00:00Z,1,1,Concentración no negativa inferior a 2
+5507,SINCA,Cerro Navia,2026-03-16T12:00:00Z,1,1,Concentración no negativa inferior a 2
+5508,SINCA,Cerro Navia,2026-03-16T13:00:00Z,1,1,Concentración no negativa inferior a 2
+5509,SINCA,Cerro Navia,2026-03-16T14:00:00Z,1,1,Concentración no negativa inferior a 2
+5510,SINCA,Cerro Navia,2026-03-16T15:00:00Z,1,1,Concentración no negativa inferior a 2
+5518,SINCA,Cerro Navia,2026-03-16T23:00:00Z,1,1,Concentración no negativa inferior a 2
+5519,SINCA,Cerro Navia,2026-03-17T00:00:00Z,NA,1,MP2.5 faltante
+5522,SINCA,Cerro Navia,2026-03-17T03:00:00Z,1,1,Concentración no negativa inferior a 2
+5523,SINCA,Cerro Navia,2026-03-17T04:00:00Z,1,1,Concentración no negativa inferior a 2
+5524,SINCA,Cerro Navia,2026-03-17T05:00:00Z,1,1,Concentración no negativa inferior a 2
+5532,SINCA,Cerro Navia,2026-03-17T13:00:00Z,1,1,Concentración no negativa inferior a 2
+5533,SINCA,Cerro Navia,2026-03-17T14:00:00Z,1,1,Concentración no negativa inferior a 2
+5536,SINCA,Cerro Navia,2026-03-17T17:00:00Z,1,1,Concentración no negativa inferior a 2
+5543,SINCA,Cerro Navia,2026-03-18T00:00:00Z,NA,1,MP2.5 faltante
+5595,SINCA,Cerro Navia,2026-03-20T04:00:00Z,1,1,Concentración no negativa inferior a 2
+5644,SINCA,Cerro Navia,2026-03-22T05:00:00Z,1,1,Concentración no negativa inferior a 2
+5673,SINCA,Cerro Navia,2026-03-23T10:00:00Z,NA,1,MP2.5 faltante
+5682,SINCA,Cerro Navia,2026-03-23T19:00:00Z,NA,1,MP2.5 faltante
+5683,SINCA,Cerro Navia,2026-03-23T20:00:00Z,NA,1,MP2.5 faltante
+5684,SINCA,Cerro Navia,2026-03-23T21:00:00Z,NA,1,MP2.5 faltante
+5685,SINCA,Cerro Navia,2026-03-23T22:00:00Z,NA,1,MP2.5 faltante
+5990,SINCA,Cerro Navia,2026-04-05T15:00:00Z,1,1,Concentración no negativa inferior a 2
+5991,SINCA,Cerro Navia,2026-04-05T16:00:00Z,1,1,Concentración no negativa inferior a 2
+5992,SINCA,Cerro Navia,2026-04-05T17:00:00Z,1,1,Concentración no negativa inferior a 2
+6001,SINCA,Cerro Navia,2026-04-06T02:00:00Z,1,1,Concentración no negativa inferior a 2
+6014,SINCA,Cerro Navia,2026-04-06T15:00:00Z,1,1,Concentración no negativa inferior a 2
+6015,SINCA,Cerro Navia,2026-04-06T16:00:00Z,1,1,Concentración no negativa inferior a 2
+6268,SINCA,Cerro Navia,2026-04-17T05:00:00Z,1,1,Concentración no negativa inferior a 2
+6335,SINCA,Cerro Navia,2026-04-20T00:00:00Z,1,1,Concentración no negativa inferior a 2
+6397,SINCA,Cerro Navia,2026-04-22T14:00:00Z,NA,1,MP2.5 faltante
+6443,SINCA,Cerro Navia,2026-04-24T12:00:00Z,NA,1,MP2.5 faltante
+6444,SINCA,Cerro Navia,2026-04-24T13:00:00Z,NA,1,MP2.5 faltante
+6445,SINCA,Cerro Navia,2026-04-24T14:00:00Z,NA,1,MP2.5 faltante
+6446,SINCA,Cerro Navia,2026-04-24T15:00:00Z,NA,1,MP2.5 faltante
+6447,SINCA,Cerro Navia,2026-04-24T16:00:00Z,NA,1,MP2.5 faltante
+6448,SINCA,Cerro Navia,2026-04-24T17:00:00Z,NA,1,MP2.5 faltante
+6449,SINCA,Cerro Navia,2026-04-24T18:00:00Z,NA,1,MP2.5 faltante
+6450,SINCA,Cerro Navia,2026-04-24T19:00:00Z,NA,1,MP2.5 faltante
+6451,SINCA,Cerro Navia,2026-04-24T20:00:00Z,NA,1,MP2.5 faltante
+6452,SINCA,Cerro Navia,2026-04-24T21:00:00Z,NA,1,MP2.5 faltante
+6453,SINCA,Cerro Navia,2026-04-24T22:00:00Z,NA,1,MP2.5 faltante
+6454,SINCA,Cerro Navia,2026-04-24T23:00:00Z,NA,1,MP2.5 faltante
+6455,SINCA,Cerro Navia,2026-04-25T00:00:00Z,NA,1,MP2.5 faltante
+6456,SINCA,Cerro Navia,2026-04-25T01:00:00Z,NA,1,MP2.5 faltante
+6457,SINCA,Cerro Navia,2026-04-25T02:00:00Z,NA,1,MP2.5 faltante
+6458,SINCA,Cerro Navia,2026-04-25T03:00:00Z,NA,1,MP2.5 faltante
+6459,SINCA,Cerro Navia,2026-04-25T04:00:00Z,NA,1,MP2.5 faltante
+6460,SINCA,Cerro Navia,2026-04-25T05:00:00Z,NA,1,MP2.5 faltante
+6461,SINCA,Cerro Navia,2026-04-25T06:00:00Z,NA,1,MP2.5 faltante
+6462,SINCA,Cerro Navia,2026-04-25T07:00:00Z,NA,1,MP2.5 faltante
+6463,SINCA,Cerro Navia,2026-04-25T08:00:00Z,NA,1,MP2.5 faltante
+6464,SINCA,Cerro Navia,2026-04-25T09:00:00Z,NA,1,MP2.5 faltante
+6465,SINCA,Cerro Navia,2026-04-25T10:00:00Z,NA,1,MP2.5 faltante
+6466,SINCA,Cerro Navia,2026-04-25T11:00:00Z,NA,1,MP2.5 faltante
+6467,SINCA,Cerro Navia,2026-04-25T12:00:00Z,NA,1,MP2.5 faltante
+6468,SINCA,Cerro Navia,2026-04-25T13:00:00Z,NA,1,MP2.5 faltante
+6469,SINCA,Cerro Navia,2026-04-25T14:00:00Z,NA,1,MP2.5 faltante
+6470,SINCA,Cerro Navia,2026-04-25T15:00:00Z,NA,1,MP2.5 faltante
+6471,SINCA,Cerro Navia,2026-04-25T16:00:00Z,NA,1,MP2.5 faltante
+6472,SINCA,Cerro Navia,2026-04-25T17:00:00Z,NA,1,MP2.5 faltante
+6473,SINCA,Cerro Navia,2026-04-25T18:00:00Z,NA,1,MP2.5 faltante
+6474,SINCA,Cerro Navia,2026-04-25T19:00:00Z,NA,1,MP2.5 faltante
+6475,SINCA,Cerro Navia,2026-04-25T20:00:00Z,NA,1,MP2.5 faltante
+6476,SINCA,Cerro Navia,2026-04-25T21:00:00Z,NA,1,MP2.5 faltante
+6477,SINCA,Cerro Navia,2026-04-25T22:00:00Z,NA,1,MP2.5 faltante
+6478,SINCA,Cerro Navia,2026-04-25T23:00:00Z,NA,1,MP2.5 faltante
+6479,SINCA,Cerro Navia,2026-04-26T00:00:00Z,NA,1,MP2.5 faltante
+6480,SINCA,Cerro Navia,2026-04-26T01:00:00Z,NA,1,MP2.5 faltante
+6481,SINCA,Cerro Navia,2026-04-26T02:00:00Z,NA,1,MP2.5 faltante
+6482,SINCA,Cerro Navia,2026-04-26T03:00:00Z,NA,1,MP2.5 faltante
+6483,SINCA,Cerro Navia,2026-04-26T04:00:00Z,NA,1,MP2.5 faltante
+6484,SINCA,Cerro Navia,2026-04-26T05:00:00Z,NA,1,MP2.5 faltante
+6485,SINCA,Cerro Navia,2026-04-26T06:00:00Z,NA,1,MP2.5 faltante
+6486,SINCA,Cerro Navia,2026-04-26T07:00:00Z,NA,1,MP2.5 faltante
+6487,SINCA,Cerro Navia,2026-04-26T08:00:00Z,NA,1,MP2.5 faltante
+6488,SINCA,Cerro Navia,2026-04-26T09:00:00Z,NA,1,MP2.5 faltante
+6489,SINCA,Cerro Navia,2026-04-26T10:00:00Z,NA,1,MP2.5 faltante
+6490,SINCA,Cerro Navia,2026-04-26T11:00:00Z,NA,1,MP2.5 faltante
+6491,SINCA,Cerro Navia,2026-04-26T12:00:00Z,NA,1,MP2.5 faltante
+6492,SINCA,Cerro Navia,2026-04-26T13:00:00Z,NA,1,MP2.5 faltante
+6493,SINCA,Cerro Navia,2026-04-26T14:00:00Z,NA,1,MP2.5 faltante
+6494,SINCA,Cerro Navia,2026-04-26T15:00:00Z,NA,1,MP2.5 faltante
+6495,SINCA,Cerro Navia,2026-04-26T16:00:00Z,NA,1,MP2.5 faltante
+6496,SINCA,Cerro Navia,2026-04-26T17:00:00Z,NA,1,MP2.5 faltante
+6497,SINCA,Cerro Navia,2026-04-26T18:00:00Z,NA,1,MP2.5 faltante
+6498,SINCA,Cerro Navia,2026-04-26T19:00:00Z,NA,1,MP2.5 faltante
+6499,SINCA,Cerro Navia,2026-04-26T20:00:00Z,NA,1,MP2.5 faltante
+6500,SINCA,Cerro Navia,2026-04-26T21:00:00Z,NA,1,MP2.5 faltante
+6501,SINCA,Cerro Navia,2026-04-26T22:00:00Z,NA,1,MP2.5 faltante
+6502,SINCA,Cerro Navia,2026-04-26T23:00:00Z,NA,1,MP2.5 faltante
+6503,SINCA,Cerro Navia,2026-04-27T00:00:00Z,NA,1,MP2.5 faltante
+6504,SINCA,Cerro Navia,2026-04-27T01:00:00Z,NA,1,MP2.5 faltante
+6505,SINCA,Cerro Navia,2026-04-27T02:00:00Z,NA,1,MP2.5 faltante
+6506,SINCA,Cerro Navia,2026-04-27T03:00:00Z,NA,1,MP2.5 faltante
+6507,SINCA,Cerro Navia,2026-04-27T04:00:00Z,NA,1,MP2.5 faltante
+6508,SINCA,Cerro Navia,2026-04-27T05:00:00Z,NA,1,MP2.5 faltante
+6509,SINCA,Cerro Navia,2026-04-27T06:00:00Z,NA,1,MP2.5 faltante
+6510,SINCA,Cerro Navia,2026-04-27T07:00:00Z,NA,1,MP2.5 faltante
+6511,SINCA,Cerro Navia,2026-04-27T08:00:00Z,NA,1,MP2.5 faltante
+6512,SINCA,Cerro Navia,2026-04-27T09:00:00Z,NA,1,MP2.5 faltante
+6513,SINCA,Cerro Navia,2026-04-27T10:00:00Z,NA,1,MP2.5 faltante
+6514,SINCA,Cerro Navia,2026-04-27T11:00:00Z,NA,1,MP2.5 faltante
+6515,SINCA,Cerro Navia,2026-04-27T12:00:00Z,NA,1,MP2.5 faltante
+6516,SINCA,Cerro Navia,2026-04-27T13:00:00Z,NA,1,MP2.5 faltante
+6517,SINCA,Cerro Navia,2026-04-27T14:00:00Z,NA,1,MP2.5 faltante
+6518,SINCA,Cerro Navia,2026-04-27T15:00:00Z,NA,1,MP2.5 faltante
+6519,SINCA,Cerro Navia,2026-04-27T16:00:00Z,NA,1,MP2.5 faltante
+6520,SINCA,Cerro Navia,2026-04-27T17:00:00Z,NA,1,MP2.5 faltante
+6521,SINCA,Cerro Navia,2026-04-27T18:00:00Z,NA,1,MP2.5 faltante
+6522,SINCA,Cerro Navia,2026-04-27T19:00:00Z,NA,1,MP2.5 faltante
+6523,SINCA,Cerro Navia,2026-04-27T20:00:00Z,NA,1,MP2.5 faltante
+6524,SINCA,Cerro Navia,2026-04-27T21:00:00Z,NA,1,MP2.5 faltante
+6525,SINCA,Cerro Navia,2026-04-27T22:00:00Z,NA,1,MP2.5 faltante
+6526,SINCA,Cerro Navia,2026-04-27T23:00:00Z,NA,1,MP2.5 faltante
+6527,SINCA,Cerro Navia,2026-04-28T00:00:00Z,NA,1,MP2.5 faltante
+6528,SINCA,Cerro Navia,2026-04-28T01:00:00Z,NA,1,MP2.5 faltante
+6529,SINCA,Cerro Navia,2026-04-28T02:00:00Z,NA,1,MP2.5 faltante
+6530,SINCA,Cerro Navia,2026-04-28T03:00:00Z,NA,1,MP2.5 faltante
+6531,SINCA,Cerro Navia,2026-04-28T04:00:00Z,NA,1,MP2.5 faltante
+6532,SINCA,Cerro Navia,2026-04-28T05:00:00Z,NA,1,MP2.5 faltante
+6533,SINCA,Cerro Navia,2026-04-28T06:00:00Z,NA,1,MP2.5 faltante
+6534,SINCA,Cerro Navia,2026-04-28T07:00:00Z,NA,1,MP2.5 faltante
+6535,SINCA,Cerro Navia,2026-04-28T08:00:00Z,NA,1,MP2.5 faltante
+6536,SINCA,Cerro Navia,2026-04-28T09:00:00Z,NA,1,MP2.5 faltante
+6537,SINCA,Cerro Navia,2026-04-28T10:00:00Z,NA,1,MP2.5 faltante
+6538,SINCA,Cerro Navia,2026-04-28T11:00:00Z,NA,1,MP2.5 faltante
+6539,SINCA,Cerro Navia,2026-04-28T12:00:00Z,NA,1,MP2.5 faltante
+6739,SINCA,Cerro Navia,2026-05-06T20:00:00Z,1,1,Concentración no negativa inferior a 2
+6744,SINCA,Cerro Navia,2026-05-07T01:00:00Z,1,1,Concentración no negativa inferior a 2
+6745,SINCA,Cerro Navia,2026-05-07T02:00:00Z,1,1,Concentración no negativa inferior a 2
+6748,SINCA,Cerro Navia,2026-05-07T05:00:00Z,1,1,Concentración no negativa inferior a 2
+6935,SINCA,Cerro Navia,2026-05-15T00:00:00Z,NA,1,MP2.5 faltante
+7022,SINCA,Cerro Navia,2026-05-18T15:00:00Z,NA,1,MP2.5 faltante
+7079,SINCA,Cerro Navia,2026-05-21T00:00:00Z,NA,1,MP2.5 faltante
+7130,SINCA,Cerro Navia,2026-05-23T03:00:00Z,NA,1,MP2.5 faltante
+7653,SINCA,Cerro Navia,2026-06-13T22:00:00Z,214,1,Concentración superior a 200
+7943,SINCA,Cerro Navia,2026-06-26T00:00:00Z,NA,1,MP2.5 faltante
+8437,SINCA,Cerro Navia,2026-07-16T14:00:00Z,1,1,Concentración no negativa inferior a 2
+8446,SINCA,Cerro Navia,2026-07-16T23:00:00Z,1,1,Concentración no negativa inferior a 2
+8447,SINCA,Cerro Navia,2026-07-17T00:00:00Z,1,1,Concentración no negativa inferior a 2
+8448,SINCA,Cerro Navia,2026-07-17T01:00:00Z,1,1,Concentración no negativa inferior a 2
+8449,SINCA,Cerro Navia,2026-07-17T02:00:00Z,1,1,Concentración no negativa inferior a 2
+8450,SINCA,Cerro Navia,2026-07-17T03:00:00Z,1,1,Concentración no negativa inferior a 2
+8451,SINCA,Cerro Navia,2026-07-17T04:00:00Z,1,1,Concentración no negativa inferior a 2
+8472,SINCA,Cerro Navia,2026-07-18T01:00:00Z,1,1,Concentración no negativa inferior a 2
+8477,SINCA,Cerro Navia,2026-07-18T06:00:00Z,1,1,Concentración no negativa inferior a 2
+8478,SINCA,Cerro Navia,2026-07-18T07:00:00Z,1,1,Concentración no negativa inferior a 2
+8482,SINCA,Cerro Navia,2026-07-18T11:00:00Z,1,1,Concentración no negativa inferior a 2
+8483,SINCA,Cerro Navia,2026-07-18T12:00:00Z,1,1,Concentración no negativa inferior a 2
+8487,SINCA,Cerro Navia,2026-07-18T16:00:00Z,1,1,Concentración no negativa inferior a 2
+8559,SINCA,Cerro Navia,2026-07-21T16:00:00Z,1,1,Concentración no negativa inferior a 2
+8701,SINCA,Cerro Navia,2026-07-27T14:00:00Z,NA,1,MP2.5 faltante
+8799,SINCA,Cerro Navia,2026-07-31T16:00:00Z,1,1,Concentración no negativa inferior a 2
+8831,SINCA,Cerro Navia,2026-08-02T00:00:00Z,NA,1,MP2.5 faltante
+8836,SINCA,Cerro Navia,2026-08-02T05:00:00Z,1,1,Concentración no negativa inferior a 2
+8837,SINCA,Cerro Navia,2026-08-02T06:00:00Z,1,1,Concentración no negativa inferior a 2
+8838,SINCA,Cerro Navia,2026-08-02T07:00:00Z,1,1,Concentración no negativa inferior a 2
+8931,SINCA,Cerro Navia,2026-08-06T04:00:00Z,1,1,Concentración no negativa inferior a 2
+9023,SINCA,Cerro Navia,2026-08-10T00:00:00Z,NA,1,MP2.5 faltante
+9036,SINCA,Cerro Navia,2026-08-10T13:00:00Z,NA,1,MP2.5 faltante
+9120,SINCA,Cerro Navia,2026-08-14T01:00:00Z,1,1,Concentración no negativa inferior a 2
+9121,SINCA,Cerro Navia,2026-08-14T02:00:00Z,1,1,Concentración no negativa inferior a 2
+9215,SINCA,Cerro Navia,2026-08-18T00:00:00Z,NA,1,MP2.5 faltante
+9393,SINCA,Cerro Navia,2026-08-25T10:00:00Z,1,1,Concentración no negativa inferior a 2
+9448,SINCA,Cerro Navia,2026-08-27T17:00:00Z,1,1,Concentración no negativa inferior a 2
+9449,SINCA,Cerro Navia,2026-08-27T18:00:00Z,1,1,Concentración no negativa inferior a 2
+9471,SINCA,Cerro Navia,2026-08-28T16:00:00Z,1,1,Concentración no negativa inferior a 2
+9540,SINCA,Cerro Navia,2026-08-31T13:00:00Z,1,1,Concentración no negativa inferior a 2
+9541,SINCA,Cerro Navia,2026-08-31T14:00:00Z,1,1,Concentración no negativa inferior a 2
+9628,SINCA,Cerro Navia,2026-09-04T05:00:00Z,NA,1,MP2.5 faltante
+9719,SINCA,Cerro Navia,2026-09-08T00:00:00Z,NA,1,MP2.5 faltante
+9777,SINCA,Cerro Navia,2026-09-10T10:00:00Z,NA,1,MP2.5 faltante
+9815,SINCA,Cerro Navia,2026-09-12T00:00:00Z,NA,1,MP2.5 faltante
+9911,SINCA,Cerro Navia,2026-09-16T00:00:00Z,NA,1,MP2.5 faltante
+9912,SINCA,Cerro Navia,2026-09-16T01:00:00Z,NA,1,MP2.5 faltante
+10007,SINCA,Cerro Navia,2026-09-20T00:00:00Z,1,1,Concentración no negativa inferior a 2
+10008,SINCA,Cerro Navia,2026-09-20T01:00:00Z,1,1,Concentración no negativa inferior a 2
+10015,SINCA,Cerro Navia,2026-09-20T08:00:00Z,1,1,Concentración no negativa inferior a 2
+10016,SINCA,Cerro Navia,2026-09-20T09:00:00Z,1,1,Concentración no negativa inferior a 2
+10017,SINCA,Cerro Navia,2026-09-20T10:00:00Z,1,1,Concentración no negativa inferior a 2
+10018,SINCA,Cerro Navia,2026-09-20T11:00:00Z,1,1,Concentración no negativa inferior a 2
+10019,SINCA,Cerro Navia,2026-09-20T12:00:00Z,1,1,Concentración no negativa inferior a 2
+10020,SINCA,Cerro Navia,2026-09-20T13:00:00Z,1,1,Concentración no negativa inferior a 2
+10031,SINCA,Cerro Navia,2026-09-21T00:00:00Z,NA,1,MP2.5 faltante
+10032,SINCA,Cerro Navia,2026-09-21T01:00:00Z,1,1,Concentración no negativa inferior a 2
+10033,SINCA,Cerro Navia,2026-09-21T02:00:00Z,1,1,Concentración no negativa inferior a 2
+10193,SINCA,Cerro Navia,2026-09-27T18:00:00Z,1,1,Concentración no negativa inferior a 2
+10201,SINCA,Cerro Navia,2026-09-28T02:00:00Z,1,1,Concentración no negativa inferior a 2
+10223,SINCA,Cerro Navia,2026-09-29T00:00:00Z,NA,1,MP2.5 faltante
+10264,SINCA,Cerro Navia,2026-09-30T17:00:00Z,1,1,Concentración no negativa inferior a 2
+10728,SINCA,Puente Alto,2026-03-20T02:00:00Z,1,1,Concentración no negativa inferior a 2
+10750,SINCA,Puente Alto,2026-03-21T00:00:00Z,1,1,Concentración no negativa inferior a 2
+10882,SINCA,Puente Alto,2026-03-26T12:00:00Z,NA,1,MP2.5 faltante
+11169,SINCA,Puente Alto,2026-04-07T11:00:00Z,NA,1,MP2.5 faltante
+11170,SINCA,Puente Alto,2026-04-07T12:00:00Z,NA,1,MP2.5 faltante
+11171,SINCA,Puente Alto,2026-04-07T13:00:00Z,NA,1,MP2.5 faltante
+11172,SINCA,Puente Alto,2026-04-07T14:00:00Z,NA,1,MP2.5 faltante
+11173,SINCA,Puente Alto,2026-04-07T15:00:00Z,NA,1,MP2.5 faltante
+11174,SINCA,Puente Alto,2026-04-07T16:00:00Z,NA,1,MP2.5 faltante
+11175,SINCA,Puente Alto,2026-04-07T17:00:00Z,NA,1,MP2.5 faltante
+11176,SINCA,Puente Alto,2026-04-07T18:00:00Z,NA,1,MP2.5 faltante
+11177,SINCA,Puente Alto,2026-04-07T19:00:00Z,NA,1,MP2.5 faltante
+11178,SINCA,Puente Alto,2026-04-07T20:00:00Z,NA,1,MP2.5 faltante
+11179,SINCA,Puente Alto,2026-04-07T21:00:00Z,NA,1,MP2.5 faltante
+11180,SINCA,Puente Alto,2026-04-07T22:00:00Z,NA,1,MP2.5 faltante
+11181,SINCA,Puente Alto,2026-04-07T23:00:00Z,NA,1,MP2.5 faltante
+11182,SINCA,Puente Alto,2026-04-08T00:00:00Z,NA,1,MP2.5 faltante
+11183,SINCA,Puente Alto,2026-04-08T01:00:00Z,NA,1,MP2.5 faltante
+11184,SINCA,Puente Alto,2026-04-08T02:00:00Z,NA,1,MP2.5 faltante
+11185,SINCA,Puente Alto,2026-04-08T03:00:00Z,NA,1,MP2.5 faltante
+11186,SINCA,Puente Alto,2026-04-08T04:00:00Z,NA,1,MP2.5 faltante
+11187,SINCA,Puente Alto,2026-04-08T05:00:00Z,NA,1,MP2.5 faltante
+11188,SINCA,Puente Alto,2026-04-08T06:00:00Z,NA,1,MP2.5 faltante
+11189,SINCA,Puente Alto,2026-04-08T07:00:00Z,NA,1,MP2.5 faltante
+11190,SINCA,Puente Alto,2026-04-08T08:00:00Z,NA,1,MP2.5 faltante
+11191,SINCA,Puente Alto,2026-04-08T09:00:00Z,NA,1,MP2.5 faltante
+11192,SINCA,Puente Alto,2026-04-08T10:00:00Z,NA,1,MP2.5 faltante
+11193,SINCA,Puente Alto,2026-04-08T11:00:00Z,NA,1,MP2.5 faltante
+11194,SINCA,Puente Alto,2026-04-08T12:00:00Z,NA,1,MP2.5 faltante
+11195,SINCA,Puente Alto,2026-04-08T13:00:00Z,NA,1,MP2.5 faltante
+11196,SINCA,Puente Alto,2026-04-08T14:00:00Z,NA,1,MP2.5 faltante
+11197,SINCA,Puente Alto,2026-04-08T15:00:00Z,NA,1,MP2.5 faltante
+11198,SINCA,Puente Alto,2026-04-08T16:00:00Z,NA,1,MP2.5 faltante
+11199,SINCA,Puente Alto,2026-04-08T17:00:00Z,NA,1,MP2.5 faltante
+11200,SINCA,Puente Alto,2026-04-08T18:00:00Z,NA,1,MP2.5 faltante
+11201,SINCA,Puente Alto,2026-04-08T19:00:00Z,NA,1,MP2.5 faltante
+11202,SINCA,Puente Alto,2026-04-08T20:00:00Z,NA,1,MP2.5 faltante
+11203,SINCA,Puente Alto,2026-04-08T21:00:00Z,NA,1,MP2.5 faltante
+11204,SINCA,Puente Alto,2026-04-08T22:00:00Z,NA,1,MP2.5 faltante
+11205,SINCA,Puente Alto,2026-04-08T23:00:00Z,NA,1,MP2.5 faltante
+11206,SINCA,Puente Alto,2026-04-09T00:00:00Z,NA,1,MP2.5 faltante
+11207,SINCA,Puente Alto,2026-04-09T01:00:00Z,NA,1,MP2.5 faltante
+11208,SINCA,Puente Alto,2026-04-09T02:00:00Z,NA,1,MP2.5 faltante
+11209,SINCA,Puente Alto,2026-04-09T03:00:00Z,NA,1,MP2.5 faltante
+11210,SINCA,Puente Alto,2026-04-09T04:00:00Z,NA,1,MP2.5 faltante
+11211,SINCA,Puente Alto,2026-04-09T05:00:00Z,NA,1,MP2.5 faltante
+11212,SINCA,Puente Alto,2026-04-09T06:00:00Z,NA,1,MP2.5 faltante
+11213,SINCA,Puente Alto,2026-04-09T07:00:00Z,NA,1,MP2.5 faltante
+11214,SINCA,Puente Alto,2026-04-09T08:00:00Z,NA,1,MP2.5 faltante
+11215,SINCA,Puente Alto,2026-04-09T09:00:00Z,NA,1,MP2.5 faltante
+11216,SINCA,Puente Alto,2026-04-09T10:00:00Z,NA,1,MP2.5 faltante
+11217,SINCA,Puente Alto,2026-04-09T11:00:00Z,NA,1,MP2.5 faltante
+11218,SINCA,Puente Alto,2026-04-09T12:00:00Z,NA,1,MP2.5 faltante
+11219,SINCA,Puente Alto,2026-04-09T13:00:00Z,NA,1,MP2.5 faltante
+11220,SINCA,Puente Alto,2026-04-09T14:00:00Z,NA,1,MP2.5 faltante
+11221,SINCA,Puente Alto,2026-04-09T15:00:00Z,NA,1,MP2.5 faltante
+11222,SINCA,Puente Alto,2026-04-09T16:00:00Z,NA,1,MP2.5 faltante
+11223,SINCA,Puente Alto,2026-04-09T17:00:00Z,NA,1,MP2.5 faltante
+11224,SINCA,Puente Alto,2026-04-09T18:00:00Z,NA,1,MP2.5 faltante
+11225,SINCA,Puente Alto,2026-04-09T19:00:00Z,NA,1,MP2.5 faltante
+11226,SINCA,Puente Alto,2026-04-09T20:00:00Z,NA,1,MP2.5 faltante
+11227,SINCA,Puente Alto,2026-04-09T21:00:00Z,NA,1,MP2.5 faltante
+11228,SINCA,Puente Alto,2026-04-09T22:00:00Z,NA,1,MP2.5 faltante
+11229,SINCA,Puente Alto,2026-04-09T23:00:00Z,NA,1,MP2.5 faltante
+11230,SINCA,Puente Alto,2026-04-10T00:00:00Z,NA,1,MP2.5 faltante
+11231,SINCA,Puente Alto,2026-04-10T01:00:00Z,NA,1,MP2.5 faltante
+11232,SINCA,Puente Alto,2026-04-10T02:00:00Z,NA,1,MP2.5 faltante
+11233,SINCA,Puente Alto,2026-04-10T03:00:00Z,NA,1,MP2.5 faltante
+11234,SINCA,Puente Alto,2026-04-10T04:00:00Z,NA,1,MP2.5 faltante
+11235,SINCA,Puente Alto,2026-04-10T05:00:00Z,NA,1,MP2.5 faltante
+11236,SINCA,Puente Alto,2026-04-10T06:00:00Z,NA,1,MP2.5 faltante
+11237,SINCA,Puente Alto,2026-04-10T07:00:00Z,NA,1,MP2.5 faltante
+11238,SINCA,Puente Alto,2026-04-10T08:00:00Z,NA,1,MP2.5 faltante
+11239,SINCA,Puente Alto,2026-04-10T09:00:00Z,NA,1,MP2.5 faltante
+11240,SINCA,Puente Alto,2026-04-10T10:00:00Z,NA,1,MP2.5 faltante
+11241,SINCA,Puente Alto,2026-04-10T11:00:00Z,NA,1,MP2.5 faltante
+11242,SINCA,Puente Alto,2026-04-10T12:00:00Z,NA,1,MP2.5 faltante
+11243,SINCA,Puente Alto,2026-04-10T13:00:00Z,NA,1,MP2.5 faltante
+11244,SINCA,Puente Alto,2026-04-10T14:00:00Z,NA,1,MP2.5 faltante
+11245,SINCA,Puente Alto,2026-04-10T15:00:00Z,NA,1,MP2.5 faltante
+11246,SINCA,Puente Alto,2026-04-10T16:00:00Z,NA,1,MP2.5 faltante
+11479,SINCA,Puente Alto,2026-04-20T09:00:00Z,NA,1,MP2.5 faltante
+11485,SINCA,Puente Alto,2026-04-20T15:00:00Z,NA,1,MP2.5 faltante
+12023,SINCA,Puente Alto,2026-05-13T01:00:00Z,NA,1,MP2.5 faltante
+12212,SINCA,Puente Alto,2026-05-20T22:00:00Z,NA,1,MP2.5 faltante
+12213,SINCA,Puente Alto,2026-05-20T23:00:00Z,NA,1,MP2.5 faltante
+12563,SINCA,Puente Alto,2026-06-04T13:00:00Z,NA,1,MP2.5 faltante
+12752,SINCA,Puente Alto,2026-06-12T10:00:00Z,NA,1,MP2.5 faltante
+12753,SINCA,Puente Alto,2026-06-12T11:00:00Z,NA,1,MP2.5 faltante
+12755,SINCA,Puente Alto,2026-06-12T13:00:00Z,NA,1,MP2.5 faltante
+13583,SINCA,Puente Alto,2026-07-17T01:00:00Z,1,1,Concentración no negativa inferior a 2
+13584,SINCA,Puente Alto,2026-07-17T02:00:00Z,1,1,Concentración no negativa inferior a 2
+13602,SINCA,Puente Alto,2026-07-17T20:00:00Z,1,1,Concentración no negativa inferior a 2
+13607,SINCA,Puente Alto,2026-07-18T01:00:00Z,1,1,Concentración no negativa inferior a 2
+13608,SINCA,Puente Alto,2026-07-18T02:00:00Z,1,1,Concentración no negativa inferior a 2
+13613,SINCA,Puente Alto,2026-07-18T07:00:00Z,1,1,Concentración no negativa inferior a 2
+13638,SINCA,Puente Alto,2026-07-19T08:00:00Z,1,1,Concentración no negativa inferior a 2
+13659,SINCA,Puente Alto,2026-07-20T05:00:00Z,1,1,Concentración no negativa inferior a 2
+13661,SINCA,Puente Alto,2026-07-20T07:00:00Z,1,1,Concentración no negativa inferior a 2
+13680,SINCA,Puente Alto,2026-07-21T02:00:00Z,1,1,Concentración no negativa inferior a 2
+13681,SINCA,Puente Alto,2026-07-21T03:00:00Z,1,1,Concentración no negativa inferior a 2
+13683,SINCA,Puente Alto,2026-07-21T05:00:00Z,1,1,Concentración no negativa inferior a 2
+13691,SINCA,Puente Alto,2026-07-21T13:00:00Z,1,1,Concentración no negativa inferior a 2
+13696,SINCA,Puente Alto,2026-07-21T18:00:00Z,1,1,Concentración no negativa inferior a 2
+13697,SINCA,Puente Alto,2026-07-21T19:00:00Z,1,1,Concentración no negativa inferior a 2
+13698,SINCA,Puente Alto,2026-07-21T20:00:00Z,1,1,Concentración no negativa inferior a 2
+13702,SINCA,Puente Alto,2026-07-22T00:00:00Z,1,1,Concentración no negativa inferior a 2
+13703,SINCA,Puente Alto,2026-07-22T01:00:00Z,1,1,Concentración no negativa inferior a 2
+13704,SINCA,Puente Alto,2026-07-22T02:00:00Z,1,1,Concentración no negativa inferior a 2
+13705,SINCA,Puente Alto,2026-07-22T03:00:00Z,1,1,Concentración no negativa inferior a 2
+13706,SINCA,Puente Alto,2026-07-22T04:00:00Z,1,1,Concentración no negativa inferior a 2
+13728,SINCA,Puente Alto,2026-07-23T02:00:00Z,1,1,Concentración no negativa inferior a 2
+13729,SINCA,Puente Alto,2026-07-23T03:00:00Z,1,1,Concentración no negativa inferior a 2
+13732,SINCA,Puente Alto,2026-07-23T06:00:00Z,1,1,Concentración no negativa inferior a 2
+13733,SINCA,Puente Alto,2026-07-23T07:00:00Z,1,1,Concentración no negativa inferior a 2
+13734,SINCA,Puente Alto,2026-07-23T08:00:00Z,1,1,Concentración no negativa inferior a 2
+13749,SINCA,Puente Alto,2026-07-23T23:00:00Z,1,1,Concentración no negativa inferior a 2
+13750,SINCA,Puente Alto,2026-07-24T00:00:00Z,1,1,Concentración no negativa inferior a 2
+13781,SINCA,Puente Alto,2026-07-25T07:00:00Z,1,1,Concentración no negativa inferior a 2
+13782,SINCA,Puente Alto,2026-07-25T08:00:00Z,1,1,Concentración no negativa inferior a 2
+13784,SINCA,Puente Alto,2026-07-25T10:00:00Z,1,1,Concentración no negativa inferior a 2
+13785,SINCA,Puente Alto,2026-07-25T11:00:00Z,1,1,Concentración no negativa inferior a 2
+13786,SINCA,Puente Alto,2026-07-25T12:00:00Z,1,1,Concentración no negativa inferior a 2
+13787,SINCA,Puente Alto,2026-07-25T13:00:00Z,1,1,Concentración no negativa inferior a 2
+13788,SINCA,Puente Alto,2026-07-25T14:00:00Z,1,1,Concentración no negativa inferior a 2
+13805,SINCA,Puente Alto,2026-07-26T07:00:00Z,1,1,Concentración no negativa inferior a 2
+13806,SINCA,Puente Alto,2026-07-26T08:00:00Z,1,1,Concentración no negativa inferior a 2
+13807,SINCA,Puente Alto,2026-07-26T09:00:00Z,1,1,Concentración no negativa inferior a 2
+13850,SINCA,Puente Alto,2026-07-28T04:00:00Z,1,1,Concentración no negativa inferior a 2
+13851,SINCA,Puente Alto,2026-07-28T05:00:00Z,1,1,Concentración no negativa inferior a 2
+13886,SINCA,Puente Alto,2026-07-29T16:00:00Z,1,1,Concentración no negativa inferior a 2
+13887,SINCA,Puente Alto,2026-07-29T17:00:00Z,1,1,Concentración no negativa inferior a 2
+13888,SINCA,Puente Alto,2026-07-29T18:00:00Z,1,1,Concentración no negativa inferior a 2
+13889,SINCA,Puente Alto,2026-07-29T19:00:00Z,1,1,Concentración no negativa inferior a 2
+13931,SINCA,Puente Alto,2026-07-31T13:00:00Z,1,1,Concentración no negativa inferior a 2
+13932,SINCA,Puente Alto,2026-07-31T14:00:00Z,1,1,Concentración no negativa inferior a 2
+13935,SINCA,Puente Alto,2026-07-31T17:00:00Z,1,1,Concentración no negativa inferior a 2
+13969,SINCA,Puente Alto,2026-08-02T03:00:00Z,1,1,Concentración no negativa inferior a 2
+13970,SINCA,Puente Alto,2026-08-02T04:00:00Z,1,1,Concentración no negativa inferior a 2
+13971,SINCA,Puente Alto,2026-08-02T05:00:00Z,1,1,Concentración no negativa inferior a 2
+13972,SINCA,Puente Alto,2026-08-02T06:00:00Z,1,1,Concentración no negativa inferior a 2
+13973,SINCA,Puente Alto,2026-08-02T07:00:00Z,1,1,Concentración no negativa inferior a 2
+14120,SINCA,Puente Alto,2026-08-08T10:00:00Z,1,1,Concentración no negativa inferior a 2
+14197,SINCA,Puente Alto,2026-08-11T15:00:00Z,NA,1,MP2.5 faltante
+14299,SINCA,Puente Alto,2026-08-15T21:00:00Z,1,1,Concentración no negativa inferior a 2
+14377,SINCA,Puente Alto,2026-08-19T03:00:00Z,1,1,Concentración no negativa inferior a 2
+14523,SINCA,Puente Alto,2026-08-25T05:00:00Z,1,1,Concentración no negativa inferior a 2
+14524,SINCA,Puente Alto,2026-08-25T06:00:00Z,1,1,Concentración no negativa inferior a 2
+14529,SINCA,Puente Alto,2026-08-25T11:00:00Z,1,1,Concentración no negativa inferior a 2
+14627,SINCA,Puente Alto,2026-08-29T13:00:00Z,1,1,Concentración no negativa inferior a 2
+14648,SINCA,Puente Alto,2026-08-30T10:00:00Z,1,1,Concentración no negativa inferior a 2
+14663,SINCA,Puente Alto,2026-08-31T01:00:00Z,1,1,Concentración no negativa inferior a 2
+14664,SINCA,Puente Alto,2026-08-31T02:00:00Z,1,1,Concentración no negativa inferior a 2
+14665,SINCA,Puente Alto,2026-08-31T03:00:00Z,1,1,Concentración no negativa inferior a 2
+15331,SINCA,Puente Alto,2026-09-27T21:00:00Z,1,1,Concentración no negativa inferior a 2
+15413,Sensor de bajo costo,Santiago,NA,9.952,1,Fecha-hora faltante
+15437,Sensor de bajo costo,Santiago,NA,7.999,1,Fecha-hora faltante
+15461,Sensor de bajo costo,Santiago,NA,7.047,1,Fecha-hora faltante
+15485,Sensor de bajo costo,Santiago,NA,4.362,1,Fecha-hora faltante
+15509,Sensor de bajo costo,Santiago,NA,25.679,1,Fecha-hora faltante
+15529,Sensor de bajo costo,Santiago,2026-04-21T20:00:00Z,NA,1,MP2.5 faltante
+15530,Sensor de bajo costo,Santiago,2026-04-21T21:00:00Z,NA,1,MP2.5 faltante
+15531,Sensor de bajo costo,Santiago,2026-04-21T22:00:00Z,NA,1,MP2.5 faltante
+15533,Sensor de bajo costo,Santiago,NA,13.232,1,Fecha-hora faltante
+15535,Sensor de bajo costo,Santiago,2026-04-22T02:00:00Z,NA,1,MP2.5 faltante
+15557,Sensor de bajo costo,Santiago,NA,11.991,1,Fecha-hora faltante
+15576,Sensor de bajo costo,Santiago,2026-04-23T19:00:00Z,NA,1,MP2.5 faltante
+15577,Sensor de bajo costo,Santiago,2026-04-23T20:00:00Z,NA,1,MP2.5 faltante
+15578,Sensor de bajo costo,Santiago,2026-04-23T21:00:00Z,NA,1,MP2.5 faltante
+15581,Sensor de bajo costo,Santiago,NA,14.369,1,Fecha-hora faltante
+15586,Sensor de bajo costo,Santiago,2026-04-24T05:00:00Z,NA,1,MP2.5 faltante
+15587,Sensor de bajo costo,Santiago,2026-04-24T06:00:00Z,NA,1,MP2.5 faltante
+15605,Sensor de bajo costo,Santiago,NA,26.873,1,Fecha-hora faltante
+15629,Sensor de bajo costo,Santiago,NA,22.098,1,Fecha-hora faltante
+15653,Sensor de bajo costo,Santiago,NA,13.925,1,Fecha-hora faltante
+15677,Sensor de bajo costo,Santiago,NA,16.504,1,Fecha-hora faltante
+15701,Sensor de bajo costo,Santiago,NA,8.281,1,Fecha-hora faltante
+15725,Sensor de bajo costo,Santiago,NA,12.724,1,Fecha-hora faltante
+15749,Sensor de bajo costo,Santiago,NA,16.409,1,Fecha-hora faltante
+15760,Sensor de bajo costo,Santiago,2026-05-01T11:00:00Z,NA,1,MP2.5 faltante
+15773,Sensor de bajo costo,Santiago,NA,83.161,1,Fecha-hora faltante
+15797,Sensor de bajo costo,Santiago,NA,24.287,1,Fecha-hora faltante
+15821,Sensor de bajo costo,Santiago,NA,11.503,1,Fecha-hora faltante
+15845,Sensor de bajo costo,Santiago,NA,19.217,1,Fecha-hora faltante
+15869,Sensor de bajo costo,Santiago,NA,10.584,1,Fecha-hora faltante
+15871,Sensor de bajo costo,Santiago,2026-05-06T02:00:00Z,NA,1,MP2.5 faltante
+15893,Sensor de bajo costo,Santiago,NA,7.592,1,Fecha-hora faltante
+15917,Sensor de bajo costo,Santiago,NA,15.762,1,Fecha-hora faltante
+15941,Sensor de bajo costo,Santiago,NA,19.001,1,Fecha-hora faltante
+15965,Sensor de bajo costo,Santiago,NA,31.224,1,Fecha-hora faltante
+15989,Sensor de bajo costo,Santiago,NA,17.455,1,Fecha-hora faltante
+16013,Sensor de bajo costo,Santiago,NA,27.418,1,Fecha-hora faltante
+16014,Sensor de bajo costo,Santiago,2026-05-12T01:00:00Z,NA,1,MP2.5 faltante
+16015,Sensor de bajo costo,Santiago,2026-05-12T02:00:00Z,NA,1,MP2.5 faltante
+16029,Sensor de bajo costo,Santiago,2026-05-12T16:00:00Z,NA,1,MP2.5 faltante
+16037,Sensor de bajo costo,Santiago,NA,51.71,1,Fecha-hora faltante
+16061,Sensor de bajo costo,Santiago,NA,75.2,1,Fecha-hora faltante
+16085,Sensor de bajo costo,Santiago,NA,29.617,1,Fecha-hora faltante
+16089,Sensor de bajo costo,Santiago,2026-05-15T04:00:00Z,NA,1,MP2.5 faltante
+16100,Sensor de bajo costo,Santiago,2026-05-15T15:00:00Z,NA,1,MP2.5 faltante
+16109,Sensor de bajo costo,Santiago,NA,50.794,1,Fecha-hora faltante
+16133,Sensor de bajo costo,Santiago,NA,55.543,1,Fecha-hora faltante
+16157,Sensor de bajo costo,Santiago,NA,33.445,1,Fecha-hora faltante
+16163,Sensor de bajo costo,Santiago,2026-05-18T06:00:00Z,NA,1,MP2.5 faltante
+16164,Sensor de bajo costo,Santiago,2026-05-18T07:00:00Z,NA,1,MP2.5 faltante
+16165,Sensor de bajo costo,Santiago,2026-05-18T08:00:00Z,NA,1,MP2.5 faltante
+16181,Sensor de bajo costo,Santiago,NA,24.912,1,Fecha-hora faltante
+16205,Sensor de bajo costo,Santiago,NA,56.439,1,Fecha-hora faltante
+16229,Sensor de bajo costo,Santiago,NA,63.562,1,Fecha-hora faltante
+16253,Sensor de bajo costo,Santiago,NA,100.774,1,Fecha-hora faltante
+16277,Sensor de bajo costo,Santiago,NA,71.97,1,Fecha-hora faltante
+16301,Sensor de bajo costo,Santiago,NA,108.56,1,Fecha-hora faltante
+16325,Sensor de bajo costo,Santiago,NA,121.483,1,Fecha-hora faltante
+16349,Sensor de bajo costo,Santiago,NA,22.296,1,Fecha-hora faltante
+16352,Sensor de bajo costo,Santiago,2026-05-26T03:00:00Z,NA,1,MP2.5 faltante
+16353,Sensor de bajo costo,Santiago,2026-05-26T04:00:00Z,NA,1,MP2.5 faltante
+16354,Sensor de bajo costo,Santiago,2026-05-26T05:00:00Z,NA,1,MP2.5 faltante
+16373,Sensor de bajo costo,Santiago,NA,28.491,1,Fecha-hora faltante
+16397,Sensor de bajo costo,Santiago,NA,27.37,1,Fecha-hora faltante
+16398,Sensor de bajo costo,Santiago,2026-05-28T01:00:00Z,NA,1,MP2.5 faltante
+16399,Sensor de bajo costo,Santiago,2026-05-28T02:00:00Z,NA,1,MP2.5 faltante
+16421,Sensor de bajo costo,Santiago,NA,44.411,1,Fecha-hora faltante
+16437,Sensor de bajo costo,Santiago,2026-05-29T16:00:00Z,NA,1,MP2.5 faltante
+16438,Sensor de bajo costo,Santiago,2026-05-29T17:00:00Z,NA,1,MP2.5 faltante
+16439,Sensor de bajo costo,Santiago,2026-05-29T18:00:00Z,NA,1,MP2.5 faltante
+16440,Sensor de bajo costo,Santiago,2026-05-29T19:00:00Z,NA,1,MP2.5 faltante
+16445,Sensor de bajo costo,Santiago,NA,73.196,1,Fecha-hora faltante
+16449,Sensor de bajo costo,Santiago,2026-05-30T04:00:00Z,NA,1,MP2.5 faltante
+16450,Sensor de bajo costo,Santiago,2026-05-30T05:00:00Z,NA,1,MP2.5 faltante
+16469,Sensor de bajo costo,Santiago,NA,61.499,1,Fecha-hora faltante
+16493,Sensor de bajo costo,Santiago,NA,53.733,1,Fecha-hora faltante
+16498,Sensor de bajo costo,Santiago,2026-06-01T05:00:00Z,NA,1,MP2.5 faltante
+16499,Sensor de bajo costo,Santiago,2026-06-01T06:00:00Z,NA,1,MP2.5 faltante
+16500,Sensor de bajo costo,Santiago,2026-06-01T07:00:00Z,NA,1,MP2.5 faltante
+16501,Sensor de bajo costo,Santiago,2026-06-01T08:00:00Z,NA,1,MP2.5 faltante
+16517,Sensor de bajo costo,Santiago,NA,83.94,1,Fecha-hora faltante
+16521,Sensor de bajo costo,Santiago,2026-06-02T04:00:00Z,NA,1,MP2.5 faltante
+16522,Sensor de bajo costo,Santiago,2026-06-02T05:00:00Z,NA,1,MP2.5 faltante
+16541,Sensor de bajo costo,Santiago,NA,37.655,1,Fecha-hora faltante
+16565,Sensor de bajo costo,Santiago,NA,54.804,1,Fecha-hora faltante
+16572,Sensor de bajo costo,Santiago,2026-06-04T07:00:00Z,NA,1,MP2.5 faltante
+16589,Sensor de bajo costo,Santiago,NA,33.147,1,Fecha-hora faltante
+16613,Sensor de bajo costo,Santiago,NA,62.492,1,Fecha-hora faltante
+16637,Sensor de bajo costo,Santiago,NA,69.985,1,Fecha-hora faltante
+16661,Sensor de bajo costo,Santiago,NA,60.857,1,Fecha-hora faltante
+16663,Sensor de bajo costo,Santiago,2026-06-08T02:00:00Z,NA,1,MP2.5 faltante
+16664,Sensor de bajo costo,Santiago,2026-06-08T03:00:00Z,NA,1,MP2.5 faltante
+16665,Sensor de bajo costo,Santiago,2026-06-08T04:00:00Z,NA,1,MP2.5 faltante
+16685,Sensor de bajo costo,Santiago,NA,28.486,1,Fecha-hora faltante
+16709,Sensor de bajo costo,Santiago,NA,33.264,1,Fecha-hora faltante
+16733,Sensor de bajo costo,Santiago,NA,28.107,1,Fecha-hora faltante
+16757,Sensor de bajo costo,Santiago,NA,33.551,1,Fecha-hora faltante
+16781,Sensor de bajo costo,Santiago,NA,21.271,1,Fecha-hora faltante
+16805,Sensor de bajo costo,Santiago,NA,80.338,1,Fecha-hora faltante
+16823,Sensor de bajo costo,Santiago,2026-06-14T18:00:00Z,203.303,1,Concentración superior a 200
+16829,Sensor de bajo costo,Santiago,NA,86.567,1,Fecha-hora faltante
+16853,Sensor de bajo costo,Santiago,NA,67.104,1,Fecha-hora faltante
+16877,Sensor de bajo costo,Santiago,NA,54.921,1,Fecha-hora faltante
+16901,Sensor de bajo costo,Santiago,NA,22.126,1,Fecha-hora faltante
+16918,Sensor de bajo costo,Santiago,2026-06-18T17:00:00Z,NA,1,MP2.5 faltante
+16919,Sensor de bajo costo,Santiago,2026-06-18T18:00:00Z,NA,1,MP2.5 faltante
+16925,Sensor de bajo costo,Santiago,NA,29.453,1,Fecha-hora faltante
+16949,Sensor de bajo costo,Santiago,NA,49.685,1,Fecha-hora faltante
+16966,Sensor de bajo costo,Santiago,2026-06-20T17:00:00Z,NA,1,MP2.5 faltante
+16973,Sensor de bajo costo,Santiago,NA,28.376,1,Fecha-hora faltante
+16997,Sensor de bajo costo,Santiago,NA,29.718,1,Fecha-hora faltante
+17016,Sensor de bajo costo,Santiago,2026-06-22T19:00:00Z,357.37,1,Concentración superior a 200
+17017,Sensor de bajo costo,Santiago,2026-06-22T20:00:00Z,304.314,1,Concentración superior a 200
+17021,Sensor de bajo costo,Santiago,NA,31.791,1,Fecha-hora faltante
+17022,Sensor de bajo costo,Santiago,2026-06-23T01:00:00Z,NA,1,MP2.5 faltante
+17045,Sensor de bajo costo,Santiago,NA,30.848,1,Fecha-hora faltante
+17069,Sensor de bajo costo,Santiago,NA,54.104,1,Fecha-hora faltante
+17073,Sensor de bajo costo,Santiago,2026-06-25T04:00:00Z,NA,1,MP2.5 faltante
+17093,Sensor de bajo costo,Santiago,NA,27.837,1,Fecha-hora faltante
+17117,Sensor de bajo costo,Santiago,NA,26.172,1,Fecha-hora faltante
+17141,Sensor de bajo costo,Santiago,NA,56.224,1,Fecha-hora faltante
+17165,Sensor de bajo costo,Santiago,NA,41.16,1,Fecha-hora faltante
+17189,Sensor de bajo costo,Santiago,NA,42.243,1,Fecha-hora faltante
+17213,Sensor de bajo costo,Santiago,NA,30.758,1,Fecha-hora faltante
+17237,Sensor de bajo costo,Santiago,NA,18.572,1,Fecha-hora faltante
+17261,Sensor de bajo costo,Santiago,NA,47.291,1,Fecha-hora faltante
+17285,Sensor de bajo costo,Santiago,NA,31.903,1,Fecha-hora faltante
+17309,Sensor de bajo costo,Santiago,NA,33.857,1,Fecha-hora faltante
+17333,Sensor de bajo costo,Santiago,NA,26.517,1,Fecha-hora faltante
+17357,Sensor de bajo costo,Santiago,NA,24.246,1,Fecha-hora faltante
+17378,Sensor de bajo costo,Santiago,2026-07-07T21:00:00Z,NA,1,MP2.5 faltante
+17379,Sensor de bajo costo,Santiago,2026-07-07T22:00:00Z,NA,1,MP2.5 faltante
+17380,Sensor de bajo costo,Santiago,2026-07-07T23:00:00Z,NA,1,MP2.5 faltante
+17382,Sensor de bajo costo,Santiago,2026-07-08T01:00:00Z,NA,1,MP2.5 faltante
+17383,Sensor de bajo costo,Santiago,2026-07-08T02:00:00Z,NA,1,MP2.5 faltante
+17384,Sensor de bajo costo,Santiago,2026-07-08T03:00:00Z,NA,1,MP2.5 faltante
+17385,Sensor de bajo costo,Santiago,2026-07-08T04:00:00Z,NA,1,MP2.5 faltante
+17386,Sensor de bajo costo,Santiago,2026-07-08T05:00:00Z,NA,1,MP2.5 faltante
+17387,Sensor de bajo costo,Santiago,2026-07-08T06:00:00Z,NA,1,MP2.5 faltante
+17388,Sensor de bajo costo,Santiago,2026-07-08T07:00:00Z,NA,1,MP2.5 faltante
+17389,Sensor de bajo costo,Santiago,2026-07-08T08:00:00Z,NA,1,MP2.5 faltante
+17390,Sensor de bajo costo,Santiago,2026-07-08T09:00:00Z,NA,1,MP2.5 faltante
+17391,Sensor de bajo costo,Santiago,2026-07-08T10:00:00Z,NA,1,MP2.5 faltante
+17392,Sensor de bajo costo,Santiago,2026-07-08T11:00:00Z,NA,1,MP2.5 faltante
+17393,Sensor de bajo costo,Santiago,2026-07-08T12:00:00Z,NA,1,MP2.5 faltante
+17394,Sensor de bajo costo,Santiago,2026-07-08T13:00:00Z,NA,1,MP2.5 faltante
+17405,Sensor de bajo costo,Santiago,NA,42.873,1,Fecha-hora faltante
+17429,Sensor de bajo costo,Santiago,NA,49.608,1,Fecha-hora faltante
+17453,Sensor de bajo costo,Santiago,NA,39.036,1,Fecha-hora faltante
+17477,Sensor de bajo costo,Santiago,NA,51.807,1,Fecha-hora faltante
+17501,Sensor de bajo costo,Santiago,NA,31.356,1,Fecha-hora faltante
+17525,Sensor de bajo costo,Santiago,NA,26.251,1,Fecha-hora faltante
+17549,Sensor de bajo costo,Santiago,NA,27.513,1,Fecha-hora faltante
+17573,Sensor de bajo costo,Santiago,NA,13.471,1,Fecha-hora faltante
+17582,Sensor de bajo costo,Santiago,2026-07-16T09:00:00Z,NA,1,MP2.5 faltante
+17583,Sensor de bajo costo,Santiago,2026-07-16T10:00:00Z,NA,1,MP2.5 faltante
+17584,Sensor de bajo costo,Santiago,2026-07-16T11:00:00Z,NA,1,MP2.5 faltante
+17597,Sensor de bajo costo,Santiago,NA,5.436,1,Fecha-hora faltante
+17621,Sensor de bajo costo,Santiago,NA,5.766,1,Fecha-hora faltante
+17631,Sensor de bajo costo,Santiago,2026-07-18T10:00:00Z,NA,1,MP2.5 faltante
+17645,Sensor de bajo costo,Santiago,NA,24.695,1,Fecha-hora faltante
+17669,Sensor de bajo costo,Santiago,NA,30.477,1,Fecha-hora faltante
+17682,Sensor de bajo costo,Santiago,2026-07-20T13:00:00Z,NA,1,MP2.5 faltante
+17693,Sensor de bajo costo,Santiago,NA,21.329,1,Fecha-hora faltante
+17717,Sensor de bajo costo,Santiago,NA,6.852,1,Fecha-hora faltante
+17719,Sensor de bajo costo,Santiago,2026-07-22T02:00:00Z,NA,1,MP2.5 faltante
+17720,Sensor de bajo costo,Santiago,2026-07-22T03:00:00Z,NA,1,MP2.5 faltante
+17721,Sensor de bajo costo,Santiago,2026-07-22T04:00:00Z,NA,1,MP2.5 faltante
+17741,Sensor de bajo costo,Santiago,NA,17.332,1,Fecha-hora faltante
+17765,Sensor de bajo costo,Santiago,NA,10.117,1,Fecha-hora faltante
+17770,Sensor de bajo costo,Santiago,2026-07-24T05:00:00Z,NA,1,MP2.5 faltante
+17771,Sensor de bajo costo,Santiago,2026-07-24T06:00:00Z,NA,1,MP2.5 faltante
+17772,Sensor de bajo costo,Santiago,2026-07-24T07:00:00Z,NA,1,MP2.5 faltante
+17789,Sensor de bajo costo,Santiago,NA,44.82,1,Fecha-hora faltante
+17794,Sensor de bajo costo,Santiago,2026-07-25T05:00:00Z,NA,1,MP2.5 faltante
+17797,Sensor de bajo costo,Santiago,2026-07-25T08:00:00Z,NA,1,MP2.5 faltante
+17813,Sensor de bajo costo,Santiago,NA,37.348,1,Fecha-hora faltante
+17837,Sensor de bajo costo,Santiago,NA,13.814,1,Fecha-hora faltante
+17861,Sensor de bajo costo,Santiago,NA,7.609,1,Fecha-hora faltante
+17870,Sensor de bajo costo,Santiago,2026-07-28T09:00:00Z,NA,1,MP2.5 faltante
+17871,Sensor de bajo costo,Santiago,2026-07-28T10:00:00Z,NA,1,MP2.5 faltante
+17885,Sensor de bajo costo,Santiago,NA,14.715,1,Fecha-hora faltante
+17889,Sensor de bajo costo,Santiago,2026-07-29T04:00:00Z,NA,1,MP2.5 faltante
+17909,Sensor de bajo costo,Santiago,NA,22.31,1,Fecha-hora faltante
+17933,Sensor de bajo costo,Santiago,NA,13.607,1,Fecha-hora faltante
+17957,Sensor de bajo costo,Santiago,NA,17.387,1,Fecha-hora faltante
+17981,Sensor de bajo costo,Santiago,NA,17.842,1,Fecha-hora faltante
+18005,Sensor de bajo costo,Santiago,NA,26.991,1,Fecha-hora faltante
+18029,Sensor de bajo costo,Santiago,NA,16.435,1,Fecha-hora faltante
+18053,Sensor de bajo costo,Santiago,NA,29.781,1,Fecha-hora faltante
+18077,Sensor de bajo costo,Santiago,NA,18.431,1,Fecha-hora faltante
+18101,Sensor de bajo costo,Santiago,NA,20.072,1,Fecha-hora faltante
+18125,Sensor de bajo costo,Santiago,NA,6.34,1,Fecha-hora faltante
+18128,Sensor de bajo costo,Santiago,2026-08-08T03:00:00Z,NA,1,MP2.5 faltante
+18129,Sensor de bajo costo,Santiago,2026-08-08T04:00:00Z,NA,1,MP2.5 faltante
+18149,Sensor de bajo costo,Santiago,NA,9.269,1,Fecha-hora faltante
+18197,Sensor de bajo costo,Santiago,NA,26.194,1,Fecha-hora faltante
+18221,Sensor de bajo costo,Santiago,NA,30.758,1,Fecha-hora faltante
+18245,Sensor de bajo costo,Santiago,NA,55.038,1,Fecha-hora faltante
+18269,Sensor de bajo costo,Santiago,NA,15.065,1,Fecha-hora faltante
+18293,Sensor de bajo costo,Santiago,NA,13.054,1,Fecha-hora faltante
+18317,Sensor de bajo costo,Santiago,NA,14.815,1,Fecha-hora faltante
+18341,Sensor de bajo costo,Santiago,NA,18.516,1,Fecha-hora faltante
+18359,Sensor de bajo costo,Santiago,2026-08-17T18:00:00Z,NA,1,MP2.5 faltante
+18360,Sensor de bajo costo,Santiago,2026-08-17T19:00:00Z,420.902,1,Concentración superior a 200
+18365,Sensor de bajo costo,Santiago,NA,18.121,1,Fecha-hora faltante
+18389,Sensor de bajo costo,Santiago,NA,18.262,1,Fecha-hora faltante
+18413,Sensor de bajo costo,Santiago,NA,18.687,1,Fecha-hora faltante
+18437,Sensor de bajo costo,Santiago,NA,31.608,1,Fecha-hora faltante
+18448,Sensor de bajo costo,Santiago,2026-08-21T11:00:00Z,NA,1,MP2.5 faltante
+18449,Sensor de bajo costo,Santiago,2026-08-21T12:00:00Z,NA,1,MP2.5 faltante
+18450,Sensor de bajo costo,Santiago,2026-08-21T13:00:00Z,NA,1,MP2.5 faltante
+18461,Sensor de bajo costo,Santiago,NA,30.134,1,Fecha-hora faltante
+18485,Sensor de bajo costo,Santiago,NA,16.581,1,Fecha-hora faltante
+18489,Sensor de bajo costo,Santiago,2026-08-23T04:00:00Z,NA,1,MP2.5 faltante
+18490,Sensor de bajo costo,Santiago,2026-08-23T05:00:00Z,NA,1,MP2.5 faltante
+18491,Sensor de bajo costo,Santiago,2026-08-23T06:00:00Z,NA,1,MP2.5 faltante
+18492,Sensor de bajo costo,Santiago,2026-08-23T07:00:00Z,NA,1,MP2.5 faltante
+18493,Sensor de bajo costo,Santiago,2026-08-23T08:00:00Z,NA,1,MP2.5 faltante
+18509,Sensor de bajo costo,Santiago,NA,26.504,1,Fecha-hora faltante
+18533,Sensor de bajo costo,Santiago,NA,42.523,1,Fecha-hora faltante
+18557,Sensor de bajo costo,Santiago,NA,14.056,1,Fecha-hora faltante
+18558,Sensor de bajo costo,Santiago,2026-08-26T01:00:00Z,NA,1,MP2.5 faltante
+18563,Sensor de bajo costo,Santiago,2026-08-26T06:00:00Z,NA,1,MP2.5 faltante
+18581,Sensor de bajo costo,Santiago,NA,14.741,1,Fecha-hora faltante
+18585,Sensor de bajo costo,Santiago,2026-08-27T04:00:00Z,NA,1,MP2.5 faltante
+18598,Sensor de bajo costo,Cerro Navia,NA,3.567,1,Fecha-hora faltante
+18622,Sensor de bajo costo,Cerro Navia,NA,6.711,1,Fecha-hora faltante
+18646,Sensor de bajo costo,Cerro Navia,NA,5.516,1,Fecha-hora faltante
+18670,Sensor de bajo costo,Cerro Navia,NA,13.391,1,Fecha-hora faltante
+18694,Sensor de bajo costo,Cerro Navia,NA,12.576,1,Fecha-hora faltante
+18718,Sensor de bajo costo,Cerro Navia,NA,6.357,1,Fecha-hora faltante
+18742,Sensor de bajo costo,Cerro Navia,NA,6.402,1,Fecha-hora faltante
+18766,Sensor de bajo costo,Cerro Navia,NA,8.822,1,Fecha-hora faltante
+18790,Sensor de bajo costo,Cerro Navia,NA,21.265,1,Fecha-hora faltante
+18814,Sensor de bajo costo,Cerro Navia,NA,10.442,1,Fecha-hora faltante
+18838,Sensor de bajo costo,Cerro Navia,NA,15.648,1,Fecha-hora faltante
+18862,Sensor de bajo costo,Cerro Navia,NA,12.516,1,Fecha-hora faltante
+18886,Sensor de bajo costo,Cerro Navia,NA,17.276,1,Fecha-hora faltante
+18910,Sensor de bajo costo,Cerro Navia,NA,9.559,1,Fecha-hora faltante
+18934,Sensor de bajo costo,Cerro Navia,NA,23.698,1,Fecha-hora faltante
+18958,Sensor de bajo costo,Cerro Navia,NA,20.042,1,Fecha-hora faltante
+18982,Sensor de bajo costo,Cerro Navia,NA,12.969,1,Fecha-hora faltante
+19006,Sensor de bajo costo,Cerro Navia,NA,3.832,1,Fecha-hora faltante
+19030,Sensor de bajo costo,Cerro Navia,NA,16.149,1,Fecha-hora faltante
+19054,Sensor de bajo costo,Cerro Navia,NA,15.658,1,Fecha-hora faltante
+19078,Sensor de bajo costo,Cerro Navia,NA,13.964,1,Fecha-hora faltante
+19102,Sensor de bajo costo,Cerro Navia,NA,19.292,1,Fecha-hora faltante
+19126,Sensor de bajo costo,Cerro Navia,NA,14.929,1,Fecha-hora faltante
+19150,Sensor de bajo costo,Cerro Navia,NA,19.008,1,Fecha-hora faltante
+19174,Sensor de bajo costo,Cerro Navia,NA,15.887,1,Fecha-hora faltante
+19198,Sensor de bajo costo,Cerro Navia,NA,15.688,1,Fecha-hora faltante
+19222,Sensor de bajo costo,Cerro Navia,NA,32.743,1,Fecha-hora faltante
+19246,Sensor de bajo costo,Cerro Navia,NA,20.335,1,Fecha-hora faltante
+19270,Sensor de bajo costo,Cerro Navia,NA,11.151,1,Fecha-hora faltante
+19294,Sensor de bajo costo,Cerro Navia,NA,4.442,1,Fecha-hora faltante
+19318,Sensor de bajo costo,Cerro Navia,NA,4.176,1,Fecha-hora faltante
+19342,Sensor de bajo costo,Cerro Navia,NA,4.631,1,Fecha-hora faltante
+19366,Sensor de bajo costo,Cerro Navia,NA,24.346,1,Fecha-hora faltante
+19390,Sensor de bajo costo,Cerro Navia,NA,20.472,1,Fecha-hora faltante
+19414,Sensor de bajo costo,Cerro Navia,NA,18.836,1,Fecha-hora faltante
+19438,Sensor de bajo costo,Cerro Navia,NA,21.759,1,Fecha-hora faltante
+19462,Sensor de bajo costo,Cerro Navia,NA,36.791,1,Fecha-hora faltante
+19486,Sensor de bajo costo,Cerro Navia,NA,29.105,1,Fecha-hora faltante
+19500,Sensor de bajo costo,Cerro Navia,2026-04-26T14:00:00Z,NA,1,MP2.5 faltante
+19501,Sensor de bajo costo,Cerro Navia,2026-04-26T15:00:00Z,NA,1,MP2.5 faltante
+19502,Sensor de bajo costo,Cerro Navia,2026-04-26T16:00:00Z,NA,1,MP2.5 faltante
+19510,Sensor de bajo costo,Cerro Navia,NA,24.419,1,Fecha-hora faltante
+19534,Sensor de bajo costo,Cerro Navia,NA,16.66,1,Fecha-hora faltante
+19558,Sensor de bajo costo,Cerro Navia,NA,7.804,1,Fecha-hora faltante
+19582,Sensor de bajo costo,Cerro Navia,NA,25.998,1,Fecha-hora faltante
+19606,Sensor de bajo costo,Cerro Navia,NA,16.957,1,Fecha-hora faltante
+19630,Sensor de bajo costo,Cerro Navia,NA,58.929,1,Fecha-hora faltante
+19654,Sensor de bajo costo,Cerro Navia,NA,33.37,1,Fecha-hora faltante
+19678,Sensor de bajo costo,Cerro Navia,NA,19.197,1,Fecha-hora faltante
+19702,Sensor de bajo costo,Cerro Navia,NA,28.27,1,Fecha-hora faltante
+19726,Sensor de bajo costo,Cerro Navia,NA,5.011,1,Fecha-hora faltante
+19742,Sensor de bajo costo,Cerro Navia,2026-05-06T16:00:00Z,0.8,1,Concentración no negativa inferior a 2
+19743,Sensor de bajo costo,Cerro Navia,2026-05-06T17:00:00Z,-2.445,1,Concentración negativa
+19744,Sensor de bajo costo,Cerro Navia,2026-05-06T18:00:00Z,-0.751,1,Concentración negativa
+19745,Sensor de bajo costo,Cerro Navia,2026-05-06T19:00:00Z,-2.4,1,Concentración negativa
+19746,Sensor de bajo costo,Cerro Navia,2026-05-06T20:00:00Z,0.178,1,Concentración no negativa inferior a 2
+19747,Sensor de bajo costo,Cerro Navia,2026-05-06T21:00:00Z,1.662,1,Concentración no negativa inferior a 2
+19750,Sensor de bajo costo,Cerro Navia,NA,4.173,1,Fecha-hora faltante
+19774,Sensor de bajo costo,Cerro Navia,NA,13.513,1,Fecha-hora faltante
+19798,Sensor de bajo costo,Cerro Navia,NA,26.515,1,Fecha-hora faltante
+19822,Sensor de bajo costo,Cerro Navia,NA,96.097,1,Fecha-hora faltante
+19846,Sensor de bajo costo,Cerro Navia,NA,68.396,1,Fecha-hora faltante
+19870,Sensor de bajo costo,Cerro Navia,NA,26.481,1,Fecha-hora faltante
+19894,Sensor de bajo costo,Cerro Navia,NA,51.287,1,Fecha-hora faltante
+19918,Sensor de bajo costo,Cerro Navia,NA,57.989,1,Fecha-hora faltante
+19942,Sensor de bajo costo,Cerro Navia,NA,50.314,1,Fecha-hora faltante
+19947,Sensor de bajo costo,Cerro Navia,2026-05-15T05:00:00Z,NA,1,MP2.5 faltante
+19948,Sensor de bajo costo,Cerro Navia,2026-05-15T06:00:00Z,NA,1,MP2.5 faltante
+19949,Sensor de bajo costo,Cerro Navia,2026-05-15T07:00:00Z,NA,1,MP2.5 faltante
+19966,Sensor de bajo costo,Cerro Navia,NA,46.731,1,Fecha-hora faltante
+19990,Sensor de bajo costo,Cerro Navia,NA,89.933,1,Fecha-hora faltante
+20014,Sensor de bajo costo,Cerro Navia,NA,55.097,1,Fecha-hora faltante
+20038,Sensor de bajo costo,Cerro Navia,NA,48.641,1,Fecha-hora faltante
+20062,Sensor de bajo costo,Cerro Navia,NA,56.046,1,Fecha-hora faltante
+20086,Sensor de bajo costo,Cerro Navia,NA,52.466,1,Fecha-hora faltante
+20110,Sensor de bajo costo,Cerro Navia,NA,66.36,1,Fecha-hora faltante
+20134,Sensor de bajo costo,Cerro Navia,NA,50.919,1,Fecha-hora faltante
+20158,Sensor de bajo costo,Cerro Navia,NA,71.504,1,Fecha-hora faltante
+20182,Sensor de bajo costo,Cerro Navia,NA,118.972,1,Fecha-hora faltante
+20206,Sensor de bajo costo,Cerro Navia,NA,81.786,1,Fecha-hora faltante
+20230,Sensor de bajo costo,Cerro Navia,NA,47.796,1,Fecha-hora faltante
+20254,Sensor de bajo costo,Cerro Navia,NA,43.605,1,Fecha-hora faltante
+20278,Sensor de bajo costo,Cerro Navia,NA,59.697,1,Fecha-hora faltante
+20302,Sensor de bajo costo,Cerro Navia,NA,112.269,1,Fecha-hora faltante
+20326,Sensor de bajo costo,Cerro Navia,NA,61.568,1,Fecha-hora faltante
+20350,Sensor de bajo costo,Cerro Navia,NA,33.916,1,Fecha-hora faltante
+20374,Sensor de bajo costo,Cerro Navia,NA,59.547,1,Fecha-hora faltante
+20394,Sensor de bajo costo,Cerro Navia,2026-06-02T20:00:00Z,NA,1,MP2.5 faltante
+20395,Sensor de bajo costo,Cerro Navia,2026-06-02T21:00:00Z,NA,1,MP2.5 faltante
+20396,Sensor de bajo costo,Cerro Navia,2026-06-02T22:00:00Z,NA,1,MP2.5 faltante
+20398,Sensor de bajo costo,Cerro Navia,NA,56.804,1,Fecha-hora faltante
+20422,Sensor de bajo costo,Cerro Navia,NA,67.471,1,Fecha-hora faltante
+20446,Sensor de bajo costo,Cerro Navia,NA,36.016,1,Fecha-hora faltante
+20470,Sensor de bajo costo,Cerro Navia,NA,54.059,1,Fecha-hora faltante
+20494,Sensor de bajo costo,Cerro Navia,NA,88.585,1,Fecha-hora faltante
+20518,Sensor de bajo costo,Cerro Navia,NA,92.641,1,Fecha-hora faltante
+20542,Sensor de bajo costo,Cerro Navia,NA,28.378,1,Fecha-hora faltante
+20566,Sensor de bajo costo,Cerro Navia,NA,30.328,1,Fecha-hora faltante
+20590,Sensor de bajo costo,Cerro Navia,NA,34.573,1,Fecha-hora faltante
+20614,Sensor de bajo costo,Cerro Navia,NA,53.581,1,Fecha-hora faltante
+20638,Sensor de bajo costo,Cerro Navia,NA,85.855,1,Fecha-hora faltante
+20662,Sensor de bajo costo,Cerro Navia,NA,121.446,1,Fecha-hora faltante
+20686,Sensor de bajo costo,Cerro Navia,NA,81.013,1,Fecha-hora faltante
+20690,Sensor de bajo costo,Cerro Navia,2026-06-15T04:00:00Z,NA,1,MP2.5 faltante
+20691,Sensor de bajo costo,Cerro Navia,2026-06-15T05:00:00Z,NA,1,MP2.5 faltante
+20692,Sensor de bajo costo,Cerro Navia,2026-06-15T06:00:00Z,NA,1,MP2.5 faltante
+20693,Sensor de bajo costo,Cerro Navia,2026-06-15T07:00:00Z,NA,1,MP2.5 faltante
+20710,Sensor de bajo costo,Cerro Navia,NA,81.613,1,Fecha-hora faltante
+20734,Sensor de bajo costo,Cerro Navia,NA,70.376,1,Fecha-hora faltante
+20745,Sensor de bajo costo,Cerro Navia,2026-06-17T11:00:00Z,NA,1,MP2.5 faltante
+20746,Sensor de bajo costo,Cerro Navia,2026-06-17T12:00:00Z,NA,1,MP2.5 faltante
+20747,Sensor de bajo costo,Cerro Navia,2026-06-17T13:00:00Z,NA,1,MP2.5 faltante
+20756,Sensor de bajo costo,Cerro Navia,2026-06-17T22:00:00Z,NA,1,MP2.5 faltante
+20757,Sensor de bajo costo,Cerro Navia,2026-06-17T23:00:00Z,NA,1,MP2.5 faltante
+20760,Sensor de bajo costo,Cerro Navia,2026-06-18T02:00:00Z,NA,1,MP2.5 faltante
+20761,Sensor de bajo costo,Cerro Navia,2026-06-18T03:00:00Z,NA,1,MP2.5 faltante
+20763,Sensor de bajo costo,Cerro Navia,2026-06-18T05:00:00Z,NA,1,MP2.5 faltante
+20768,Sensor de bajo costo,Cerro Navia,2026-06-18T10:00:00Z,NA,1,MP2.5 faltante
+20769,Sensor de bajo costo,Cerro Navia,2026-06-18T11:00:00Z,NA,1,MP2.5 faltante
+20770,Sensor de bajo costo,Cerro Navia,2026-06-18T12:00:00Z,NA,1,MP2.5 faltante
+20782,Sensor de bajo costo,Cerro Navia,NA,38.466,1,Fecha-hora faltante
+20806,Sensor de bajo costo,Cerro Navia,NA,43.42,1,Fecha-hora faltante
+20830,Sensor de bajo costo,Cerro Navia,NA,31.214,1,Fecha-hora faltante
+20854,Sensor de bajo costo,Cerro Navia,NA,65.402,1,Fecha-hora faltante
+20878,Sensor de bajo costo,Cerro Navia,NA,35.608,1,Fecha-hora faltante
+20902,Sensor de bajo costo,Cerro Navia,NA,45.996,1,Fecha-hora faltante
+20926,Sensor de bajo costo,Cerro Navia,NA,87.826,1,Fecha-hora faltante
+20950,Sensor de bajo costo,Cerro Navia,NA,53.842,1,Fecha-hora faltante
+20974,Sensor de bajo costo,Cerro Navia,NA,35.442,1,Fecha-hora faltante
+20998,Sensor de bajo costo,Cerro Navia,NA,74.032,1,Fecha-hora faltante
+21022,Sensor de bajo costo,Cerro Navia,NA,84.819,1,Fecha-hora faltante
+21046,Sensor de bajo costo,Cerro Navia,NA,39.288,1,Fecha-hora faltante
+21070,Sensor de bajo costo,Cerro Navia,NA,31.268,1,Fecha-hora faltante
+21094,Sensor de bajo costo,Cerro Navia,NA,21.518,1,Fecha-hora faltante
+21118,Sensor de bajo costo,Cerro Navia,NA,86.213,1,Fecha-hora faltante
+21142,Sensor de bajo costo,Cerro Navia,NA,48.529,1,Fecha-hora faltante
+21158,Sensor de bajo costo,Cerro Navia,2026-07-04T16:00:00Z,NA,1,MP2.5 faltante
+21159,Sensor de bajo costo,Cerro Navia,2026-07-04T17:00:00Z,NA,1,MP2.5 faltante
+21160,Sensor de bajo costo,Cerro Navia,2026-07-04T18:00:00Z,NA,1,MP2.5 faltante
+21161,Sensor de bajo costo,Cerro Navia,2026-07-04T19:00:00Z,NA,1,MP2.5 faltante
+21162,Sensor de bajo costo,Cerro Navia,2026-07-04T20:00:00Z,NA,1,MP2.5 faltante
+21163,Sensor de bajo costo,Cerro Navia,2026-07-04T21:00:00Z,NA,1,MP2.5 faltante
+21164,Sensor de bajo costo,Cerro Navia,2026-07-04T22:00:00Z,NA,1,MP2.5 faltante
+21165,Sensor de bajo costo,Cerro Navia,2026-07-04T23:00:00Z,NA,1,MP2.5 faltante
+21167,Sensor de bajo costo,Cerro Navia,2026-07-05T01:00:00Z,NA,1,MP2.5 faltante
+21168,Sensor de bajo costo,Cerro Navia,2026-07-05T02:00:00Z,NA,1,MP2.5 faltante
+21169,Sensor de bajo costo,Cerro Navia,2026-07-05T03:00:00Z,NA,1,MP2.5 faltante
+21170,Sensor de bajo costo,Cerro Navia,2026-07-05T04:00:00Z,NA,1,MP2.5 faltante
+21171,Sensor de bajo costo,Cerro Navia,2026-07-05T05:00:00Z,NA,1,MP2.5 faltante
+21172,Sensor de bajo costo,Cerro Navia,2026-07-05T06:00:00Z,NA,1,MP2.5 faltante
+21173,Sensor de bajo costo,Cerro Navia,2026-07-05T07:00:00Z,NA,1,MP2.5 faltante
+21174,Sensor de bajo costo,Cerro Navia,2026-07-05T08:00:00Z,NA,1,MP2.5 faltante
+21175,Sensor de bajo costo,Cerro Navia,2026-07-05T09:00:00Z,NA,1,MP2.5 faltante
+21176,Sensor de bajo costo,Cerro Navia,2026-07-05T10:00:00Z,NA,1,MP2.5 faltante
+21177,Sensor de bajo costo,Cerro Navia,2026-07-05T11:00:00Z,NA,1,MP2.5 faltante
+21178,Sensor de bajo costo,Cerro Navia,2026-07-05T12:00:00Z,NA,1,MP2.5 faltante
+21179,Sensor de bajo costo,Cerro Navia,2026-07-05T13:00:00Z,NA,1,MP2.5 faltante
+21180,Sensor de bajo costo,Cerro Navia,2026-07-05T14:00:00Z,NA,1,MP2.5 faltante
+21181,Sensor de bajo costo,Cerro Navia,2026-07-05T15:00:00Z,NA,1,MP2.5 faltante
+21182,Sensor de bajo costo,Cerro Navia,2026-07-05T16:00:00Z,NA,1,MP2.5 faltante
+21183,Sensor de bajo costo,Cerro Navia,2026-07-05T17:00:00Z,NA,1,MP2.5 faltante
+21184,Sensor de bajo costo,Cerro Navia,2026-07-05T18:00:00Z,NA,1,MP2.5 faltante
+21185,Sensor de bajo costo,Cerro Navia,2026-07-05T19:00:00Z,NA,1,MP2.5 faltante
+21186,Sensor de bajo costo,Cerro Navia,2026-07-05T20:00:00Z,NA,1,MP2.5 faltante
+21187,Sensor de bajo costo,Cerro Navia,2026-07-05T21:00:00Z,NA,1,MP2.5 faltante
+21188,Sensor de bajo costo,Cerro Navia,2026-07-05T22:00:00Z,NA,1,MP2.5 faltante
+21189,Sensor de bajo costo,Cerro Navia,2026-07-05T23:00:00Z,NA,1,MP2.5 faltante
+21191,Sensor de bajo costo,Cerro Navia,2026-07-06T01:00:00Z,NA,1,MP2.5 faltante
+21192,Sensor de bajo costo,Cerro Navia,2026-07-06T02:00:00Z,NA,1,MP2.5 faltante
+21193,Sensor de bajo costo,Cerro Navia,2026-07-06T03:00:00Z,NA,1,MP2.5 faltante
+21194,Sensor de bajo costo,Cerro Navia,2026-07-06T04:00:00Z,NA,1,MP2.5 faltante
+21195,Sensor de bajo costo,Cerro Navia,2026-07-06T05:00:00Z,NA,1,MP2.5 faltante
+21196,Sensor de bajo costo,Cerro Navia,2026-07-06T06:00:00Z,NA,1,MP2.5 faltante
+21197,Sensor de bajo costo,Cerro Navia,2026-07-06T07:00:00Z,NA,1,MP2.5 faltante
+21198,Sensor de bajo costo,Cerro Navia,2026-07-06T08:00:00Z,NA,1,MP2.5 faltante
+21199,Sensor de bajo costo,Cerro Navia,2026-07-06T09:00:00Z,NA,1,MP2.5 faltante
+21200,Sensor de bajo costo,Cerro Navia,2026-07-06T10:00:00Z,NA,1,MP2.5 faltante
+21201,Sensor de bajo costo,Cerro Navia,2026-07-06T11:00:00Z,NA,1,MP2.5 faltante
+21202,Sensor de bajo costo,Cerro Navia,2026-07-06T12:00:00Z,NA,1,MP2.5 faltante
+21214,Sensor de bajo costo,Cerro Navia,NA,74.134,1,Fecha-hora faltante
+21227,Sensor de bajo costo,Cerro Navia,2026-07-07T13:00:00Z,NA,1,MP2.5 faltante
+21228,Sensor de bajo costo,Cerro Navia,2026-07-07T14:00:00Z,NA,1,MP2.5 faltante
+21229,Sensor de bajo costo,Cerro Navia,2026-07-07T15:00:00Z,NA,1,MP2.5 faltante
+21230,Sensor de bajo costo,Cerro Navia,2026-07-07T16:00:00Z,NA,1,MP2.5 faltante
+21238,Sensor de bajo costo,Cerro Navia,NA,43.614,1,Fecha-hora faltante
+21262,Sensor de bajo costo,Cerro Navia,NA,42.132,1,Fecha-hora faltante
+21286,Sensor de bajo costo,Cerro Navia,NA,74.926,1,Fecha-hora faltante
+21310,Sensor de bajo costo,Cerro Navia,NA,77.024,1,Fecha-hora faltante
+21334,Sensor de bajo costo,Cerro Navia,NA,109.6,1,Fecha-hora faltante
+21358,Sensor de bajo costo,Cerro Navia,NA,54.072,1,Fecha-hora faltante
+21382,Sensor de bajo costo,Cerro Navia,NA,28.899,1,Fecha-hora faltante
+21406,Sensor de bajo costo,Cerro Navia,NA,32.262,1,Fecha-hora faltante
+21411,Sensor de bajo costo,Cerro Navia,2026-07-15T05:00:00Z,NA,1,MP2.5 faltante
+21412,Sensor de bajo costo,Cerro Navia,2026-07-15T06:00:00Z,NA,1,MP2.5 faltante
+21413,Sensor de bajo costo,Cerro Navia,2026-07-15T07:00:00Z,NA,1,MP2.5 faltante
+21430,Sensor de bajo costo,Cerro Navia,NA,14.059,1,Fecha-hora faltante
+21454,Sensor de bajo costo,Cerro Navia,NA,2.429,1,Fecha-hora faltante
+21455,Sensor de bajo costo,Cerro Navia,2026-07-17T01:00:00Z,1.828,1,Concentración no negativa inferior a 2
+21458,Sensor de bajo costo,Cerro Navia,2026-07-17T04:00:00Z,1.777,1,Concentración no negativa inferior a 2
+21459,Sensor de bajo costo,Cerro Navia,2026-07-17T05:00:00Z,1.173,1,Concentración no negativa inferior a 2
+21460,Sensor de bajo costo,Cerro Navia,2026-07-17T06:00:00Z,0.929,1,Concentración no negativa inferior a 2
+21461,Sensor de bajo costo,Cerro Navia,2026-07-17T07:00:00Z,-1.82,1,Concentración negativa
+21462,Sensor de bajo costo,Cerro Navia,2026-07-17T08:00:00Z,0.448,1,Concentración no negativa inferior a 2
+21463,Sensor de bajo costo,Cerro Navia,2026-07-17T09:00:00Z,1.106,1,Concentración no negativa inferior a 2
+21464,Sensor de bajo costo,Cerro Navia,2026-07-17T10:00:00Z,0.036,1,Concentración no negativa inferior a 2
+21465,Sensor de bajo costo,Cerro Navia,2026-07-17T11:00:00Z,-2.633,1,Concentración negativa
+21466,Sensor de bajo costo,Cerro Navia,2026-07-17T12:00:00Z,-1.653,1,Concentración negativa
+21467,Sensor de bajo costo,Cerro Navia,2026-07-17T13:00:00Z,-0.788,1,Concentración negativa
+21468,Sensor de bajo costo,Cerro Navia,2026-07-17T14:00:00Z,1.68,1,Concentración no negativa inferior a 2
+21469,Sensor de bajo costo,Cerro Navia,2026-07-17T15:00:00Z,0.118,1,Concentración no negativa inferior a 2
+21470,Sensor de bajo costo,Cerro Navia,2026-07-17T16:00:00Z,-0.968,1,Concentración negativa
+21471,Sensor de bajo costo,Cerro Navia,2026-07-17T17:00:00Z,-4.968,1,Concentración negativa
+21472,Sensor de bajo costo,Cerro Navia,2026-07-17T18:00:00Z,-4.415,1,Concentración negativa
+21473,Sensor de bajo costo,Cerro Navia,2026-07-17T19:00:00Z,-1.475,1,Concentración negativa
+21474,Sensor de bajo costo,Cerro Navia,2026-07-17T20:00:00Z,0.637,1,Concentración no negativa inferior a 2
+21475,Sensor de bajo costo,Cerro Navia,2026-07-17T21:00:00Z,-1.364,1,Concentración negativa
+21476,Sensor de bajo costo,Cerro Navia,2026-07-17T22:00:00Z,-2.181,1,Concentración negativa
+21477,Sensor de bajo costo,Cerro Navia,2026-07-17T23:00:00Z,-1.467,1,Concentración negativa
+21479,Sensor de bajo costo,Cerro Navia,2026-07-18T01:00:00Z,-3.132,1,Concentración negativa
+21480,Sensor de bajo costo,Cerro Navia,2026-07-18T02:00:00Z,-2.72,1,Concentración negativa
+21481,Sensor de bajo costo,Cerro Navia,2026-07-18T03:00:00Z,-2.884,1,Concentración negativa
+21482,Sensor de bajo costo,Cerro Navia,2026-07-18T04:00:00Z,-4.615,1,Concentración negativa
+21483,Sensor de bajo costo,Cerro Navia,2026-07-18T05:00:00Z,-1.929,1,Concentración negativa
+21484,Sensor de bajo costo,Cerro Navia,2026-07-18T06:00:00Z,-0.888,1,Concentración negativa
+21485,Sensor de bajo costo,Cerro Navia,2026-07-18T07:00:00Z,-0.144,1,Concentración negativa
+21486,Sensor de bajo costo,Cerro Navia,2026-07-18T08:00:00Z,1.439,1,Concentración no negativa inferior a 2
+21502,Sensor de bajo costo,Cerro Navia,NA,45.361,1,Fecha-hora faltante
+21526,Sensor de bajo costo,Cerro Navia,NA,40.102,1,Fecha-hora faltante
+21531,Sensor de bajo costo,Cerro Navia,2026-07-20T05:00:00Z,0.379,1,Concentración no negativa inferior a 2
+21536,Sensor de bajo costo,Cerro Navia,2026-07-20T10:00:00Z,0.86,1,Concentración no negativa inferior a 2
+21550,Sensor de bajo costo,Cerro Navia,NA,13.414,1,Fecha-hora faltante
+21554,Sensor de bajo costo,Cerro Navia,2026-07-21T04:00:00Z,NA,1,MP2.5 faltante
+21555,Sensor de bajo costo,Cerro Navia,2026-07-21T05:00:00Z,NA,1,MP2.5 faltante
+21556,Sensor de bajo costo,Cerro Navia,2026-07-21T06:00:00Z,NA,1,MP2.5 faltante
+21563,Sensor de bajo costo,Cerro Navia,2026-07-21T13:00:00Z,0.6,1,Concentración no negativa inferior a 2
+21564,Sensor de bajo costo,Cerro Navia,2026-07-21T14:00:00Z,-2.163,1,Concentración negativa
+21574,Sensor de bajo costo,Cerro Navia,NA,36.393,1,Fecha-hora faltante
+21598,Sensor de bajo costo,Cerro Navia,NA,32.872,1,Fecha-hora faltante
+21619,Sensor de bajo costo,Cerro Navia,2026-07-23T21:00:00Z,0.134,1,Concentración no negativa inferior a 2
+21622,Sensor de bajo costo,Cerro Navia,NA,7.953,1,Fecha-hora faltante
+21646,Sensor de bajo costo,Cerro Navia,NA,53.854,1,Fecha-hora faltante
+21670,Sensor de bajo costo,Cerro Navia,NA,56.424,1,Fecha-hora faltante
+21694,Sensor de bajo costo,Cerro Navia,NA,22.063,1,Fecha-hora faltante
+21699,Sensor de bajo costo,Cerro Navia,2026-07-27T05:00:00Z,0.589,1,Concentración no negativa inferior a 2
+21700,Sensor de bajo costo,Cerro Navia,2026-07-27T06:00:00Z,0.69,1,Concentración no negativa inferior a 2
+21704,Sensor de bajo costo,Cerro Navia,2026-07-27T10:00:00Z,-1.37,1,Concentración negativa
+21705,Sensor de bajo costo,Cerro Navia,2026-07-27T11:00:00Z,NA,1,MP2.5 faltante
+21706,Sensor de bajo costo,Cerro Navia,2026-07-27T12:00:00Z,NA,1,MP2.5 faltante
+21707,Sensor de bajo costo,Cerro Navia,2026-07-27T13:00:00Z,NA,1,MP2.5 faltante
+21708,Sensor de bajo costo,Cerro Navia,2026-07-27T14:00:00Z,NA,1,MP2.5 faltante
+21709,Sensor de bajo costo,Cerro Navia,2026-07-27T15:00:00Z,-3.849,1,Concentración negativa
+21710,Sensor de bajo costo,Cerro Navia,2026-07-27T16:00:00Z,-5.471,1,Concentración negativa
+21711,Sensor de bajo costo,Cerro Navia,2026-07-27T17:00:00Z,-5.271,1,Concentración negativa
+21712,Sensor de bajo costo,Cerro Navia,2026-07-27T18:00:00Z,-3.963,1,Concentración negativa
+21713,Sensor de bajo costo,Cerro Navia,2026-07-27T19:00:00Z,-3.931,1,Concentración negativa
+21714,Sensor de bajo costo,Cerro Navia,2026-07-27T20:00:00Z,-3.938,1,Concentración negativa
+21715,Sensor de bajo costo,Cerro Navia,2026-07-27T21:00:00Z,-3.864,1,Concentración negativa
+21716,Sensor de bajo costo,Cerro Navia,2026-07-27T22:00:00Z,-1.56,1,Concentración negativa
+21717,Sensor de bajo costo,Cerro Navia,2026-07-27T23:00:00Z,-2.987,1,Concentración negativa
+21719,Sensor de bajo costo,Cerro Navia,2026-07-28T01:00:00Z,-4.091,1,Concentración negativa
+21720,Sensor de bajo costo,Cerro Navia,2026-07-28T02:00:00Z,-4.151,1,Concentración negativa
+21721,Sensor de bajo costo,Cerro Navia,2026-07-28T03:00:00Z,-3.852,1,Concentración negativa
+21722,Sensor de bajo costo,Cerro Navia,2026-07-28T04:00:00Z,-3.966,1,Concentración negativa
+21723,Sensor de bajo costo,Cerro Navia,2026-07-28T05:00:00Z,-4.718,1,Concentración negativa
+21724,Sensor de bajo costo,Cerro Navia,2026-07-28T06:00:00Z,-5.687,1,Concentración negativa
+21725,Sensor de bajo costo,Cerro Navia,2026-07-28T07:00:00Z,-3.235,1,Concentración negativa
+21726,Sensor de bajo costo,Cerro Navia,2026-07-28T08:00:00Z,-3.317,1,Concentración negativa
+21742,Sensor de bajo costo,Cerro Navia,NA,17.371,1,Fecha-hora faltante
+21751,Sensor de bajo costo,Cerro Navia,2026-07-29T09:00:00Z,NA,1,MP2.5 faltante
+21752,Sensor de bajo costo,Cerro Navia,2026-07-29T10:00:00Z,NA,1,MP2.5 faltante
+21753,Sensor de bajo costo,Cerro Navia,2026-07-29T11:00:00Z,NA,1,MP2.5 faltante
+21766,Sensor de bajo costo,Cerro Navia,NA,22.461,1,Fecha-hora faltante
+21786,Sensor de bajo costo,Cerro Navia,2026-07-30T20:00:00Z,NA,1,MP2.5 faltante
+21789,Sensor de bajo costo,Cerro Navia,2026-07-30T23:00:00Z,NA,1,MP2.5 faltante
+21791,Sensor de bajo costo,Cerro Navia,2026-07-31T01:00:00Z,NA,1,MP2.5 faltante
+21792,Sensor de bajo costo,Cerro Navia,2026-07-31T02:00:00Z,NA,1,MP2.5 faltante
+21793,Sensor de bajo costo,Cerro Navia,2026-07-31T03:00:00Z,NA,1,MP2.5 faltante
+21794,Sensor de bajo costo,Cerro Navia,2026-07-31T04:00:00Z,NA,1,MP2.5 faltante
+21795,Sensor de bajo costo,Cerro Navia,2026-07-31T05:00:00Z,NA,1,MP2.5 faltante
+21800,Sensor de bajo costo,Cerro Navia,2026-07-31T10:00:00Z,-0.504,1,Concentración negativa
+21801,Sensor de bajo costo,Cerro Navia,2026-07-31T11:00:00Z,NA,1,MP2.5 faltante
+21802,Sensor de bajo costo,Cerro Navia,2026-07-31T12:00:00Z,NA,1,MP2.5 faltante
+21803,Sensor de bajo costo,Cerro Navia,2026-07-31T13:00:00Z,NA,1,MP2.5 faltante
+21814,Sensor de bajo costo,Cerro Navia,NA,57.451,1,Fecha-hora faltante
+21838,Sensor de bajo costo,Cerro Navia,NA,43.17,1,Fecha-hora faltante
+21843,Sensor de bajo costo,Cerro Navia,2026-08-02T05:00:00Z,-4.665,1,Concentración negativa
+21844,Sensor de bajo costo,Cerro Navia,2026-08-02T06:00:00Z,-3.564,1,Concentración negativa
+21845,Sensor de bajo costo,Cerro Navia,2026-08-02T07:00:00Z,-2.222,1,Concentración negativa
+21846,Sensor de bajo costo,Cerro Navia,2026-08-02T08:00:00Z,-5.465,1,Concentración negativa
+21847,Sensor de bajo costo,Cerro Navia,2026-08-02T09:00:00Z,-4.358,1,Concentración negativa
+21848,Sensor de bajo costo,Cerro Navia,2026-08-02T10:00:00Z,-1,1,Concentración negativa
+21849,Sensor de bajo costo,Cerro Navia,2026-08-02T11:00:00Z,0.518,1,Concentración no negativa inferior a 2
+21850,Sensor de bajo costo,Cerro Navia,2026-08-02T12:00:00Z,0.924,1,Concentración no negativa inferior a 2
+21862,Sensor de bajo costo,Cerro Navia,NA,27.389,1,Fecha-hora faltante
+21886,Sensor de bajo costo,Cerro Navia,NA,19.544,1,Fecha-hora faltante
+21910,Sensor de bajo costo,Cerro Navia,NA,36.387,1,Fecha-hora faltante
+21934,Sensor de bajo costo,Cerro Navia,NA,12.692,1,Fecha-hora faltante
+21935,Sensor de bajo costo,Cerro Navia,2026-08-06T01:00:00Z,-0.914,1,Concentración negativa
+21936,Sensor de bajo costo,Cerro Navia,2026-08-06T02:00:00Z,-0.633,1,Concentración negativa
+21937,Sensor de bajo costo,Cerro Navia,2026-08-06T03:00:00Z,-1.137,1,Concentración negativa
+21938,Sensor de bajo costo,Cerro Navia,2026-08-06T04:00:00Z,-1.315,1,Concentración negativa
+21958,Sensor de bajo costo,Cerro Navia,NA,20.464,1,Fecha-hora faltante
+21982,Sensor de bajo costo,Cerro Navia,NA,8.201,1,Fecha-hora faltante
+22006,Sensor de bajo costo,Cerro Navia,NA,11.08,1,Fecha-hora faltante
+22030,Sensor de bajo costo,Cerro Navia,NA,17.913,1,Fecha-hora faltante
+22054,Sensor de bajo costo,Cerro Navia,NA,36.027,1,Fecha-hora faltante
+22078,Sensor de bajo costo,Cerro Navia,NA,58.554,1,Fecha-hora faltante
+22099,Sensor de bajo costo,Cerro Navia,2026-08-12T21:00:00Z,NA,1,MP2.5 faltante
+22105,Sensor de bajo costo,Cerro Navia,2026-08-13T03:00:00Z,NA,1,MP2.5 faltante
+22126,Sensor de bajo costo,Cerro Navia,NA,12.447,1,Fecha-hora faltante
+22146,Sensor de bajo costo,Cerro Navia,2026-08-14T20:00:00Z,NA,1,MP2.5 faltante
+22147,Sensor de bajo costo,Cerro Navia,2026-08-14T21:00:00Z,NA,1,MP2.5 faltante
+22148,Sensor de bajo costo,Cerro Navia,2026-08-14T22:00:00Z,NA,1,MP2.5 faltante
+22149,Sensor de bajo costo,Cerro Navia,2026-08-14T23:00:00Z,NA,1,MP2.5 faltante
+22151,Sensor de bajo costo,Cerro Navia,2026-08-15T01:00:00Z,NA,1,MP2.5 faltante
+22152,Sensor de bajo costo,Cerro Navia,2026-08-15T02:00:00Z,NA,1,MP2.5 faltante
+22153,Sensor de bajo costo,Cerro Navia,2026-08-15T03:00:00Z,NA,1,MP2.5 faltante
+22159,Sensor de bajo costo,Cerro Navia,2026-08-15T09:00:00Z,-0.62,1,Concentración negativa
+22160,Sensor de bajo costo,Cerro Navia,2026-08-15T10:00:00Z,-7.036,1,Concentración negativa
+22161,Sensor de bajo costo,Cerro Navia,2026-08-15T11:00:00Z,-12.451,1,Concentración negativa
+22162,Sensor de bajo costo,Cerro Navia,2026-08-15T12:00:00Z,-10.939,1,Concentración negativa
+22163,Sensor de bajo costo,Cerro Navia,2026-08-15T13:00:00Z,-6.537,1,Concentración negativa
+22164,Sensor de bajo costo,Cerro Navia,2026-08-15T14:00:00Z,-5.9,1,Concentración negativa
+22165,Sensor de bajo costo,Cerro Navia,2026-08-15T15:00:00Z,-2.288,1,Concentración negativa
+22166,Sensor de bajo costo,Cerro Navia,2026-08-15T16:00:00Z,-1.385,1,Concentración negativa
+22167,Sensor de bajo costo,Cerro Navia,2026-08-15T17:00:00Z,-0.879,1,Concentración negativa
+22174,Sensor de bajo costo,Cerro Navia,NA,46.355,1,Fecha-hora faltante
+22198,Sensor de bajo costo,Cerro Navia,NA,17.15,1,Fecha-hora faltante
+22201,Sensor de bajo costo,Cerro Navia,2026-08-17T03:00:00Z,NA,1,MP2.5 faltante
+22202,Sensor de bajo costo,Cerro Navia,2026-08-17T04:00:00Z,NA,1,MP2.5 faltante
+22203,Sensor de bajo costo,Cerro Navia,2026-08-17T05:00:00Z,NA,1,MP2.5 faltante
+22204,Sensor de bajo costo,Cerro Navia,2026-08-17T06:00:00Z,NA,1,MP2.5 faltante
+22205,Sensor de bajo costo,Cerro Navia,2026-08-17T07:00:00Z,NA,1,MP2.5 faltante
+22222,Sensor de bajo costo,Cerro Navia,NA,28.516,1,Fecha-hora faltante
+22246,Sensor de bajo costo,Cerro Navia,NA,26.564,1,Fecha-hora faltante
+22270,Sensor de bajo costo,Cerro Navia,NA,19.403,1,Fecha-hora faltante
+22294,Sensor de bajo costo,Cerro Navia,NA,37.082,1,Fecha-hora faltante
+22318,Sensor de bajo costo,Cerro Navia,NA,49.916,1,Fecha-hora faltante
+22342,Sensor de bajo costo,Cerro Navia,NA,57.161,1,Fecha-hora faltante
+22366,Sensor de bajo costo,Cerro Navia,NA,27.306,1,Fecha-hora faltante
+22390,Sensor de bajo costo,Cerro Navia,NA,36.544,1,Fecha-hora faltante
+22414,Sensor de bajo costo,Cerro Navia,NA,12.417,1,Fecha-hora faltante
+22438,Sensor de bajo costo,Cerro Navia,NA,10.377,1,Fecha-hora faltante
+22462,Sensor de bajo costo,Cerro Navia,NA,11.329,1,Fecha-hora faltante
+22486,Sensor de bajo costo,Cerro Navia,NA,15.95,1,Fecha-hora faltante
+22510,Sensor de bajo costo,Cerro Navia,NA,41.853,1,Fecha-hora faltante
+22534,Sensor de bajo costo,Cerro Navia,NA,2.894,1,Fecha-hora faltante
+22558,Sensor de bajo costo,Cerro Navia,NA,23.112,1,Fecha-hora faltante
+22582,Sensor de bajo costo,Cerro Navia,NA,23.52,1,Fecha-hora faltante
+22606,Sensor de bajo costo,Cerro Navia,NA,3.997,1,Fecha-hora faltante
+22630,Sensor de bajo costo,Cerro Navia,NA,9.301,1,Fecha-hora faltante
+22654,Sensor de bajo costo,Cerro Navia,NA,24.866,1,Fecha-hora faltante
+22678,Sensor de bajo costo,Cerro Navia,NA,27.798,1,Fecha-hora faltante
+22702,Sensor de bajo costo,Cerro Navia,NA,8.787,1,Fecha-hora faltante
+22726,Sensor de bajo costo,Cerro Navia,NA,8.222,1,Fecha-hora faltante
+22750,Sensor de bajo costo,Cerro Navia,NA,8.643,1,Fecha-hora faltante
+22774,Sensor de bajo costo,Cerro Navia,NA,12.257,1,Fecha-hora faltante
+22798,Sensor de bajo costo,Cerro Navia,NA,13.18,1,Fecha-hora faltante
+22822,Sensor de bajo costo,Cerro Navia,NA,11.435,1,Fecha-hora faltante
+22865,Sensor de bajo costo,Puente Alto,2026-05-06T16:00:00Z,1.18741955903804,1,Concentración no negativa inferior a 2
+22866,Sensor de bajo costo,Puente Alto,2026-05-06T17:00:00Z,0.464131117360949,1,Concentración no negativa inferior a 2
+22867,Sensor de bajo costo,Puente Alto,2026-05-06T18:00:00Z,1.14050802700881,1,Concentración no negativa inferior a 2
+22868,Sensor de bajo costo,Puente Alto,2026-05-06T19:00:00Z,1.42820609477753,1,Concentración no negativa inferior a 2
+22869,Sensor de bajo costo,Puente Alto,2026-05-06T20:00:00Z,1.43887335697976,1,Concentración no negativa inferior a 2
+24327,Sensor de bajo costo,Puente Alto,2026-07-06T14:00:00Z,NA,1,MP2.5 faltante
+24328,Sensor de bajo costo,Puente Alto,2026-07-06T15:00:00Z,NA,1,MP2.5 faltante
+24329,Sensor de bajo costo,Puente Alto,2026-07-06T16:00:00Z,NA,1,MP2.5 faltante
+24330,Sensor de bajo costo,Puente Alto,2026-07-06T17:00:00Z,NA,1,MP2.5 faltante
+24331,Sensor de bajo costo,Puente Alto,2026-07-06T18:00:00Z,NA,1,MP2.5 faltante
+24332,Sensor de bajo costo,Puente Alto,2026-07-06T19:00:00Z,NA,1,MP2.5 faltante
+24333,Sensor de bajo costo,Puente Alto,2026-07-06T20:00:00Z,NA,1,MP2.5 faltante
+24334,Sensor de bajo costo,Puente Alto,2026-07-06T21:00:00Z,NA,1,MP2.5 faltante
+24335,Sensor de bajo costo,Puente Alto,2026-07-06T22:00:00Z,NA,1,MP2.5 faltante
+24336,Sensor de bajo costo,Puente Alto,2026-07-06T23:00:00Z,NA,1,MP2.5 faltante
+24337,Sensor de bajo costo,Puente Alto,2026-07-07T00:00:00Z,NA,1,MP2.5 faltante
+24338,Sensor de bajo costo,Puente Alto,2026-07-07T01:00:00Z,NA,1,MP2.5 faltante
+24339,Sensor de bajo costo,Puente Alto,2026-07-07T02:00:00Z,NA,1,MP2.5 faltante
+24340,Sensor de bajo costo,Puente Alto,2026-07-07T03:00:00Z,NA,1,MP2.5 faltante
+24341,Sensor de bajo costo,Puente Alto,2026-07-07T04:00:00Z,NA,1,MP2.5 faltante
+24342,Sensor de bajo costo,Puente Alto,2026-07-07T05:00:00Z,NA,1,MP2.5 faltante
+24343,Sensor de bajo costo,Puente Alto,2026-07-07T06:00:00Z,NA,1,MP2.5 faltante
+24344,Sensor de bajo costo,Puente Alto,2026-07-07T07:00:00Z,NA,1,MP2.5 faltante
+24345,Sensor de bajo costo,Puente Alto,2026-07-07T08:00:00Z,NA,1,MP2.5 faltante
+24346,Sensor de bajo costo,Puente Alto,2026-07-07T09:00:00Z,NA,1,MP2.5 faltante
+24347,Sensor de bajo costo,Puente Alto,2026-07-07T10:00:00Z,NA,1,MP2.5 faltante
+24348,Sensor de bajo costo,Puente Alto,2026-07-07T11:00:00Z,NA,1,MP2.5 faltante
+24349,Sensor de bajo costo,Puente Alto,2026-07-07T12:00:00Z,NA,1,MP2.5 faltante
+24350,Sensor de bajo costo,Puente Alto,2026-07-07T13:00:00Z,NA,1,MP2.5 faltante
+24351,Sensor de bajo costo,Puente Alto,2026-07-07T14:00:00Z,NA,1,MP2.5 faltante
+24352,Sensor de bajo costo,Puente Alto,2026-07-07T15:00:00Z,NA,1,MP2.5 faltante
+24353,Sensor de bajo costo,Puente Alto,2026-07-07T16:00:00Z,NA,1,MP2.5 faltante
+24354,Sensor de bajo costo,Puente Alto,2026-07-07T17:00:00Z,NA,1,MP2.5 faltante
+24355,Sensor de bajo costo,Puente Alto,2026-07-07T18:00:00Z,NA,1,MP2.5 faltante
+24356,Sensor de bajo costo,Puente Alto,2026-07-07T19:00:00Z,NA,1,MP2.5 faltante
+24357,Sensor de bajo costo,Puente Alto,2026-07-07T20:00:00Z,NA,1,MP2.5 faltante
+24358,Sensor de bajo costo,Puente Alto,2026-07-07T21:00:00Z,NA,1,MP2.5 faltante
+24359,Sensor de bajo costo,Puente Alto,2026-07-07T22:00:00Z,NA,1,MP2.5 faltante
+24360,Sensor de bajo costo,Puente Alto,2026-07-07T23:00:00Z,NA,1,MP2.5 faltante
+24361,Sensor de bajo costo,Puente Alto,2026-07-08T00:00:00Z,NA,1,MP2.5 faltante
+24362,Sensor de bajo costo,Puente Alto,2026-07-08T01:00:00Z,NA,1,MP2.5 faltante
+24363,Sensor de bajo costo,Puente Alto,2026-07-08T02:00:00Z,NA,1,MP2.5 faltante
+24364,Sensor de bajo costo,Puente Alto,2026-07-08T03:00:00Z,NA,1,MP2.5 faltante
+24365,Sensor de bajo costo,Puente Alto,2026-07-08T04:00:00Z,NA,1,MP2.5 faltante
+24366,Sensor de bajo costo,Puente Alto,2026-07-08T05:00:00Z,NA,1,MP2.5 faltante
+24367,Sensor de bajo costo,Puente Alto,2026-07-08T06:00:00Z,NA,1,MP2.5 faltante
+24368,Sensor de bajo costo,Puente Alto,2026-07-08T07:00:00Z,NA,1,MP2.5 faltante
+24369,Sensor de bajo costo,Puente Alto,2026-07-08T08:00:00Z,NA,1,MP2.5 faltante
+24370,Sensor de bajo costo,Puente Alto,2026-07-08T09:00:00Z,NA,1,MP2.5 faltante
+24371,Sensor de bajo costo,Puente Alto,2026-07-08T10:00:00Z,NA,1,MP2.5 faltante
+24372,Sensor de bajo costo,Puente Alto,2026-07-08T11:00:00Z,NA,1,MP2.5 faltante
+24373,Sensor de bajo costo,Puente Alto,2026-07-08T12:00:00Z,NA,1,MP2.5 faltante
+24374,Sensor de bajo costo,Puente Alto,2026-07-08T13:00:00Z,NA,1,MP2.5 faltante
+24375,Sensor de bajo costo,Puente Alto,2026-07-08T14:00:00Z,NA,1,MP2.5 faltante
+24376,Sensor de bajo costo,Puente Alto,2026-07-08T15:00:00Z,NA,1,MP2.5 faltante
+24377,Sensor de bajo costo,Puente Alto,2026-07-08T16:00:00Z,NA,1,MP2.5 faltante
+24490,Sensor de bajo costo,Puente Alto,2026-07-13T09:00:00Z,NA,1,MP2.5 faltante
+24491,Sensor de bajo costo,Puente Alto,2026-07-13T10:00:00Z,NA,1,MP2.5 faltante
+24492,Sensor de bajo costo,Puente Alto,2026-07-13T11:00:00Z,NA,1,MP2.5 faltante
+24493,Sensor de bajo costo,Puente Alto,2026-07-13T12:00:00Z,NA,1,MP2.5 faltante
+24494,Sensor de bajo costo,Puente Alto,2026-07-13T13:00:00Z,NA,1,MP2.5 faltante
+24495,Sensor de bajo costo,Puente Alto,2026-07-13T14:00:00Z,NA,1,MP2.5 faltante
+24496,Sensor de bajo costo,Puente Alto,2026-07-13T15:00:00Z,NA,1,MP2.5 faltante
+24497,Sensor de bajo costo,Puente Alto,2026-07-13T16:00:00Z,NA,1,MP2.5 faltante
+24498,Sensor de bajo costo,Puente Alto,2026-07-13T17:00:00Z,NA,1,MP2.5 faltante
+24499,Sensor de bajo costo,Puente Alto,2026-07-13T18:00:00Z,NA,1,MP2.5 faltante
+24500,Sensor de bajo costo,Puente Alto,2026-07-13T19:00:00Z,NA,1,MP2.5 faltante
+24501,Sensor de bajo costo,Puente Alto,2026-07-13T20:00:00Z,NA,1,MP2.5 faltante
+24502,Sensor de bajo costo,Puente Alto,2026-07-13T21:00:00Z,NA,1,MP2.5 faltante
+24503,Sensor de bajo costo,Puente Alto,2026-07-13T22:00:00Z,NA,1,MP2.5 faltante
+24504,Sensor de bajo costo,Puente Alto,2026-07-13T23:00:00Z,NA,1,MP2.5 faltante
+24505,Sensor de bajo costo,Puente Alto,2026-07-14T00:00:00Z,NA,1,MP2.5 faltante
+24506,Sensor de bajo costo,Puente Alto,2026-07-14T01:00:00Z,NA,1,MP2.5 faltante
+24507,Sensor de bajo costo,Puente Alto,2026-07-14T02:00:00Z,NA,1,MP2.5 faltante
+24508,Sensor de bajo costo,Puente Alto,2026-07-14T03:00:00Z,NA,1,MP2.5 faltante
+24509,Sensor de bajo costo,Puente Alto,2026-07-14T04:00:00Z,NA,1,MP2.5 faltante
+24510,Sensor de bajo costo,Puente Alto,2026-07-14T05:00:00Z,NA,1,MP2.5 faltante
+24511,Sensor de bajo costo,Puente Alto,2026-07-14T06:00:00Z,NA,1,MP2.5 faltante
+24512,Sensor de bajo costo,Puente Alto,2026-07-14T07:00:00Z,NA,1,MP2.5 faltante
+24513,Sensor de bajo costo,Puente Alto,2026-07-14T08:00:00Z,NA,1,MP2.5 faltante
+24514,Sensor de bajo costo,Puente Alto,2026-07-14T09:00:00Z,NA,1,MP2.5 faltante
+24515,Sensor de bajo costo,Puente Alto,2026-07-14T10:00:00Z,NA,1,MP2.5 faltante
+24574,Sensor de bajo costo,Puente Alto,2026-07-16T21:00:00Z,0.0811664697439512,1,Concentración no negativa inferior a 2
+24575,Sensor de bajo costo,Puente Alto,2026-07-16T22:00:00Z,1.36044876611834,1,Concentración no negativa inferior a 2
+24576,Sensor de bajo costo,Puente Alto,2026-07-16T23:00:00Z,0.996363096529632,1,Concentración no negativa inferior a 2
+24577,Sensor de bajo costo,Puente Alto,2026-07-17T00:00:00Z,1.13304268938108,1,Concentración no negativa inferior a 2
+24578,Sensor de bajo costo,Puente Alto,2026-07-17T01:00:00Z,NA,1,MP2.5 faltante
+24579,Sensor de bajo costo,Puente Alto,2026-07-17T02:00:00Z,NA,1,MP2.5 faltante
+24580,Sensor de bajo costo,Puente Alto,2026-07-17T03:00:00Z,NA,1,MP2.5 faltante
+24581,Sensor de bajo costo,Puente Alto,2026-07-17T04:00:00Z,NA,1,MP2.5 faltante
+24582,Sensor de bajo costo,Puente Alto,2026-07-17T05:00:00Z,NA,1,MP2.5 faltante
+24583,Sensor de bajo costo,Puente Alto,2026-07-17T06:00:00Z,NA,1,MP2.5 faltante
+24584,Sensor de bajo costo,Puente Alto,2026-07-17T07:00:00Z,NA,1,MP2.5 faltante
+24585,Sensor de bajo costo,Puente Alto,2026-07-17T08:00:00Z,NA,1,MP2.5 faltante
+24586,Sensor de bajo costo,Puente Alto,2026-07-17T09:00:00Z,-0.0136057324105413,1,Concentración negativa
+24587,Sensor de bajo costo,Puente Alto,2026-07-17T10:00:00Z,-0.351663816880255,1,Concentración negativa
+24588,Sensor de bajo costo,Puente Alto,2026-07-17T11:00:00Z,NA,1,MP2.5 faltante
+24589,Sensor de bajo costo,Puente Alto,2026-07-17T12:00:00Z,NA,1,MP2.5 faltante
+24590,Sensor de bajo costo,Puente Alto,2026-07-17T13:00:00Z,-0.689729624109073,1,Concentración negativa
+24594,Sensor de bajo costo,Puente Alto,2026-07-17T17:00:00Z,1.4492795321612,1,Concentración no negativa inferior a 2
+24595,Sensor de bajo costo,Puente Alto,2026-07-17T18:00:00Z,-0.0223480889831759,1,Concentración negativa
+24596,Sensor de bajo costo,Puente Alto,2026-07-17T19:00:00Z,-0.251008878743765,1,Concentración negativa
+24600,Sensor de bajo costo,Puente Alto,2026-07-17T23:00:00Z,NA,1,MP2.5 faltante
+24602,Sensor de bajo costo,Puente Alto,2026-07-18T01:00:00Z,NA,1,MP2.5 faltante
+24603,Sensor de bajo costo,Puente Alto,2026-07-18T02:00:00Z,NA,1,MP2.5 faltante
+24604,Sensor de bajo costo,Puente Alto,2026-07-18T03:00:00Z,NA,1,MP2.5 faltante
+24605,Sensor de bajo costo,Puente Alto,2026-07-18T04:00:00Z,NA,1,MP2.5 faltante
+24606,Sensor de bajo costo,Puente Alto,2026-07-18T05:00:00Z,NA,1,MP2.5 faltante
+24607,Sensor de bajo costo,Puente Alto,2026-07-18T06:00:00Z,NA,1,MP2.5 faltante
+24608,Sensor de bajo costo,Puente Alto,2026-07-18T07:00:00Z,NA,1,MP2.5 faltante
+24609,Sensor de bajo costo,Puente Alto,2026-07-18T08:00:00Z,NA,1,MP2.5 faltante
+24610,Sensor de bajo costo,Puente Alto,2026-07-18T09:00:00Z,NA,1,MP2.5 faltante
+24611,Sensor de bajo costo,Puente Alto,2026-07-18T10:00:00Z,NA,1,MP2.5 faltante
+24612,Sensor de bajo costo,Puente Alto,2026-07-18T11:00:00Z,NA,1,MP2.5 faltante
+24613,Sensor de bajo costo,Puente Alto,2026-07-18T12:00:00Z,NA,1,MP2.5 faltante
+24614,Sensor de bajo costo,Puente Alto,2026-07-18T13:00:00Z,NA,1,MP2.5 faltante
+24616,Sensor de bajo costo,Puente Alto,2026-07-18T15:00:00Z,NA,1,MP2.5 faltante
+24617,Sensor de bajo costo,Puente Alto,2026-07-18T16:00:00Z,NA,1,MP2.5 faltante
+24618,Sensor de bajo costo,Puente Alto,2026-07-18T17:00:00Z,NA,1,MP2.5 faltante
+24632,Sensor de bajo costo,Puente Alto,2026-07-19T07:00:00Z,1.89308220907728,1,Concentración no negativa inferior a 2
+24656,Sensor de bajo costo,Puente Alto,2026-07-20T07:00:00Z,0.180412505533997,1,Concentración no negativa inferior a 2
+24657,Sensor de bajo costo,Puente Alto,2026-07-20T08:00:00Z,0.613527172136587,1,Concentración no negativa inferior a 2
+24658,Sensor de bajo costo,Puente Alto,2026-07-20T09:00:00Z,-0.649027932466697,1,Concentración negativa
+24659,Sensor de bajo costo,Puente Alto,2026-07-20T10:00:00Z,0.734882223312257,1,Concentración no negativa inferior a 2
+24660,Sensor de bajo costo,Puente Alto,2026-07-20T11:00:00Z,1.78149761039415,1,Concentración no negativa inferior a 2
+24675,Sensor de bajo costo,Puente Alto,2026-07-21T02:00:00Z,NA,1,MP2.5 faltante
+24676,Sensor de bajo costo,Puente Alto,2026-07-21T03:00:00Z,NA,1,MP2.5 faltante
+24677,Sensor de bajo costo,Puente Alto,2026-07-21T04:00:00Z,NA,1,MP2.5 faltante
+24678,Sensor de bajo costo,Puente Alto,2026-07-21T05:00:00Z,NA,1,MP2.5 faltante
+24679,Sensor de bajo costo,Puente Alto,2026-07-21T06:00:00Z,NA,1,MP2.5 faltante
+24699,Sensor de bajo costo,Puente Alto,2026-07-22T02:00:00Z,NA,1,MP2.5 faltante
+24700,Sensor de bajo costo,Puente Alto,2026-07-22T03:00:00Z,NA,1,MP2.5 faltante
+24701,Sensor de bajo costo,Puente Alto,2026-07-22T04:00:00Z,NA,1,MP2.5 faltante
+24702,Sensor de bajo costo,Puente Alto,2026-07-22T05:00:00Z,NA,1,MP2.5 faltante
+24703,Sensor de bajo costo,Puente Alto,2026-07-22T06:00:00Z,NA,1,MP2.5 faltante
+24704,Sensor de bajo costo,Puente Alto,2026-07-22T07:00:00Z,NA,1,MP2.5 faltante
+24705,Sensor de bajo costo,Puente Alto,2026-07-22T08:00:00Z,NA,1,MP2.5 faltante
+24706,Sensor de bajo costo,Puente Alto,2026-07-22T09:00:00Z,NA,1,MP2.5 faltante
+24707,Sensor de bajo costo,Puente Alto,2026-07-22T10:00:00Z,NA,1,MP2.5 faltante
+24708,Sensor de bajo costo,Puente Alto,2026-07-22T11:00:00Z,NA,1,MP2.5 faltante
+24709,Sensor de bajo costo,Puente Alto,2026-07-22T12:00:00Z,NA,1,MP2.5 faltante
+24725,Sensor de bajo costo,Puente Alto,2026-07-23T04:00:00Z,NA,1,MP2.5 faltante
+24726,Sensor de bajo costo,Puente Alto,2026-07-23T05:00:00Z,NA,1,MP2.5 faltante
+24727,Sensor de bajo costo,Puente Alto,2026-07-23T06:00:00Z,NA,1,MP2.5 faltante
+24728,Sensor de bajo costo,Puente Alto,2026-07-23T07:00:00Z,NA,1,MP2.5 faltante
+24729,Sensor de bajo costo,Puente Alto,2026-07-23T08:00:00Z,NA,1,MP2.5 faltante
+24730,Sensor de bajo costo,Puente Alto,2026-07-23T09:00:00Z,NA,1,MP2.5 faltante
+24744,Sensor de bajo costo,Puente Alto,2026-07-23T23:00:00Z,1.53505402924737,1,Concentración no negativa inferior a 2
+24745,Sensor de bajo costo,Puente Alto,2026-07-24T00:00:00Z,NA,1,MP2.5 faltante
+24746,Sensor de bajo costo,Puente Alto,2026-07-24T01:00:00Z,NA,1,MP2.5 faltante
+24747,Sensor de bajo costo,Puente Alto,2026-07-24T02:00:00Z,NA,1,MP2.5 faltante
+24758,Sensor de bajo costo,Puente Alto,2026-07-24T13:00:00Z,NA,1,MP2.5 faltante
+24776,Sensor de bajo costo,Puente Alto,2026-07-25T07:00:00Z,0.197716864894707,1,Concentración no negativa inferior a 2
+24777,Sensor de bajo costo,Puente Alto,2026-07-25T08:00:00Z,-0.655306298991368,1,Concentración negativa
+24778,Sensor de bajo costo,Puente Alto,2026-07-25T09:00:00Z,-1.54429514157954,1,Concentración negativa
+24779,Sensor de bajo costo,Puente Alto,2026-07-25T10:00:00Z,-0.227398544441495,1,Concentración negativa
+24780,Sensor de bajo costo,Puente Alto,2026-07-25T11:00:00Z,1.36939521081837,1,Concentración no negativa inferior a 2
+24802,Sensor de bajo costo,Puente Alto,2026-07-26T09:00:00Z,NA,1,MP2.5 faltante
+24803,Sensor de bajo costo,Puente Alto,2026-07-26T10:00:00Z,NA,1,MP2.5 faltante
+24804,Sensor de bajo costo,Puente Alto,2026-07-26T11:00:00Z,NA,1,MP2.5 faltante
+24805,Sensor de bajo costo,Puente Alto,2026-07-26T12:00:00Z,NA,1,MP2.5 faltante
+24806,Sensor de bajo costo,Puente Alto,2026-07-26T13:00:00Z,NA,1,MP2.5 faltante
+24832,Sensor de bajo costo,Puente Alto,2026-07-27T15:00:00Z,NA,1,MP2.5 faltante
+24833,Sensor de bajo costo,Puente Alto,2026-07-27T16:00:00Z,NA,1,MP2.5 faltante
+24834,Sensor de bajo costo,Puente Alto,2026-07-27T17:00:00Z,NA,1,MP2.5 faltante
+24835,Sensor de bajo costo,Puente Alto,2026-07-27T18:00:00Z,NA,1,MP2.5 faltante
+24836,Sensor de bajo costo,Puente Alto,2026-07-27T19:00:00Z,NA,1,MP2.5 faltante
+24837,Sensor de bajo costo,Puente Alto,2026-07-27T20:00:00Z,NA,1,MP2.5 faltante
+24838,Sensor de bajo costo,Puente Alto,2026-07-27T21:00:00Z,NA,1,MP2.5 faltante
+24839,Sensor de bajo costo,Puente Alto,2026-07-27T22:00:00Z,NA,1,MP2.5 faltante
+24840,Sensor de bajo costo,Puente Alto,2026-07-27T23:00:00Z,NA,1,MP2.5 faltante
+24841,Sensor de bajo costo,Puente Alto,2026-07-28T00:00:00Z,NA,1,MP2.5 faltante
+24842,Sensor de bajo costo,Puente Alto,2026-07-28T01:00:00Z,NA,1,MP2.5 faltante
+24843,Sensor de bajo costo,Puente Alto,2026-07-28T02:00:00Z,NA,1,MP2.5 faltante
+24845,Sensor de bajo costo,Puente Alto,2026-07-28T04:00:00Z,1.07349332873143,1,Concentración no negativa inferior a 2
+24846,Sensor de bajo costo,Puente Alto,2026-07-28T05:00:00Z,NA,1,MP2.5 faltante
+24847,Sensor de bajo costo,Puente Alto,2026-07-28T06:00:00Z,NA,1,MP2.5 faltante
+24848,Sensor de bajo costo,Puente Alto,2026-07-28T07:00:00Z,1.7953991445409,1,Concentración no negativa inferior a 2
+24849,Sensor de bajo costo,Puente Alto,2026-07-28T08:00:00Z,1.94647368378729,1,Concentración no negativa inferior a 2
+24879,Sensor de bajo costo,Puente Alto,2026-07-29T14:00:00Z,NA,1,MP2.5 faltante
+24880,Sensor de bajo costo,Puente Alto,2026-07-29T15:00:00Z,NA,1,MP2.5 faltante
+24881,Sensor de bajo costo,Puente Alto,2026-07-29T16:00:00Z,NA,1,MP2.5 faltante
+24882,Sensor de bajo costo,Puente Alto,2026-07-29T17:00:00Z,NA,1,MP2.5 faltante
+24883,Sensor de bajo costo,Puente Alto,2026-07-29T18:00:00Z,NA,1,MP2.5 faltante
+24884,Sensor de bajo costo,Puente Alto,2026-07-29T19:00:00Z,NA,1,MP2.5 faltante
+24885,Sensor de bajo costo,Puente Alto,2026-07-29T20:00:00Z,NA,1,MP2.5 faltante
+24886,Sensor de bajo costo,Puente Alto,2026-07-29T21:00:00Z,NA,1,MP2.5 faltante
+24887,Sensor de bajo costo,Puente Alto,2026-07-29T22:00:00Z,NA,1,MP2.5 faltante
+24888,Sensor de bajo costo,Puente Alto,2026-07-29T23:00:00Z,NA,1,MP2.5 faltante
+24889,Sensor de bajo costo,Puente Alto,2026-07-30T00:00:00Z,NA,1,MP2.5 faltante
+24890,Sensor de bajo costo,Puente Alto,2026-07-30T01:00:00Z,NA,1,MP2.5 faltante
+24891,Sensor de bajo costo,Puente Alto,2026-07-30T02:00:00Z,NA,1,MP2.5 faltante
+24892,Sensor de bajo costo,Puente Alto,2026-07-30T03:00:00Z,NA,1,MP2.5 faltante
+24893,Sensor de bajo costo,Puente Alto,2026-07-30T04:00:00Z,NA,1,MP2.5 faltante
+24894,Sensor de bajo costo,Puente Alto,2026-07-30T05:00:00Z,NA,1,MP2.5 faltante
+24895,Sensor de bajo costo,Puente Alto,2026-07-30T06:00:00Z,NA,1,MP2.5 faltante
+24896,Sensor de bajo costo,Puente Alto,2026-07-30T07:00:00Z,NA,1,MP2.5 faltante
+24897,Sensor de bajo costo,Puente Alto,2026-07-30T08:00:00Z,NA,1,MP2.5 faltante
+24898,Sensor de bajo costo,Puente Alto,2026-07-30T09:00:00Z,NA,1,MP2.5 faltante
+24899,Sensor de bajo costo,Puente Alto,2026-07-30T10:00:00Z,NA,1,MP2.5 faltante
+24900,Sensor de bajo costo,Puente Alto,2026-07-30T11:00:00Z,NA,1,MP2.5 faltante
+24901,Sensor de bajo costo,Puente Alto,2026-07-30T12:00:00Z,NA,1,MP2.5 faltante
+24902,Sensor de bajo costo,Puente Alto,2026-07-30T13:00:00Z,NA,1,MP2.5 faltante
+24903,Sensor de bajo costo,Puente Alto,2026-07-30T14:00:00Z,NA,1,MP2.5 faltante
+24904,Sensor de bajo costo,Puente Alto,2026-07-30T15:00:00Z,NA,1,MP2.5 faltante
+24905,Sensor de bajo costo,Puente Alto,2026-07-30T16:00:00Z,NA,1,MP2.5 faltante
+24906,Sensor de bajo costo,Puente Alto,2026-07-30T17:00:00Z,NA,1,MP2.5 faltante
+24907,Sensor de bajo costo,Puente Alto,2026-07-30T18:00:00Z,NA,1,MP2.5 faltante
+24908,Sensor de bajo costo,Puente Alto,2026-07-30T19:00:00Z,NA,1,MP2.5 faltante
+24909,Sensor de bajo costo,Puente Alto,2026-07-30T20:00:00Z,NA,1,MP2.5 faltante
+24910,Sensor de bajo costo,Puente Alto,2026-07-30T21:00:00Z,NA,1,MP2.5 faltante
+24911,Sensor de bajo costo,Puente Alto,2026-07-30T22:00:00Z,NA,1,MP2.5 faltante
+24912,Sensor de bajo costo,Puente Alto,2026-07-30T23:00:00Z,NA,1,MP2.5 faltante
+24913,Sensor de bajo costo,Puente Alto,2026-07-31T00:00:00Z,NA,1,MP2.5 faltante
+24914,Sensor de bajo costo,Puente Alto,2026-07-31T01:00:00Z,NA,1,MP2.5 faltante
+24915,Sensor de bajo costo,Puente Alto,2026-07-31T02:00:00Z,NA,1,MP2.5 faltante
+24916,Sensor de bajo costo,Puente Alto,2026-07-31T03:00:00Z,NA,1,MP2.5 faltante
+24917,Sensor de bajo costo,Puente Alto,2026-07-31T04:00:00Z,NA,1,MP2.5 faltante
+24918,Sensor de bajo costo,Puente Alto,2026-07-31T05:00:00Z,NA,1,MP2.5 faltante
+24919,Sensor de bajo costo,Puente Alto,2026-07-31T06:00:00Z,NA,1,MP2.5 faltante
+24920,Sensor de bajo costo,Puente Alto,2026-07-31T07:00:00Z,NA,1,MP2.5 faltante
+24921,Sensor de bajo costo,Puente Alto,2026-07-31T08:00:00Z,NA,1,MP2.5 faltante
+24922,Sensor de bajo costo,Puente Alto,2026-07-31T09:00:00Z,NA,1,MP2.5 faltante
+24923,Sensor de bajo costo,Puente Alto,2026-07-31T10:00:00Z,NA,1,MP2.5 faltante
+24924,Sensor de bajo costo,Puente Alto,2026-07-31T11:00:00Z,NA,1,MP2.5 faltante
+24925,Sensor de bajo costo,Puente Alto,2026-07-31T12:00:00Z,NA,1,MP2.5 faltante
+24926,Sensor de bajo costo,Puente Alto,2026-07-31T13:00:00Z,NA,1,MP2.5 faltante
+24927,Sensor de bajo costo,Puente Alto,2026-07-31T14:00:00Z,NA,1,MP2.5 faltante
+24928,Sensor de bajo costo,Puente Alto,2026-07-31T15:00:00Z,NA,1,MP2.5 faltante
+24929,Sensor de bajo costo,Puente Alto,2026-07-31T16:00:00Z,NA,1,MP2.5 faltante
+24930,Sensor de bajo costo,Puente Alto,2026-07-31T17:00:00Z,NA,1,MP2.5 faltante
+24931,Sensor de bajo costo,Puente Alto,2026-07-31T18:00:00Z,NA,1,MP2.5 faltante
+24932,Sensor de bajo costo,Puente Alto,2026-07-31T19:00:00Z,NA,1,MP2.5 faltante
+24933,Sensor de bajo costo,Puente Alto,2026-07-31T20:00:00Z,NA,1,MP2.5 faltante
+24934,Sensor de bajo costo,Puente Alto,2026-07-31T21:00:00Z,NA,1,MP2.5 faltante
+24935,Sensor de bajo costo,Puente Alto,2026-07-31T22:00:00Z,NA,1,MP2.5 faltante
+24936,Sensor de bajo costo,Puente Alto,2026-07-31T23:00:00Z,NA,1,MP2.5 faltante
+24937,Sensor de bajo costo,Puente Alto,2026-08-01T00:00:00Z,NA,1,MP2.5 faltante
+24938,Sensor de bajo costo,Puente Alto,2026-08-01T01:00:00Z,NA,1,MP2.5 faltante
+24939,Sensor de bajo costo,Puente Alto,2026-08-01T02:00:00Z,NA,1,MP2.5 faltante
+24940,Sensor de bajo costo,Puente Alto,2026-08-01T03:00:00Z,NA,1,MP2.5 faltante
+24941,Sensor de bajo costo,Puente Alto,2026-08-01T04:00:00Z,NA,1,MP2.5 faltante
+24942,Sensor de bajo costo,Puente Alto,2026-08-01T05:00:00Z,NA,1,MP2.5 faltante
+24943,Sensor de bajo costo,Puente Alto,2026-08-01T06:00:00Z,NA,1,MP2.5 faltante
+24944,Sensor de bajo costo,Puente Alto,2026-08-01T07:00:00Z,NA,1,MP2.5 faltante
+24945,Sensor de bajo costo,Puente Alto,2026-08-01T08:00:00Z,NA,1,MP2.5 faltante
+24946,Sensor de bajo costo,Puente Alto,2026-08-01T09:00:00Z,NA,1,MP2.5 faltante
+24947,Sensor de bajo costo,Puente Alto,2026-08-01T10:00:00Z,NA,1,MP2.5 faltante
+24948,Sensor de bajo costo,Puente Alto,2026-08-01T11:00:00Z,NA,1,MP2.5 faltante
+24949,Sensor de bajo costo,Puente Alto,2026-08-01T12:00:00Z,NA,1,MP2.5 faltante
+24950,Sensor de bajo costo,Puente Alto,2026-08-01T13:00:00Z,NA,1,MP2.5 faltante
+24951,Sensor de bajo costo,Puente Alto,2026-08-01T14:00:00Z,NA,1,MP2.5 faltante
+24952,Sensor de bajo costo,Puente Alto,2026-08-01T15:00:00Z,NA,1,MP2.5 faltante
+24953,Sensor de bajo costo,Puente Alto,2026-08-01T16:00:00Z,NA,1,MP2.5 faltante
+24954,Sensor de bajo costo,Puente Alto,2026-08-01T17:00:00Z,NA,1,MP2.5 faltante
+24955,Sensor de bajo costo,Puente Alto,2026-08-01T18:00:00Z,NA,1,MP2.5 faltante
+24956,Sensor de bajo costo,Puente Alto,2026-08-01T19:00:00Z,NA,1,MP2.5 faltante
+24957,Sensor de bajo costo,Puente Alto,2026-08-01T20:00:00Z,NA,1,MP2.5 faltante
+24958,Sensor de bajo costo,Puente Alto,2026-08-01T21:00:00Z,NA,1,MP2.5 faltante
+24959,Sensor de bajo costo,Puente Alto,2026-08-01T22:00:00Z,NA,1,MP2.5 faltante
+24960,Sensor de bajo costo,Puente Alto,2026-08-01T23:00:00Z,NA,1,MP2.5 faltante
+24961,Sensor de bajo costo,Puente Alto,2026-08-02T00:00:00Z,NA,1,MP2.5 faltante
+24962,Sensor de bajo costo,Puente Alto,2026-08-02T01:00:00Z,NA,1,MP2.5 faltante
+24963,Sensor de bajo costo,Puente Alto,2026-08-02T02:00:00Z,NA,1,MP2.5 faltante
+24964,Sensor de bajo costo,Puente Alto,2026-08-02T03:00:00Z,NA,1,MP2.5 faltante
+24965,Sensor de bajo costo,Puente Alto,2026-08-02T04:00:00Z,NA,1,MP2.5 faltante
+24966,Sensor de bajo costo,Puente Alto,2026-08-02T05:00:00Z,NA,1,MP2.5 faltante
+24967,Sensor de bajo costo,Puente Alto,2026-08-02T06:00:00Z,NA,1,MP2.5 faltante
+24968,Sensor de bajo costo,Puente Alto,2026-08-02T07:00:00Z,NA,1,MP2.5 faltante
+24969,Sensor de bajo costo,Puente Alto,2026-08-02T08:00:00Z,NA,1,MP2.5 faltante
+24970,Sensor de bajo costo,Puente Alto,2026-08-02T09:00:00Z,NA,1,MP2.5 faltante
+24971,Sensor de bajo costo,Puente Alto,2026-08-02T10:00:00Z,NA,1,MP2.5 faltante
+24972,Sensor de bajo costo,Puente Alto,2026-08-02T11:00:00Z,NA,1,MP2.5 faltante
+24973,Sensor de bajo costo,Puente Alto,2026-08-02T12:00:00Z,NA,1,MP2.5 faltante
+24974,Sensor de bajo costo,Puente Alto,2026-08-02T13:00:00Z,NA,1,MP2.5 faltante
+24975,Sensor de bajo costo,Puente Alto,2026-08-02T14:00:00Z,NA,1,MP2.5 faltante
+24976,Sensor de bajo costo,Puente Alto,2026-08-02T15:00:00Z,NA,1,MP2.5 faltante
+24977,Sensor de bajo costo,Puente Alto,2026-08-02T16:00:00Z,NA,1,MP2.5 faltante
+24978,Sensor de bajo costo,Puente Alto,2026-08-02T17:00:00Z,NA,1,MP2.5 faltante
+24979,Sensor de bajo costo,Puente Alto,2026-08-02T18:00:00Z,NA,1,MP2.5 faltante
+24980,Sensor de bajo costo,Puente Alto,2026-08-02T19:00:00Z,NA,1,MP2.5 faltante
+24981,Sensor de bajo costo,Puente Alto,2026-08-02T20:00:00Z,NA,1,MP2.5 faltante
+24982,Sensor de bajo costo,Puente Alto,2026-08-02T21:00:00Z,NA,1,MP2.5 faltante
+24983,Sensor de bajo costo,Puente Alto,2026-08-02T22:00:00Z,NA,1,MP2.5 faltante
+24984,Sensor de bajo costo,Puente Alto,2026-08-02T23:00:00Z,NA,1,MP2.5 faltante
+24985,Sensor de bajo costo,Puente Alto,2026-08-03T00:00:00Z,NA,1,MP2.5 faltante
+24986,Sensor de bajo costo,Puente Alto,2026-08-03T01:00:00Z,NA,1,MP2.5 faltante
+24987,Sensor de bajo costo,Puente Alto,2026-08-03T02:00:00Z,NA,1,MP2.5 faltante
+24988,Sensor de bajo costo,Puente Alto,2026-08-03T03:00:00Z,NA,1,MP2.5 faltante
+24989,Sensor de bajo costo,Puente Alto,2026-08-03T04:00:00Z,NA,1,MP2.5 faltante
+24990,Sensor de bajo costo,Puente Alto,2026-08-03T05:00:00Z,NA,1,MP2.5 faltante
+24991,Sensor de bajo costo,Puente Alto,2026-08-03T06:00:00Z,NA,1,MP2.5 faltante
+24992,Sensor de bajo costo,Puente Alto,2026-08-03T07:00:00Z,NA,1,MP2.5 faltante
+24993,Sensor de bajo costo,Puente Alto,2026-08-03T08:00:00Z,NA,1,MP2.5 faltante
+24994,Sensor de bajo costo,Puente Alto,2026-08-03T09:00:00Z,NA,1,MP2.5 faltante
+24995,Sensor de bajo costo,Puente Alto,2026-08-03T10:00:00Z,NA,1,MP2.5 faltante
+24996,Sensor de bajo costo,Puente Alto,2026-08-03T11:00:00Z,NA,1,MP2.5 faltante
+24997,Sensor de bajo costo,Puente Alto,2026-08-03T12:00:00Z,NA,1,MP2.5 faltante
+25058,Sensor de bajo costo,Puente Alto,2026-08-06T01:00:00Z,NA,1,MP2.5 faltante
+25059,Sensor de bajo costo,Puente Alto,2026-08-06T02:00:00Z,NA,1,MP2.5 faltante
+25060,Sensor de bajo costo,Puente Alto,2026-08-06T03:00:00Z,NA,1,MP2.5 faltante
+25061,Sensor de bajo costo,Puente Alto,2026-08-06T04:00:00Z,NA,1,MP2.5 faltante
+25062,Sensor de bajo costo,Puente Alto,2026-08-06T05:00:00Z,NA,1,MP2.5 faltante
+25063,Sensor de bajo costo,Puente Alto,2026-08-06T06:00:00Z,NA,1,MP2.5 faltante
+25066,Sensor de bajo costo,Puente Alto,2026-08-06T09:00:00Z,NA,1,MP2.5 faltante
+25283,Sensor de bajo costo,Puente Alto,2026-08-15T10:00:00Z,0.235117194977899,1,Concentración no negativa inferior a 2
+25284,Sensor de bajo costo,Puente Alto,2026-08-15T11:00:00Z,-0.0681504345835634,1,Concentración negativa
+25285,Sensor de bajo costo,Puente Alto,2026-08-15T12:00:00Z,0.264188048109503,1,Concentración no negativa inferior a 2
+25286,Sensor de bajo costo,Puente Alto,2026-08-15T13:00:00Z,0.522224423581455,1,Concentración no negativa inferior a 2
+25287,Sensor de bajo costo,Puente Alto,2026-08-15T14:00:00Z,0.885422279851322,1,Concentración no negativa inferior a 2
+25288,Sensor de bajo costo,Puente Alto,2026-08-15T15:00:00Z,1.98541798825946,1,Concentración no negativa inferior a 2
+25290,Sensor de bajo costo,Puente Alto,2026-08-15T17:00:00Z,1.16908046027846,1,Concentración no negativa inferior a 2
+25359,Sensor de bajo costo,Puente Alto,2026-08-18T14:00:00Z,NA,1,MP2.5 faltante
+25360,Sensor de bajo costo,Puente Alto,2026-08-18T15:00:00Z,NA,1,MP2.5 faltante
+25361,Sensor de bajo costo,Puente Alto,2026-08-18T16:00:00Z,NA,1,MP2.5 faltante
+25519,Sensor de bajo costo,Puente Alto,2026-08-25T06:00:00Z,NA,1,MP2.5 faltante
+25520,Sensor de bajo costo,Puente Alto,2026-08-25T07:00:00Z,NA,1,MP2.5 faltante
+25521,Sensor de bajo costo,Puente Alto,2026-08-25T08:00:00Z,NA,1,MP2.5 faltante
+25522,Sensor de bajo costo,Puente Alto,2026-08-25T09:00:00Z,NA,1,MP2.5 faltante
+25523,Sensor de bajo costo,Puente Alto,2026-08-25T10:00:00Z,NA,1,MP2.5 faltante
+25524,Sensor de bajo costo,Puente Alto,2026-08-25T11:00:00Z,NA,1,MP2.5 faltante
+25525,Sensor de bajo costo,Puente Alto,2026-08-25T12:00:00Z,NA,1,MP2.5 faltante
+25526,Sensor de bajo costo,Puente Alto,2026-08-25T13:00:00Z,NA,1,MP2.5 faltante
+25527,Sensor de bajo costo,Puente Alto,2026-08-25T14:00:00Z,NA,1,MP2.5 faltante
+25657,Sensor de bajo costo,Puente Alto,2026-08-31T00:00:00Z,NA,1,MP2.5 faltante
+25658,Sensor de bajo costo,Puente Alto,2026-08-31T01:00:00Z,NA,1,MP2.5 faltante
+25659,Sensor de bajo costo,Puente Alto,2026-08-31T02:00:00Z,NA,1,MP2.5 faltante
+25660,Sensor de bajo costo,Puente Alto,2026-08-31T03:00:00Z,NA,1,MP2.5 faltante
+25661,Sensor de bajo costo,Puente Alto,2026-08-31T04:00:00Z,NA,1,MP2.5 faltante
+25662,Sensor de bajo costo,Puente Alto,2026-08-31T05:00:00Z,NA,1,MP2.5 faltante
+25663,Sensor de bajo costo,Puente Alto,2026-08-31T06:00:00Z,NA,1,MP2.5 faltante
+25668,Sensor de bajo costo,Puente Alto,2026-08-31T11:00:00Z,NA,1,MP2.5 faltante
+25669,Sensor de bajo costo,Puente Alto,2026-08-31T12:00:00Z,NA,1,MP2.5 faltante
+25670,Sensor de bajo costo,Puente Alto,2026-08-31T13:00:00Z,NA,1,MP2.5 faltante
+25671,Sensor de bajo costo,Puente Alto,2026-08-31T14:00:00Z,NA,1,MP2.5 faltante
