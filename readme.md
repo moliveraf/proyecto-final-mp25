@@ -18,7 +18,7 @@ Entre sus principales fuentes de emisión se encuentran el transporte vehicular,
 Las características topográficas de la cuenca de Santiago, rodeada por sistemas montañosos, junto con determinadas condiciones meteorológicas, pueden favorecer la acumulación de contaminantes atmosféricos, especialmente durante los meses de otoño e invierno.
 
 <p align="center">
-  <img src="04_Imagenes/01_santiago1.jpg" width="65%">
+  <img src="05_imagenes/01_santiago1.jpg" width="65%">
 </p>
 
 <p align="center">
@@ -99,8 +99,8 @@ Las características geográficas constituyen elementos de contextualización de
     <td align="center"><b>Sensores de bajo costo</b></td>
   </tr>
   <tr>
-    <td><img src="04_Imagenes/04_sinca.jpg" width="100%"></td>
-    <td><img src="04_Imagenes/05_sensores.jpg" width="100%"></td>
+    <td><img src="05_imagenes/04_sinca.jpg" width="100%"></td>
+    <td><img src="05_imagenes/05_sensores.jpg" width="100%"></td>
   </tr>
 </table>
 
@@ -194,10 +194,10 @@ Esta herramienta complementa la documentación semántica de las variables con i
 
 Los archivos completos pueden consultarse en los siguientes enlaces:
 
-- [Diccionario de datos SINCA y sensores](03_Tablas/02_Validacion/01_diccionario_datos_sinca_sensores.csv).
-- [Diccionario descriptivo de datos](03_Tablas/02_Validacion/06_diccionario_descriptivo_sinca_sensores.csv).
-- [Diccionario y tablas de validación](03_Tablas/02_Validacion/).
-- [Base general de mediciones coincidentes](00_Datos/02_Datos_procesados/03_Comparacion_SINCA_Sensores/04_Mediciones_Horarias_Coincidentes_SINCA_Sensores_Tres_Comunas.csv).
+- [Diccionario de datos SINCA y sensores](04_tablas/02_validacion/01_diccionario_datos_sinca_sensores.csv).
+- [Diccionario descriptivo de datos](04_tablas/02_validacion/06_diccionario_descriptivo_sinca_sensores.csv).
+- [Diccionario y tablas de validación](04_tablas/02_validacion/).
+- [Base general de mediciones coincidentes](01_datos/02_datos_procesados/03_comparacion_sinca_sensores/04_mediciones_horarias_coincidentes_sinca_sensores_tres_comunas.csv).
 
 ## 6. Metodología de análisis
 
@@ -212,7 +212,7 @@ El procesamiento y análisis de los datos se organiza mediante nueve scripts de 
 - Revisión de los períodos de medición.
 - Obtención de estadísticas descriptivas iniciales.
 
-[Consultar estadísticas iniciales](03_Tablas/01_Exploracion/01_estadisticas_iniciales_sinca_sensores.csv).
+[Consultar estadísticas iniciales](04_tablas/01_exploracion/01_estadisticas_iniciales_sinca_sensores.csv).
 
 ### 6.2. Validación de los datos
 
@@ -231,7 +231,7 @@ El estado de validación proporcionado por SINCA debe distinguirse del proceso d
 
 El intervalo de 2 a 200 µg/m³ constituye un criterio exploratorio de revisión adoptado para este estudio y no corresponde a un límite normativo de calidad del aire.
 
-[Consultar tablas de validación](03_Tablas/02_Validacion/).
+[Consultar tablas de validación](04_tablas/02_validacion/).
 
 ### 6.3. Depuración
 
@@ -241,7 +241,7 @@ Las concentraciones no negativas inferiores a 2 µg/m³ y superiores a 200 µg/m
 
 Los archivos procesados se almacenan separadamente de los datos originales.
 
-[Consultar resumen de datos procesados](03_Tablas/03_Depuracion/01_resumen_datos_procesados_sinca_sensores.csv).
+[Consultar resumen de datos procesados](04_tablas/03_depuracion/01_resumen_datos_procesados_sinca_sensores.csv).
 
 ### 6.4. Integración de mediciones
 
@@ -249,7 +249,7 @@ Se integran las concentraciones horarias registradas por las estaciones SINCA y 
 
 Esta integración permite realizar comparaciones entre ambas fuentes bajo una referencia temporal común.
 
-[Consultar resumen de mediciones coincidentes](03_Tablas/04_Integracion/01_mediciones_coincidentes_sinca_sensores.csv).
+[Consultar resumen de mediciones coincidentes](04_tablas/04_integracion/01_mediciones_coincidentes_sinca_sensores.csv).
 
 ### 6.5. Análisis estadístico descriptivo
 
@@ -342,7 +342,7 @@ Estas observaciones constituyen la base del análisis comparativo.
 | Santiago | 31,8 | 30,8 |
 
 <p align="center">
-  <img src="02_Figuras/01_Comparacion_SINCA_Sensores/01_Boxplots/02_boxplot_sinca_sensores_por_comuna_ampliado.png" width="95%">
+  <img src="03_figuras/01_comparacion_sinca_sensores/01_boxplots/02_boxplot_sinca_sensores_por_comuna_ampliado.png" width="95%">
 </p>
 
 <p align="center">
@@ -355,9 +355,9 @@ Los sensores calibrados presentan concentraciones promedio relativamente próxim
 
 Debido a las diferencias en los períodos disponibles de cada comuna, la comparación de promedios entre sectores debe interpretarse de manera exploratoria.
 
-[Consultar estadísticas descriptivas completas](03_Tablas/05_Boxplots/01_estadisticas_descriptivas_sinca_sensores_por_comuna.csv).
+[Consultar estadísticas descriptivas completas](04_tablas/05_boxplots/01_estadisticas_descriptivas_sinca_sensores_por_comuna.csv).
 
-[Consultar figuras de distribución](02_Figuras/01_Comparacion_SINCA_Sensores/01_Boxplots/).
+[Consultar figuras de distribución](03_figuras/01_comparacion_sinca_sensores/01_boxplots/).
 
 ### 7.3. Regresión lineal y análisis de sensibilidad
 
@@ -368,7 +368,7 @@ Debido a las diferencias en los períodos disponibles de cada comuna, la compara
 | Santiago | 0,577 | 0,731 | 4 |
 
 <p align="center">
-  <img src="02_Figuras/01_Comparacion_SINCA_Sensores/03_Analisis_sensibilidad/02_comparacion_regresiones_r2_sinca_sensores.png" width="95%">
+  <img src="03_figuras/01_comparacion_sinca_sensores/03_analisis_sensibilidad/02_comparacion_regresiones_r2_sinca_sensores.png" width="95%">
 </p>
 
 <p align="center">
@@ -385,9 +385,9 @@ El coeficiente de determinación describe la asociación lineal entre las medici
 
 Archivos complementarios:
 
-- [Resultados de los modelos lineales](03_Tablas/06_Regresion_lineal/01_modelos_lineales_r2_sinca_sensores.csv).
-- [Pares de mediciones extremas](03_Tablas/06_Regresion_lineal/02_pares_extremos_sinca_sensores.csv).
-- [Resultados del análisis de sensibilidad](03_Tablas/06_Regresion_lineal/03_sensibilidad_r2_sinca_sensores.csv).
+- [Resultados de los modelos lineales](04_tablas/06_regresion_lineal/01_modelos_lineales_r2_sinca_sensores.csv).
+- [Pares de mediciones extremas](04_tablas/06_regresion_lineal/02_pares_extremos_sinca_sensores.csv).
+- [Resultados del análisis de sensibilidad](04_tablas/06_regresion_lineal/03_sensibilidad_r2_sinca_sensores.csv).
 
 ### 7.4. Comportamiento temporal durante episodios extremos
 
@@ -412,7 +412,7 @@ Se elaboraron dos visualizaciones complementarias:
 - Una figura con la escala completa de concentraciones.
 - Una figura con escala ampliada entre 0 y 150 µg/m³.
 
-[Consultar figuras del análisis temporal de episodios extremos](02_Figuras/01_Comparacion_SINCA_Sensores/04_Episodios_extremos/).
+[Consultar figuras del análisis temporal de episodios extremos](03_figuras/01_comparacion_sinca_sensores/04_episodios_extremos/).
 
 ## 8. Conclusiones preliminares y limitaciones
 
@@ -444,119 +444,119 @@ El repositorio se organiza mediante carpetas, archivos y scripts independientes 
 
     proyecto-final-mp25/
     |
-    |-- 00_Datos/
-    |   |-- 01_Datos_crudos/
-    |   |   |-- 01_SINCA/
-    |   |   |   |-- 01_SINCA_Cerro_Navia_MP25_2026.csv
-    |   |   |   |-- 02_SINCA_Parque_OHiggins_MP25_2026.csv
-    |   |   |   |-- 03_SINCA_Puente_Alto_MP25_2026.csv
-    |   |   |-- 02_Sensores_bajo_costo/
-    |   |   |   |-- 01_SENSOR_Cerro_Navia_CH4_MP25_2026.csv
-    |   |   |   |-- 02_SENSOR_Parque_OHiggins_CH56_MP25_2026.csv
-    |   |   |   |-- 03_SENSOR_Puente_Alto_CH2_MP25_2026.csv
-    |   |-- 02_Datos_procesados/
-    |   |   |-- 01_SINCA/
-    |   |   |   |-- 01_SINCA_Cerro_Navia.csv
-    |   |   |   |-- 02_SINCA_Parque_OHiggins.csv
-    |   |   |   |-- 03_SINCA_Puente_Alto.csv
-    |   |   |-- 02_Sensores_bajo_costo/
-    |   |   |   |-- 01_Sensor_CH4.csv
-    |   |   |   |-- 02_Sensor_CH56.csv
-    |   |   |   |-- 03_Sensor_CH2.csv
-    |   |   |-- 03_Comparacion_SINCA_Sensores/
-    |   |   |   |-- 01_Comparacion_Cerro_Navia.csv
-    |   |   |   |-- 02_Comparacion_Parque_OHiggins.csv
-    |   |   |   |-- 03_Comparacion_Puente_Alto.csv
-    |   |   |   |-- 04_Mediciones_Horarias_Coincidentes_SINCA_Sensores_Tres_Comunas.csv
+    |-- 01_datos/
+    |   |-- 01_datos_crudos/
+    |   |   |-- 01_sinca/
+    |   |   |   |-- 01_sinca_cerro_navia_mp25_2026.csv
+    |   |   |   |-- 02_sinca_parque_ohiggins_mp25_2026.csv
+    |   |   |   |-- 03_sinca_puente_alto_mp25_2026.csv
+    |   |   |-- 02_sensores_bajo_costo/
+    |   |   |   |-- 01_sensor_cerro_navia_ch4_mp25_2026.csv
+    |   |   |   |-- 02_sensor_parque_ohiggins_ch56_mp25_2026.csv
+    |   |   |   |-- 03_sensor_puente_alto_ch2_mp25_2026.csv
+    |   |-- 02_datos_procesados/
+    |   |   |-- 01_sinca/
+    |   |   |   |-- 01_sinca_cerro_navia_mp25_2026.csv
+    |   |   |   |-- 02_sinca_parque_ohiggins_mp25_2026.csv
+    |   |   |   |-- 03_sinca_puente_alto_mp25_2026.csv
+    |   |   |-- 02_sensores_bajo_costo/
+    |   |   |   |-- 01_sensor_cerro_navia_ch4_mp25_2026.csv
+    |   |   |   |-- 02_sensor_parque_ohiggins_ch56_mp25_2026.csv
+    |   |   |   |-- 03_sensor_puente_alto_ch2_mp25_2026.csv
+    |   |   |-- 03_comparacion_sinca_sensores/
+    |   |   |   |-- 01_comparacion_cerro_navia.csv
+    |   |   |   |-- 02_comparacion_parque_ohiggins.csv
+    |   |   |   |-- 03_comparacion_puente_alto.csv
+    |   |   |   |-- 04_mediciones_horarias_coincidentes_sinca_sensores_tres_comunas.csv
     |
-    |-- 01_Scripts/
-    |   |-- 01_cargar_librerias.R
-    |   |-- 02_cargar_datos.R
-    |   |-- 03_explorar_datos.R
-    |   |-- 04_validar_datos.R
-    |   |-- 05_depurar_datos.R
-    |   |-- 06_integrar_mediciones_sinca_sensores.R
-    |   |-- 07_boxplots_sinca_sensores.R
-    |   |-- 08_regresion_lineal_r2_sinca_sensores.R
-    |   |-- 09_analizar_episodios_extremos.R
+    |-- 02_scripts/
+    |   |-- 01_cargar_librerias.r
+    |   |-- 02_cargar_datos.r
+    |   |-- 03_explorar_datos.r
+    |   |-- 04_validar_datos.r
+    |   |-- 05_depurar_datos.r
+    |   |-- 06_integrar_mediciones_sinca_sensores.r
+    |   |-- 07_boxplots_sinca_sensores.r
+    |   |-- 08_regresion_lineal_r2_sinca_sensores.r
+    |   |-- 09_analizar_episodios_extremos.r
     |
-    |-- 02_Figuras/
-    |   |-- 01_Comparacion_SINCA_Sensores/
-    |   |   |-- 01_Boxplots/
+    |-- 03_figuras/
+    |   |-- 01_comparacion_sinca_sensores/
+    |   |   |-- 01_boxplots/
     |   |   |   |-- 01_boxplot_sinca_sensores_por_comuna.png
     |   |   |   |-- 02_boxplot_sinca_sensores_por_comuna_ampliado.png
-    |   |   |-- 02_Modelos_lineales/
+    |   |   |-- 02_modelos_lineales/
     |   |   |   |-- 01_regresion_lineal_r2_sinca_sensores_por_comuna.png
-    |   |   |-- 03_Analisis_sensibilidad/
+    |   |   |-- 03_analisis_sensibilidad/
     |   |   |   |-- 02_comparacion_regresiones_r2_sinca_sensores.png
-    |   |   |-- 04_Episodios_extremos/
+    |   |   |-- 04_episodios_extremos/
     |   |   |   |-- 01_series_temporales_episodios_extremos.png
     |   |   |   |-- 02_series_temporales_episodios_extremos_ampliado.png
     |
-    |-- 03_Tablas/
-    |   |-- 01_Exploracion/
+    |-- 04_tablas/
+    |   |-- 01_exploracion/
     |   |   |-- 01_estadisticas_iniciales_sinca_sensores.csv
-    |   |-- 02_Validacion/
+    |   |-- 02_validacion/
     |   |   |-- 01_diccionario_datos_sinca_sensores.csv
     |   |   |-- 02_revision_duplicados_sinca_sensores.csv
     |   |   |-- 03_resumen_alertas_sinca_sensores.csv
     |   |   |-- 04_concentraciones_superiores_200_sinca_sensores.csv
     |   |   |-- 05_registros_con_alertas_sinca_sensores.csv
     |   |   |-- 06_diccionario_descriptivo_sinca_sensores.csv
-    |   |-- 03_Depuracion/
+    |   |-- 03_depuracion/
     |   |   |-- 01_resumen_datos_procesados_sinca_sensores.csv
-    |   |-- 04_Integracion/
+    |   |-- 04_integracion/
     |   |   |-- 01_mediciones_coincidentes_sinca_sensores.csv
-    |   |-- 05_Boxplots/
+    |   |-- 05_boxplots/
     |   |   |-- 01_estadisticas_descriptivas_sinca_sensores_por_comuna.csv
-    |   |-- 06_Regresion_lineal/
+    |   |-- 06_regresion_lineal/
     |   |   |-- 01_modelos_lineales_r2_sinca_sensores.csv
     |   |   |-- 02_pares_extremos_sinca_sensores.csv
     |   |   |-- 03_sensibilidad_r2_sinca_sensores.csv
     |
-    |-- 04_Imagenes/
+    |-- 05_imagenes/
     |   |-- 01_santiago1.jpg
     |   |-- 02_santiago2.jpg
     |   |-- 03_fsensor.jpg
     |   |-- 04_sinca.jpg
     |   |-- 05_sensores.jpg
     |
-    |-- 05_Informe/
-    |   |-- Informe_final_MP25_Santiago.qmd
+    |-- 06_informe/
+    |   |-- informe_final_mp25_santiago.qmd
     |
     |-- renv/
     |-- renv.lock
     |-- .gitignore
     |-- .Rprofile
-    |-- README.md
-    |-- README.html
+    |-- readme.md
+    |-- readme.html
     |-- proyecto-final-mp25.Rproj
 
 ### 9.2. Descripción de las carpetas
 
 | Carpeta | Contenido |
 |---|---|
-| 00_Datos | Bases de datos originales y procesadas. |
-| 01_Scripts | Códigos de procesamiento y análisis en R. |
-| 02_Figuras | Visualizaciones generadas mediante los scripts. |
-| 03_Tablas | Diccionarios, tablas de validación y resultados estadísticos. |
-| 04_Imagenes | Fotografías, mapas e imágenes ilustrativas. |
-| 05_Informe | Informe final elaborado en Quarto, actualmente en desarrollo. |
+| 01_datos | Bases de datos originales y procesadas. |
+| 02_scripts | Códigos de procesamiento y análisis en R. |
+| 03_figuras | Visualizaciones generadas mediante los scripts. |
+| 04_tablas | Diccionarios, tablas de validación y resultados estadísticos. |
+| 05_imagenes | Fotografías, mapas e imágenes ilustrativas. |
+| 06_informe | Informe final elaborado en Quarto, actualmente en desarrollo. |
 | renv | Gestión del ambiente computacional. |
 
 ### 9.3. Scripts de R
 
 | Script | Descripción |
 |---|---|
-| [01_cargar_librerias.R](01_Scripts/01_cargar_librerias.R) | Carga de librerías y gestión del ambiente. |
-| [02_cargar_datos.R](01_Scripts/02_cargar_datos.R) | Importación de las bases de datos originales. |
-| [03_explorar_datos.R](01_Scripts/03_explorar_datos.R) | Exploración inicial de los registros disponibles. |
-| [04_validar_datos.R](01_Scripts/04_validar_datos.R) | Elaboración del diccionario y validación de datos. |
-| [05_depurar_datos.R](01_Scripts/05_depurar_datos.R) | Depuración y almacenamiento de las bases procesadas. |
-| [06_integrar_mediciones_sinca_sensores.R](01_Scripts/06_integrar_mediciones_sinca_sensores.R) | Integración de las mediciones horarias coincidentes. |
-| [07_boxplots_sinca_sensores.R](01_Scripts/07_boxplots_sinca_sensores.R) | Estadísticas descriptivas y diagramas de caja. |
-| [08_regresion_lineal_r2_sinca_sensores.R](01_Scripts/08_regresion_lineal_r2_sinca_sensores.R) | Regresión lineal, R² y análisis de sensibilidad. |
-| [09_analizar_episodios_extremos.R](01_Scripts/09_analizar_episodios_extremos.R) | Análisis temporal de los episodios extremos. |
+| [01_cargar_librerias.r](02_scripts/01_cargar_librerias.r) | Carga de librerías y gestión del ambiente. |
+| [02_cargar_datos.r](02_scripts/02_cargar_datos.r) | Importación de las bases de datos originales. |
+| [03_explorar_datos.r](02_scripts/03_explorar_datos.r) | Exploración inicial de los registros disponibles. |
+| [04_validar_datos.r](02_scripts/04_validar_datos.r) | Elaboración del diccionario y validación de datos. |
+| [05_depurar_datos.r](02_scripts/05_depurar_datos.r) | Depuración y almacenamiento de las bases procesadas. |
+| [06_integrar_mediciones_sinca_sensores.r](02_scripts/06_integrar_mediciones_sinca_sensores.r) | Integración de las mediciones horarias coincidentes. |
+| [07_boxplots_sinca_sensores.r](02_scripts/07_boxplots_sinca_sensores.r) | Estadísticas descriptivas y diagramas de caja. |
+| [08_regresion_lineal_r2_sinca_sensores.r](02_scripts/08_regresion_lineal_r2_sinca_sensores.r) | Regresión lineal, R² y análisis de sensibilidad. |
+| [09_analizar_episodios_extremos.r](02_scripts/09_analizar_episodios_extremos.r) | Análisis temporal de los episodios extremos. |
 
 ### 9.4. Productos generados
 

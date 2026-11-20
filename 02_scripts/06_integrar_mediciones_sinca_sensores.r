@@ -58,14 +58,14 @@ print(resumen_mediciones_coincidentes, width = Inf)
 
 # 5. GUARDAR LAS BASES INTEGRADAS Y LA TABLA RESUMEN
 # Mantener las rutas anteriores para facilitar los análisis posteriores.
-carpeta_comparacion <- "00_Datos/02_Datos_procesados/03_Comparacion_SINCA_Sensores"
+carpeta_comparacion <- "01_datos/02_datos_procesados/03_comparacion_sinca_sensores"
 dir.create(carpeta_comparacion, recursive = TRUE, showWarnings = FALSE)
-write_csv(comparacion_parque, file.path(carpeta_comparacion, "02_Comparacion_Parque_OHiggins.csv"))
-write_csv(comparacion_cerro, file.path(carpeta_comparacion, "01_Comparacion_Cerro_Navia.csv"))
-write_csv(comparacion_puente, file.path(carpeta_comparacion, "03_Comparacion_Puente_Alto.csv"))
-write_csv(comparacion_mp25, file.path(carpeta_comparacion, "04_Mediciones_Horarias_Coincidentes_SINCA_Sensores_Tres_Comunas.csv"))
+write_csv(comparacion_parque, file.path(carpeta_comparacion, "02_comparacion_parque_ohiggins.csv"))
+write_csv(comparacion_cerro, file.path(carpeta_comparacion, "01_comparacion_cerro_navia.csv"))
+write_csv(comparacion_puente, file.path(carpeta_comparacion, "03_comparacion_puente_alto.csv"))
+write_csv(comparacion_mp25, file.path(carpeta_comparacion, "04_mediciones_horarias_coincidentes_sinca_sensores_tres_comunas.csv"))
 
-carpeta_tablas <- "03_Tablas/04_Integracion"
+carpeta_tablas <- "04_tablas/04_integracion"
 dir.create(carpeta_tablas, recursive = TRUE, showWarnings = FALSE)
 write_csv(resumen_mediciones_coincidentes,
           file.path(carpeta_tablas, "01_mediciones_coincidentes_sinca_sensores.csv"))

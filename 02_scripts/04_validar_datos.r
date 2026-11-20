@@ -390,33 +390,33 @@ datos_analisis |>
 # ----------------------------------------------------------------------------
 # 13. GUARDAR LAS TABLAS DE VALIDACIÓN
 
-dir.create("03_Tablas/02_Validacion", recursive = TRUE,
+dir.create("04_tablas/02_validacion", recursive = TRUE,
            showWarnings = FALSE)
 
 # Diccionario manual de SINCA y sensores
 write_csv(diccionario_manual_sinca_sensores,
-          "03_Tablas/02_Validacion/01_diccionario_datos_sinca_sensores.csv")
+          "04_tablas/02_validacion/01_diccionario_datos_sinca_sensores.csv")
 
 # Revisión de duplicados
 write_csv(revision_duplicados,
-          "03_Tablas/02_Validacion/02_revision_duplicados_sinca_sensores.csv")
+          "04_tablas/02_validacion/02_revision_duplicados_sinca_sensores.csv")
 
 # Resumen de alertas
 write_csv(resumen_alertas,
-          "03_Tablas/02_Validacion/03_resumen_alertas_sinca_sensores.csv")
+          "04_tablas/02_validacion/03_resumen_alertas_sinca_sensores.csv")
 
 # Concentraciones superiores a 200 µg/m³
 write_csv(concentraciones_superiores_200,
-          "03_Tablas/02_Validacion/04_concentraciones_superiores_200_sinca_sensores.csv")
+          "04_tablas/02_validacion/04_concentraciones_superiores_200_sinca_sensores.csv")
 
 # Reporte detallado de registros con alertas (para trazabilidad)
 write_csv(filas_problematicas,
-          "03_Tablas/02_Validacion/05_registros_con_alertas_sinca_sensores.csv")
+          "04_tablas/02_validacion/05_registros_con_alertas_sinca_sensores.csv")
 
 # Diccionario descriptivo (no se exporta el automático sin etiquetas)
 write.csv(diccionario_descriptivo_sinca_sensores,
-          "03_Tablas/02_Validacion/06_diccionario_descriptivo_sinca_sensores.csv",
+          "04_tablas/02_validacion/06_diccionario_descriptivo_sinca_sensores.csv",
           row.names = FALSE)
 
 # Comprobar las tablas guardadas
-list.files("03_Tablas/02_Validacion")
+list.files("04_tablas/02_validacion")
