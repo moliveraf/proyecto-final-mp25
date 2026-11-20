@@ -15,13 +15,13 @@
 
 # Mediciones horarias coincidentes (script 06)
 comparacion_mp25 <- read_csv(
-  "00_Datos/02_Datos_procesados/03_Comparacion_SINCA_Sensores/04_Mediciones_Horarias_Coincidentes_SINCA_Sensores_Tres_Comunas.csv",
+  "01_datos/02_datos_procesados/03_comparacion_sinca_sensores/04_mediciones_horarias_coincidentes_sinca_sensores_tres_comunas.csv",
   show_col_types = FALSE
 )
 
 # Pares de mediciones extremas (script 08)
 episodios_extremos <- read_csv(
-  "03_Tablas/06_Regresion_lineal/02_pares_extremos_sinca_sensores.csv",
+  "04_tablas/06_regresion_lineal/02_pares_extremos_sinca_sensores.csv",
   show_col_types = FALSE
 )
 
@@ -267,8 +267,8 @@ print(grafico_episodios_ampliado)
 # 6. GUARDAR Y COMPROBAR LAS FIGURAS GENERADAS
 
 carpeta_episodios <- paste0(
-  "02_Figuras/01_Comparacion_SINCA_Sensores/",
-  "04_Episodios_extremos"
+  "03_figuras/01_comparacion_sinca_sensores/",
+  "04_episodios_extremos"
 )
 
 dir.create(
@@ -289,7 +289,7 @@ ggsave(
   dpi = 300,
   bg = "white"
 )
-cat(readLines("README.md"), sep = "\n")
+cat(readLines("readme.md"), sep = "\n")
 # Guardar la figura con escala ampliada
 ggsave(
   filename = file.path(
