@@ -15,13 +15,13 @@
 
 # Mediciones horarias coincidentes (script 06)
 comparacion_mp25 <- read_csv(
-  "00_Datos/02_Datos_procesados/Comparacion_SINCA_Sensores/Comparacion_MP25_General.csv",
+  "00_Datos/02_Datos_procesados/03_Comparacion_SINCA_Sensores/04_Mediciones_Horarias_Coincidentes_SINCA_Sensores_Tres_Comunas.csv",
   show_col_types = FALSE
 )
 
 # Pares de mediciones extremas (script 08)
 episodios_extremos <- read_csv(
-  "04_Tablas/06_Regresion_lineal/02_pares_extremos_sinca_sensores.csv",
+  "03_Tablas/06_Regresion_lineal/02_pares_extremos_sinca_sensores.csv",
   show_col_types = FALSE
 )
 
@@ -267,8 +267,8 @@ print(grafico_episodios_ampliado)
 # 6. GUARDAR Y COMPROBAR LAS FIGURAS GENERADAS
 
 carpeta_episodios <- paste0(
-  "02_Figuras/03_Comparacion_SINCA_Sensores/",
-  "02_Episodios_extremos"
+  "02_Figuras/01_Comparacion_SINCA_Sensores/",
+  "04_Episodios_extremos"
 )
 
 dir.create(

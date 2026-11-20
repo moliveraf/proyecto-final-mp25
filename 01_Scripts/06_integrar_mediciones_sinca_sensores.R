@@ -1,3 +1,4 @@
+
 # 06. INTEGRAR MEDICIONES SINCA Y SENSORES
 # Proyecto final: Análisis de MP2.5 en Santiago de Chile
 # Ejecutar previamente los scripts 01 al 05.
@@ -57,14 +58,14 @@ print(resumen_mediciones_coincidentes, width = Inf)
 
 # 5. GUARDAR LAS BASES INTEGRADAS Y LA TABLA RESUMEN
 # Mantener las rutas anteriores para facilitar los análisis posteriores.
-carpeta_comparacion <- "00_Datos/02_Datos_procesados/Comparacion_SINCA_Sensores"
+carpeta_comparacion <- "00_Datos/02_Datos_procesados/03_Comparacion_SINCA_Sensores"
 dir.create(carpeta_comparacion, recursive = TRUE, showWarnings = FALSE)
-write_csv(comparacion_parque, file.path(carpeta_comparacion, "Comparacion_Parque_OHiggins.csv"))
-write_csv(comparacion_cerro, file.path(carpeta_comparacion, "Comparacion_Cerro_Navia.csv"))
-write_csv(comparacion_puente, file.path(carpeta_comparacion, "Comparacion_Puente_Alto.csv"))
-write_csv(comparacion_mp25, file.path(carpeta_comparacion, "Comparacion_MP25_General.csv"))
+write_csv(comparacion_parque, file.path(carpeta_comparacion, "02_Comparacion_Parque_OHiggins.csv"))
+write_csv(comparacion_cerro, file.path(carpeta_comparacion, "01_Comparacion_Cerro_Navia.csv"))
+write_csv(comparacion_puente, file.path(carpeta_comparacion, "03_Comparacion_Puente_Alto.csv"))
+write_csv(comparacion_mp25, file.path(carpeta_comparacion, "04_Mediciones_Horarias_Coincidentes_SINCA_Sensores_Tres_Comunas.csv"))
 
-carpeta_tablas <- "04_Tablas/04_Integracion"
+carpeta_tablas <- "03_Tablas/04_Integracion"
 dir.create(carpeta_tablas, recursive = TRUE, showWarnings = FALSE)
 write_csv(resumen_mediciones_coincidentes,
           file.path(carpeta_tablas, "01_mediciones_coincidentes_sinca_sensores.csv"))

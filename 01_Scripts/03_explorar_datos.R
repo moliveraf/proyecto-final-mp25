@@ -108,10 +108,10 @@ print(estadisticas_iniciales, width = Inf)
 
 # 6. GUARDAR LA TABLA DE ESTADÍSTICAS DESCRIPTIVAS
 
-dir.create("04_Tablas/01_Exploracion", recursive = TRUE,
+dir.create("03_Tablas/01_Exploracion", recursive = TRUE,
            showWarnings = FALSE)
 
 write_csv(
   estadisticas_iniciales,
-  "04_Tablas/01_Exploracion/01_estadisticas_iniciales_sinca_sensores.csv"
+  "03_Tablas/01_Exploracion/01_estadisticas_iniciales_sinca_sensores.csv"
 )

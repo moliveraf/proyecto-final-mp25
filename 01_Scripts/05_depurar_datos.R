@@ -141,14 +141,14 @@ if (any(comprobacion_datos_procesados$duplicados > 0)) {
 
 # Carpeta SINCA
 dir.create(
-  "00_Datos/02_Datos_procesados/SINCA",
+  "00_Datos/02_Datos_procesados/01_SINCA",
   recursive = TRUE,
   showWarnings = FALSE
 )
 
 # Carpeta de sensores
 dir.create(
-  "00_Datos/02_Datos_procesados/Sensores_bajo_costo",
+  "00_Datos/02_Datos_procesados/02_Sensores_bajo_costo",
   recursive = TRUE,
   showWarnings = FALSE
 )
@@ -160,34 +160,34 @@ dir.create(
 
 write_csv(
   sinca_parque_procesado,
-  "00_Datos/02_Datos_procesados/SINCA/SINCA_Parque_OHiggins.csv"
+  "00_Datos/02_Datos_procesados/01_SINCA/02_SINCA_Parque_OHiggins.csv"
 )
 
 write_csv(
   sinca_cerro_procesado,
-  "00_Datos/02_Datos_procesados/SINCA/SINCA_Cerro_Navia.csv"
+  "00_Datos/02_Datos_procesados/01_SINCA/01_SINCA_Cerro_Navia.csv"
 )
 
 write_csv(
   sinca_puente_procesado,
-  "00_Datos/02_Datos_procesados/SINCA/SINCA_Puente_Alto.csv"
+  "00_Datos/02_Datos_procesados/01_SINCA/03_SINCA_Puente_Alto.csv"
 )
 
 # Sensores de bajo costo
 
 write_csv(
   sensor_ch56_procesado,
-  "00_Datos/02_Datos_procesados/Sensores_bajo_costo/Sensor_CH56.csv"
+  "00_Datos/02_Datos_procesados/02_Sensores_bajo_costo/02_Sensor_CH56.csv"
 )
 
 write_csv(
   sensor_ch4_procesado,
-  "00_Datos/02_Datos_procesados/Sensores_bajo_costo/Sensor_CH4.csv"
+  "00_Datos/02_Datos_procesados/02_Sensores_bajo_costo/01_Sensor_CH4.csv"
 )
 
 write_csv(
   sensor_ch2_procesado,
-  "00_Datos/02_Datos_procesados/Sensores_bajo_costo/Sensor_CH2.csv"
+  "00_Datos/02_Datos_procesados/02_Sensores_bajo_costo/03_Sensor_CH2.csv"
 )
 
 # ----------------------------------------------------------------------------
@@ -195,17 +195,17 @@ write_csv(
 # 7. VERIFICAR LOS ARCHIVOS GUARDADOS
 
 # Comprobar los archivos de SINCA
-list.files("00_Datos/02_Datos_procesados/SINCA")
+list.files("00_Datos/02_Datos_procesados/01_SINCA")
 
 # Comprobar los archivos de los sensores
-list.files("00_Datos/02_Datos_procesados/Sensores_bajo_costo")
+list.files("00_Datos/02_Datos_procesados/02_Sensores_bajo_costo")
 
 # ----------------------------------------------------------------------------
 # 8. VERIFICAR LOS DATOS PROCESADOS
 
 # Leer el archivo procesado del sensor CH56
 verificacion <- read_csv(
-  "00_Datos/02_Datos_procesados/Sensores_bajo_costo/Sensor_CH56.csv",
+  "00_Datos/02_Datos_procesados/02_Sensores_bajo_costo/02_Sensor_CH56.csv",
   show_col_types = FALSE
 )
 
@@ -261,7 +261,7 @@ print(resumen_datos_procesados, width = Inf)
 
 # Crear la carpeta para guardar la tabla
 dir.create(
-  "04_Tablas/03_Depuracion",
+  "03_Tablas/03_Depuracion",
   recursive = TRUE,
   showWarnings = FALSE
 )
@@ -269,8 +269,8 @@ dir.create(
 # Guardar la tabla resumen de datos procesados
 write_csv(
   resumen_datos_procesados,
-  "04_Tablas/03_Depuracion/01_resumen_datos_procesados_sinca_sensores.csv"
+  "03_Tablas/03_Depuracion/01_resumen_datos_procesados_sinca_sensores.csv"
 )
 
 # Comprobar la tabla guardada
-list.files("04_Tablas/03_Depuracion")
+list.files("03_Tablas/03_Depuracion")

@@ -5,7 +5,7 @@
 
 # 1. CARGAR MEDICIONES COINCIDENTES DE SINCA Y SENSORES
 datos_modelos <- read_csv(
-  "00_Datos/02_Datos_procesados/Comparacion_SINCA_Sensores/Comparacion_MP25_General.csv",
+  "00_Datos/02_Datos_procesados/03_Comparacion_SINCA_Sensores/04_Mediciones_Horarias_Coincidentes_SINCA_Sensores_Tres_Comunas.csv",
   show_col_types = FALSE
 )
 
@@ -156,11 +156,11 @@ grid::grid.draw(grafico_comparativo)
 # ----------------------------------------------------------------------------
 # 5. GUARDAR TABLAS Y FIGURAS
 
-base_figuras <- "02_Figuras/03_Comparacion_SINCA_Sensores"
+base_figuras <- "02_Figuras/01_Comparacion_SINCA_Sensores"
 
-carpeta_modelos <- file.path(base_figuras, "03_Modelos_lineales")
-carpeta_sensibilidad <- file.path(base_figuras, "04_Analisis_sensibilidad")
-carpeta_tablas <- "04_Tablas/06_Regresion_lineal"
+carpeta_modelos <- file.path(base_figuras, "02_Modelos_lineales")
+carpeta_sensibilidad <- file.path(base_figuras, "03_Analisis_sensibilidad")
+carpeta_tablas <- "03_Tablas/06_Regresion_lineal"
 
 # Crear carpetas
 for (carpeta in c(carpeta_modelos, carpeta_sensibilidad, carpeta_tablas)) {
