@@ -1,47 +1,26 @@
-<style>
-/* Diseño de la versión HTML; GitHub muestra el contenido sin estilos personalizados. */
-html { scroll-behavior: smooth; }
-body { font-family: "Segoe UI", Arial, sans-serif; font-size: 16px; line-height: 1.7; color: #171717; background: #f6f8fb; }
-.main-container { max-width: 1080px !important; margin: 28px auto !important; padding: 40px 56px 64px !important; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 14px; box-shadow: 0 4px 24px rgba(29,49,75,.06); }
-.portada { max-width: 900px; margin: 0 auto 28px; padding: 36px 34px; border: 1.5px solid #b8cbdc; border-radius: 16px; background: #f8fbff; text-align: center; }
-.portada h1 { font-size: 35px; line-height: 1.22; color: #171717; margin: 0 0 18px; font-weight: 750; }
-.portada .subtitulo { font-size: 21px; font-weight: 600; color: #171717; margin: 0 0 12px; }
-.portada .institucion { font-size: 17px; color: #171717; margin: 0 0 12px; }
-.portada .autora { font-size: 18px; font-weight: 650; color: #171717; margin: 0 0 22px; }
-.portada img { display: block; max-width: 100%; width: 76%; height: auto; margin: auto; border-radius: 10px; border: 1px solid #d5dfe9; }
-.navegacion { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; padding: 14px 12px 24px; margin: 0 auto 25px; max-width: 950px; border-bottom: 1px solid #e2e8f0; }
-.navegacion a { display: inline-block; text-decoration: none !important; background: #eaf2fa; color: #174c75 !important; font-weight: 600; font-size: 15px; padding: 10px 16px; border: 1px solid #bcd1e4; border-radius: 8px; }
-.navegacion a:hover { background: #d5e8f8; }
-h2 { margin-top: 38px; color: #171717; border-bottom: 2px solid #d8e7f3; padding-bottom: 8px; }
-h3 { font-weight: 700; color: #171717; margin-top: 26px; }
-p, li, td { color: #171717; font-weight: 400; }
-table { margin-top: 12px; margin-bottom: 22px; }
-pre { overflow-x: auto; }
-@media(max-width: 720px) { .main-container { margin: 0 !important; padding: 18px !important; } .portada { padding: 20px 14px; } .portada h1 { font-size: 27px; } .portada .subtitulo { font-size: 18px; } .portada img { width: 100%; } }
-</style>
+<div align="center">
 
-<div class="portada" align="center">
+<h1>Análisis exploratorio del MP2.5 en Santiago de Chile</h1>
 
-# Análisis exploratorio del MP2.5 en Santiago de Chile
+<h3>Comparación de estaciones SINCA y sensores de bajo costo calibrados</h3>
 
-<p class="subtitulo"><strong>Comparación de estaciones SINCA y sensores de bajo costo calibrados</strong></p>
-<p class="institucion">Pontificia Universidad Católica de Chile · Doctorado en Ciencias de la Ingeniería · 2026</p>
-<p class="autora">María Cristina Olivera Ferrer</p>
+<p>Pontificia Universidad Católica de Chile · Doctorado en Ciencias de la Ingeniería · 2026</p>
 
-<img src="05_imagenes/01_santiago1.jpg" alt="Contaminación atmosférica en Santiago" width="76%">
+<p><strong>María Cristina Olivera Ferrer</strong></p>
+
+<img src="05_imagenes/01_santiago1.jpg" alt="Contaminación atmosférica en Santiago" width="70%">
 
 </div>
 
-<nav class="navegacion" aria-label="Índice del documento">
-<a href="#proyecto">Proyecto</a>
-<a href="#datos-y-área-de-estudio">Datos</a>
-<a href="#diccionario-de-datos">Diccionario</a>
-<a href="#metodología">Metodología</a>
-<a href="#resultados-principales">Resultados</a>
-<a href="#organización-del-repositorio">Repositorio</a>
-<a href="#reproducibilidad">Reproducibilidad</a>
-<a href="#referencias">Referencias</a>
-</nav>
+---
+
+### Navegación
+
+| [Proyecto](#proyecto) | [Datos](#datos-y-área-de-estudio) | [Diccionario](#diccionario-de-datos) | [Metodología](#metodología) |
+|:--:|:--:|:--:|:--:|
+| [Resultados](#resultados-principales) | [Repositorio](#organización-del-repositorio) | [Reproducibilidad](#reproducibilidad) | [Referencias](#referencias) |
+
+---
 
 ## Proyecto
 
