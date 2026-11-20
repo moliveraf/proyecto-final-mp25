@@ -1,5 +1,5 @@
-variable,etiqueta,tipo,unidad,valores_validos,faltantes
-fuente,Fuente de medición,categórica,NA,"SINCA, Sensor de bajo costo",sin NA
-comuna,Comuna de medición,categórica,NA,"Santiago, Cerro Navia, Puente Alto",sin NA
-mp25,Concentración horaria de MP2.5,numérica,µg/m³,No negativos; referencia 2 a 200; revisar valores fuera del intervalo; límite de detección del sensor: 1 µg/m³,sin NA
-fecha_hora,Fecha y hora de medición,fecha-hora,NA,2026-03-01 a 2026-09-30,sin NA
+variable,etiqueta,tipo,unidad,valores_validos,na_datos_originales
+fuente,Fuente de medición,categórica,NA,"SINCA, Sensor de bajo costo",No
+comuna,Comuna de medición,categórica,NA,"Santiago, Cerro Navia, Puente Alto",No
+mp25,Concentración horaria de MP2.5,numérica,µg/m³,"No negativos; referencia de revisión 2 a 200 µg/m³; los valores fuera del intervalo requieren revisión, no exclusión automática; límite de detección declarado del sensor: 1 µg/m³ (pendiente de verificar)",Sí
+fecha_hora,Fecha y hora de medición,fecha-hora,NA,2026-03-01 a 2026-09-30,No

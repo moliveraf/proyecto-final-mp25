@@ -18,22 +18,22 @@
 
 # 1. CREAR EL DICCIONARIO DE DATOS
 
-# Diccionario manual siguiendo el prototipo de la profesora.
-# Los faltantes no se admiten en los datos procesados.
+# Diccionario único elaborado con tribble(), según el ejercicio del curso.
+# Se documentan las variables comunes a SINCA y sensores calibrados.
+# Los NA de mp25 se identifican aquí y se excluyen en el script 05.
 diccionario_manual_sinca_sensores <- tribble(
-  ~variable, ~etiqueta, ~tipo, ~unidad, ~valores_validos, ~faltantes,
+  ~variable, ~etiqueta, ~tipo, ~unidad, ~valores_validos, ~na_datos_originales,
   "fuente", "Fuente de medición", "categórica", NA_character_,
-  "SINCA, Sensor de bajo costo", "sin NA",
+  "SINCA, Sensor de bajo costo", "No",
   "comuna", "Comuna de medición", "categórica", NA_character_,
-  "Santiago, Cerro Navia, Puente Alto", "sin NA",
+  "Santiago, Cerro Navia, Puente Alto", "No",
   "mp25", "Concentración horaria de MP2.5", "numérica", "µg/m³",
-  "No negativos; referencia 2 a 200; revisar valores fuera del intervalo; límite de detección del sensor: 1 µg/m³", "sin NA",
+  "No negativos; referencia de revisión 2 a 200 µg/m³; los valores fuera del intervalo requieren revisión, no exclusión automática; límite de detección declarado del sensor: 1 µg/m³ (pendiente de verificar)", "Sí",
   "fecha_hora", "Fecha y hora de medición", "fecha-hora", NA_character_,
-  "2026-03-01 a 2026-09-30", "sin NA"
+  "2026-03-01 a 2026-09-30", "No"
 )
 
 print(diccionario_manual_sinca_sensores, width = Inf)
-
 
 # ----------------------------------------------------------------------------
 
@@ -197,24 +197,6 @@ datos_validacion <- bind_rows(
 # Comprobar los registros por fuente y comuna
 datos_validacion |>
   count(fuente, comuna)
-
-
-# Diccionario automático: describe los datos antes de la limpieza.
-# Requiere datawizard instalado en el entorno renv del proyecto.
-diccionario_automatico_sinca_sensores <- datawizard::data_codebook(datos_validacion)
-print(diccionario_automatico_sinca_sensores)
-
-# Diccionario descriptivo con etiquetas siguiendo el ejemplo de la profesora.
-datos_etiquetados <- datos_validacion |>
-  mutate(
-    fuente = structure(fuente, label = "Fuente de medición de MP2.5"),
-    comuna = structure(comuna, label = "Comuna de medición"),
-    mp25 = structure(mp25, label = "Concentración horaria de MP2.5 (µg/m³)"),
-    fecha_hora = structure(fecha_hora, label = "Fecha y hora de medición")
-  )
-
-diccionario_descriptivo_sinca_sensores <- datawizard::data_codebook(datos_etiquetados)
-print(diccionario_descriptivo_sinca_sensores)
 
 
 # ----------------------------------------------------------------------------
@@ -412,11 +394,6 @@ write_csv(concentraciones_superiores_200,
 # Reporte detallado de registros con alertas (para trazabilidad)
 write_csv(filas_problematicas,
           "04_tablas/02_validacion/05_registros_con_alertas_sinca_sensores.csv")
-
-# Diccionario descriptivo (no se exporta el automático sin etiquetas)
-write.csv(diccionario_descriptivo_sinca_sensores,
-          "04_tablas/02_validacion/06_diccionario_descriptivo_sinca_sensores.csv",
-          row.names = FALSE)
 
 # Comprobar las tablas guardadas
 list.files("04_tablas/02_validacion")
