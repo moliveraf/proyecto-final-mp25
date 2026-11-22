@@ -2,7 +2,8 @@
 title: "Análisis exploratorio del MP2.5 en Santiago de Chile"
 subtitle: "Comparación de estaciones SINCA y sensores de bajo costo calibrados"
 author: "María Cristina Olivera Ferrer"
-date: "3 de diciembre de 2026"
+date: 2026-12-03
+date-format: "D [de] MMMM [de] YYYY"
 lang: es
 format:
   html:
@@ -77,6 +78,8 @@ El trabajo caracteriza la distribución de concentraciones, examina la relación
 | Contexto urbano de Santiago | Fuentes y monitoreo de MP2.5 |
 |:---:|:---:|
 | ![](../05_imagenes/02_santiago2.jpg){width=95%} | ![](../05_imagenes/03_fsensor.jpg){width=95%} |
+
+**[Ver el informe HTML publicado](https://moliveraf.github.io/proyecto-final-mp25/)**
 
 ## Video de apoyo {#video}
 
