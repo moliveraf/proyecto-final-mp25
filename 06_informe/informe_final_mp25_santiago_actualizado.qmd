@@ -2,8 +2,8 @@
 title: "Análisis exploratorio del MP2.5 en Santiago de Chile"
 subtitle: "Comparación de estaciones SINCA y sensores de bajo costo calibrados"
 author: "María Cristina Olivera Ferrer"
-date: 2026-12-03
-date-format: "D [de] MMMM [de] YYYY"
+date: "2026-12-03"
+date-format: "D MMMM YYYY"
 lang: es
 format:
   html:
