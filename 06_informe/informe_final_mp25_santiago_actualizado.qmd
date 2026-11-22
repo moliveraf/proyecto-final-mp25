@@ -71,7 +71,7 @@ Este informe presenta un análisis exploratorio de las concentraciones horarias 
 
 El material particulado fino (MP2.5) constituye un problema relevante para la calidad del aire en Santiago de Chile. Su comportamiento presenta variaciones espaciales y temporales que pueden explorarse mediante el análisis de registros horarios de monitoreo atmosférico.
 
-Se seleccionaron Cerro Navia, Santiago y Puente Alto por su ubicación en distintos sectores de la ciudad: poniente, centro y suroriente, respectivamente. Esta distribución permite explorar posibles diferencias espaciales en las concentraciones de MP2.5. Además, en las tres comunas se dispone de mediciones de estaciones SINCA y sensores de bajo costo calibrados, lo que permite comparar registros horarios coincidentes entre ambas fuentes.
+Se seleccionaron las comunas de Cerro Navia, Santiago y Puente Alto por su ubicación en distintos sectores de la ciudad: poniente, centro y suroriente, respectivamente. Esta distribución permite explorar posibles diferencias espaciales en las concentraciones de MP2.5. Además, en las tres comunas se dispone de mediciones de estaciones SINCA y sensores de bajo costo calibrados, lo que permite comparar registros horarios coincidentes entre ambas fuentes.
 
 El trabajo caracteriza la distribución de concentraciones, examina la relación lineal entre ambas fuentes y estudia la influencia de observaciones extremas. La calibración instrumental de los sensores no forma parte del estudio.
 
